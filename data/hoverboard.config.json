@@ -1,31 +1,32 @@
 {
   "basepath": "/",
   "url": "https://hoverboard-v2-dev.firebaseapp.com/",
-  "startDate": "2017-10-013T09:00:00+03:00",
-  "endDate": "2017-10-14T19:00:00+03:00",
+  "startDate": "2017-10-22T09:00:00-08:00",
+  "endDate": "2017-10-22T17:00:00-08:00",
   "analytics": {
-    "prod": "UA-43643469-8",
-    "dev": "UA-43643469-9"
+    "prod": "UA-84006029-1",
+    "dev": "UA-84006029-1"
   },
   "environment": "dev",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyALDa2D7CMhK_wt2VkET1MaJuQXYVUJd2I",
-    "authDomain": "hoverboard-experimental.firebaseapp.com",
-    "databaseURL": "https://hoverboard-experimental.firebaseio.com",
-    "projectId": "hoverboard-experimental",
-    "storageBucket": "hoverboard-experimental.appspot.com",
+    "apiKey": "AIzaSyAIPZ2Xy1lZfBt5_qTOiUL5WI9gGC4OrUg",
+    "authDomain": "vdf2017-3a9f6.firebaseapp.com",
+    "databaseURL": "https://vdf2017-3a9f6.firebaseio.com",
+    "projectId": "vdf2017-3a9f6",
+    "storageBucket": "vdf2017-3a9f6.appspot.com",
     "messagingSenderId": "1088172422905"
   },
   "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw",
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv",
-    "blog": "https://medium.com/gdg-lviv",
-    "url": "http://lviv.gdg.org.ua/"
+    "name": "GDG Fresno",
+    "twitter": "gdgfresno",
+    "facebook": "gdgfresno",
+    "blog": "https://gdgfresno.com/",
+    "url": "https://gdgfresno.com/"
   },
   "webapp": {
-    "shortName": "DevFest",
+    "shortName": "Valley DevFest",
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },
@@ -59,7 +60,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "The biggest Google tech conference in CEE. All about Android, Web, and Cloud.",
+      "description": "The biggest conference in the California Central Valley. All about Web, Cloud, Machine Learning and more.",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -105,18 +106,18 @@
     }
   },
   "location": {
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "short": "Bitwise South Stadium",
+    "address": "700 Van Ness Ave, Fresno, CA 93721",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 5
+      "latitude": 36.731822,
+      "longitude": -119.785882,
+      "zoom": 16
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 36.732442,
+      "longitude": -119.780780
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Bitwise Industries provides modern co-working space and incubator for many startups. Classrooms, cinema and other parts of the building will be utilized."
   },
   "mediaQueries": {
     "xs": {
@@ -138,19 +139,11 @@
     "follow": [
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
+        "url": "https://www.facebook.com/gdgfresno/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/devfest_ukraine/"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/devfestukraine"
-      },
-      {
-        "name": "youtube",
-        "url": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "url": "https://twitter.com/gdgfresno/"
       }
     ],
     "share": [
@@ -168,7 +161,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "gdgfresnomd@gmail.com",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
