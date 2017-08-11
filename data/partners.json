@@ -1,0 +1,47 @@
+[
+  {
+    "title": "gold-sponsors",
+    "logos": [
+      {
+        "name": "Google",
+        "url": "//www.google.com.ua/intl/en/about/",
+        "logoUrl": "../images/logos/google.svg",
+        "width": 170
+      },
+      {
+        "name": "GDG Fresno",
+        "url": "//www.meetup.com/googledevelopers/",
+        "logoUrl": "../images/logos/GDG_Fresno.svg",
+        "width": 170
+      }
+    ]
+  },
+  {
+    "title": "silver-sponsors",
+    "logos": [
+    ]
+  },
+  {
+    "title": "general-partner",
+    "logos": [
+      {
+        "name": "GDG Visalia",
+        "url": "//www.meetup.com/GDG-Visalia-Google-Developer-Group/",
+        "logoUrl": "../images/logos/GDG_Visalia.svg",
+        "width": 170
+      },
+      {
+        "name": "Bitwise",
+        "url": "//bitwiseindustries.com/",
+        "logoUrl": "../images/logos/bitwise.png",
+        "width": 170
+      },
+      {
+        "name": "Ideaworks",
+        "url": "//fresnoideaworks.org/",
+        "logoUrl": "../images/logos/ideaworks-logo-invert.png",
+        "width": 170
+      }
+    ]
+  }
+]
