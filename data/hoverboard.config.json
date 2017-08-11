@@ -10,7 +10,7 @@
   "environment": "dev",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyAIPZ2Xy1lZfBt5_qTOiUL5WI9gGC4OrUg",
+    "apiKey": "AIzaSyBXGI5xmg1kZopfb_PXC5IMW50wPqaoYA0",
     "authDomain": "vdf2017-3a9f6.firebaseapp.com",
     "databaseURL": "https://vdf2017-3a9f6.firebaseio.com",
     "projectId": "vdf2017-3a9f6",
