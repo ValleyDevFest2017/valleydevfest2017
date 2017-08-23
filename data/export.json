@@ -1,0 +1,572 @@
+{
+  "blog" : {
+    "list" : {
+    }
+  },
+  "gallery" : [
+  ],
+  "partners" : [ {
+    "logos" : [ {
+      "logoUrl" : "../images/logos/google.svg",
+      "name" : "Google",
+      "url" : "//www.google.com.ua/intl/en/about/"
+    } ],
+    "title" : "Gold Sponsors"
+  }, {
+    "logos" : [ {
+      "logoUrl" : "../images/logos/GDG_Fresno.svg",
+      "name" : "GDG Fresno",
+      "url" : "//www.meetup.com/googledevelopers/"
+    },
+    {
+      "logoUrl" : "../images/logos/GDG_Visalia.svg",
+      "name" : "GDG Visalia",
+      "url" : "//www.meetup.com/GDG-Visalia-Google-Developer-Group/"
+    } ],
+    "title" : "Silver Sponsors"
+  }, {
+    "logos" : [ {
+      "logoUrl" : "../images/logos/bitwise.png",
+      "name" : "Bitwise",
+      "url" : "//bitwiseindustries.com/"
+    }, {
+      "logoUrl" : "../images/logos/ideaworks-logo-invert.png",
+      "name" : "Ideaworks",
+      "url" : "//fresnoideaworks.org/"
+    } ],
+    "title" : "General Partner"
+  } ],
+  "schedule" : {
+    "2017-10-22" : {
+      "dateReadable" : "October 22",
+      "timeslots" : [ {
+        "endTime" : "09:00",
+        "sessions" : [ {
+          "extend": 5,
+          "items" : [ 101 ]
+        } ],
+        "startTime" : "08:00"
+      }, {
+        "endTime" : "09:00",
+        "sessions" : [ {
+          "extend": 5,
+          "items" : [ 102 ]
+        } ],
+        "startTime" : "9:45"
+      }, {
+        "endTime" : "10:45",
+        "sessions" : [ {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        } ],
+        "startTime" : "10:00"
+      }, {
+        "endTime" : "11:00",
+        "sessions" : [ {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        } ],
+        "startTime" : "11:45"
+      }, {
+        "endTime" : "13:00",
+        "sessions" : [ {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        } ],
+        "startTime" : "13:45"
+      }, {
+        "endTime" : "14:45",
+        "sessions" : [ {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        }, {
+          "items" : [ ]
+        } ],
+        "startTime" : "14:00"
+      }, {
+        "endTime" : "16:00",
+        "sessions" : [ {
+          "extend": 5,
+          "items" : [ 104 ]
+        } ],
+        "startTime" : "15:00"
+      } ],
+      "tracks" : [ {
+        "title" : "Tech Talks"
+      }, {
+        "title" : "Tech Talks"
+      }, {
+        "title" : "Cloud"
+      }, {
+        "title" : "Mobile, Web, & Machine Learning"
+      }, {
+        "title" : "Design"
+      }, {
+        "title" : "Maker Space"
+      } ]
+    }
+  },
+  "speakers" : {
+    "paul_trebilcox_ruiz" : {
+      "bio" : "Software engineer in Boulder, Colorado, and Fresno State computer science graduate. Currently developing for Android and IoT devices, published author on Android TV, winner in the 2017 Google Experiments Challenge with a machine learning IoT device.",
+      "company" : "Workday",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Paul Trebilcox-Ruiz",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Software engineer in Boulder, Colorado, and Fresno State computer science graduate. Currently developing for Android and IoT devices, published author on Android TV, winner in the 2017 Google Experiments Challenge with a machine learning IoT device.",
+      "socials" : [ ],
+      "title" : "Software Engineer"
+    },
+    "cassie_crossley" : {
+      "bio" : "Cassie Crossley is an experienced technology executive in the IT and R&D domains. She has many years of business and technical leadership experience in project management, security, software, hardware, and data management. She is the Security Governance Program Leader in Schneider-Electric with previous positions at Ceridian, Hewlett-Packard,  McAfee, Lotus, and IBM. Ms. Crossley has a Bachelors of Science degree in Technical and Professional Communication with a specialization in Computer Science.  She also has her Six Sigma Black Belt (business process optimization) certification, her Project Management Professional (PMP) certification, and her M.B.A. from California State University, Fresno.",
+      "company" : "Schneider Electric",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Cassie Crossley",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Cassie Crossley is an experienced technology executive in the IT and R&D domains. She has many years of business and technical leadership experience in project management, security, software, hardware, and data management.",
+      "socials" : [ ],
+      "title" : "Security Governance Program Leader"
+    },
+    "laura_huisinga" : {
+      "bio" : "Dr. Laura Huisinga is an artist, designer, and educator. She currently teaches in the Multimedia and Interaction BFA design track at Fresno State. She has a passion for strong UX design and bringing augmented reality into the classroom for all students. Laura has her Ph.D. in Human Computer Interaction and MFA in graphic design from Iowa State University. She previously worked as a front-end-developer and as a designer in Des Moines, Iowa. Dr. Huisinga's research currently focuses on using augmented reality to aid struggling readers.",
+      "company" : "Fresno State University",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Dr. Laura Huisinga",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Dr. Laura Huisinga is an artist, designer, and educator. She currently teaches in the Multimedia and Interaction BFA design track at Fresno State. She has a passion for strong UX design and bringing augmented reality into the classroom for all students.",
+      "socials" : [ ],
+      "title" : "Assistant Professor"
+    },
+    "jessica_cha" : {
+      "bio" : "Jessica Dene Earley-Cha is the Director of Part Time Education at Hackbright Academy, where she leads all the part time course aimed to educating underrepresented persons into tech. She is active in Google Developers Group, Women Techmakers, Girl Develop It, Latin@s in Tech and DevelopHerDevelopHim. You'll find her either listening to other's life stories or coding one of her many personal projects.",
+      "company" : "Hackbright Academy",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Jessica Dene Earley-Cha",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Jessica Dene Earley-Cha is the Director of Part Time Education at Hackbright Academy, where she leads all the part time course aimed to educating underrepresented persons into tech.",
+      "socials" : [ ],
+      "title" : "Education & Full Stack Engineer"
+    },
+    "peter_easton" : {
+      "bio" : "Five years ago I tried to do surface-mount PCB assembly in my garage. I didn't find a good solution so I set about trying to make something that would work, and work well. Today I am the #1 supplier of DIY reflow oven kits worldwide. Part of that success is that open-source my software and have a public build guide. This helps me to get feedback from industry experts, which in turn improves the information I offer.",
+      "company" : "Self-employed",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Peter Easton & Melody Boates",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Five years ago I tried to do surface-mount PCB assembly in my garage. I didn't find a good solution so I set about trying to make something that would work, and work well. Today I am the #1 supplier of DIY reflow oven kits worldwide.",
+      "socials" : [ ],
+      "title" : "Engineer"
+    },
+    "saori_jansen" : {
+      "bio" : "Saori is a Data Analyst at Fresno Unified School District and co-founded CoderGirlz, an after-school program that offers girls and young women an opportunity to explore coding and meet female role models in technology. She also organizes the district’s annual Tournament of Technology and is deeply invested in addressing the under-representation of women and minorities in STEM fields. Saori earned a Masters in Mathematics from California State University, Fresno and enjoys teaching part-time at local community colleges.",
+      "company" : "Fresno Unified School District",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Saori Jansen",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Saori is a Data Analyst at Fresno Unified School District and co-founded CoderGirlz, an after-school program that offers girls and young women an opportunity to explore coding and meet female role models in technology.",
+      "socials" : [ ],
+      "title" : "Data Analyst"
+    },
+    "laura_ann_vandiver" : {
+      "bio" : "I'm a 16 year old female highly involved in my school's robotics team, teaching programming, electrical, mechanics, and public speaking to new members of the team every year. I've been involved with STEM for more than three years and always look for new opportunities to learn more about engineering and encourage other young women to get involved in the field as well.",
+      "company" : "Sanger High School",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Laura Ann Vandiver",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "I'm a 16 year old female highly involved in my school's robotics team, teaching programming, electrical, mechanics, and public speaking to new members of the team every year.",
+      "socials" : [ ],
+      "title" : "Student"
+    },
+
+    "sandeep_dinesh" : {
+      "bio" : "Sandeep started coding and creating websites when he was 12 and hasn't stopped. He is passionate about building easy-to-use products people love. Before Google, he founded an IoT startup in agriculture and developed educational HTML5 games. At Google, Sandeep's goal is to make cloud easy and help developers create the next big thing. Sandeep loves video games, making music, and martial arts, and has Bachelors in Marketing and Computer Science.",
+      "company" : "Google",
+      "companyLogo" : "/images/logos/google.svg",
+      "companyLogoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/logos/google.svg",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Sandeep Dinesh",
+      "photo" : "/images/people/sandeep_dinesh.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/sandeep_dinesh.jpg",
+      "shortBio" : "Sandeep is a Developer Advocate at Google, currently focused on helping developers with Google Cloud...",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "plus.google.com/u/0/106298452631478443711/posts",
+        "name" : "Google+"
+      } ],
+      "title" : "Developer Advocate"
+    },
+    "matt_tymn" : {
+      "bio" : "Entrepreneur, product developer, and leader with over 16 years of diverse UI/UX software and hardware design, development and management. In-depth experience in highly-regulated environments. Ag, Cities, Education, Food Processing, Pharma and Tech.",
+      "company" : "One Sense",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Matt Tymn",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Entrepreneur, product developer, and leader with over 16 years of diverse UI/UX software and hardware design, development and management. In-depth experience in highly-regulated environments. Ag, Cities, Education, Food Processing, Pharma and Tech.",
+      "socials" : [ ],
+      "title" : "CEO"
+    },
+    "chris_esplin" : {
+      "bio" : "I've been developing for web since 2011. My largest project is Calligraphy.org, a calligraphy teaching business that I run with my wife. I've became a Firebase Expert in 2013 and have used it for Calligraphy.org and all of my freelance and side projects.",
+      "company" : "Self-employed",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Chris Esplin",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "I've been developing for web since 2011. My largest project is Calligraphy.org, a calligraphy teaching business that I run with my wife. I've became a Firebase Expert in 2013 and have used it for Calligraphy.org and all of my freelance and side projects.",
+      "socials" : [ ],
+      "title" : "Developer"
+    },
+
+    "ingo_mierswa" : {
+      "bio" : "Dr. Ingo Mierswa is the founder and President of RapidMiner and as such responsible for strategic innovation and execution around the open source machine learning platform. Ingo is an industry-veteran data scientist since starting to develop RapidMiner at the Artificial Intelligence Division of the TU Dortmund University in Germany. Ingo, the scientist, has authored numerous award-winning publications about predictive analytics and big data. Ingo, the entrepreneur, has led three rounds of fundraising, the acquisition of Radoop, and supporting the positioning of RapidMiner with leading analyst firms like Gartner and Forrester.",
+      "company" : "RapidMiner",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Ingo Mierswa",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Dr. Ingo Mierswa is the founder and President of RapidMiner and as such responsible for strategic innovation and execution around the open source machine learning platform. Ingo is an industry-veteran data scientist since starting to develop RapidMiner.",
+      "socials" : [ ],
+      "title" : "Founder & President"
+    },
+    "todd_mcLeod" : {
+      "bio" : "Champion of world class online instruction; teaching online since 1997; honored as one of California’s top community college instructors; studied online education at UC San Diego; helped start the Online Teacher Training Program and taught college faculty in central California how to teach online; one of the world’s leading trainers in the highest paying programming language in America; teacher to 528,918 students last year online; founder of Greater Commons; motivating, inspiring, and teaching teachers how to teach online at their greatest potential - this is Todd McLeod, working every day for the greater common good.",
+      "company" : "SCCCD",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Todd McLeod",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Champion of world class online instruction; teaching online since 1997; honored as one of California’s top community college instructors; studied online education at UC San Diego; helped start the Online Teacher Training Program and taught college faculty in central California how to teach online;",
+      "socials" : [ ],
+      "title" : "Tenured Faculty"
+    },
+    "robert_aguilar" : {
+      "bio" : "I am a former teacher, now software engineer. Born and raised in the central valley, I work for a market research company as a software engineer.",
+      "company" : "FocusVision",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Robert Aguilar",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "I am a former teacher, now software engineer. Born and raised in the central valley, I work for a market research company as a software engineer.",
+      "socials" : [ ],
+      "title" : "Software Engineer"
+    },
+
+    "miles_sebesta" : {
+      "bio" : "A developer and growth hacker marketer with 8+ years of experience and a degree in digital finger painting. I have had the honor of teaching coding principles and marketing strategies to over 150 students ranging from ages 12 to 50+. I currently work my dream job as a classroom consultant; training students in SEO, Front-End design, UX/UI, & CRO. My passion is people and teaching all types of technologies. I believe that developers and marketers should have the heart of a teacher. It is our job to pass on our knowledge to others, clients, employees, & students.",
+      "company" : "Geekwise Academy & Shift3 Technologies",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Miles Sebesta",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "A developer and growth hacker marketer with 8+ years of experience and a degree in digital finger painting. I have had the honor of teaching coding principles and marketing strategies to over 150 students ranging from ages 12 to 50+.",
+      "socials" : [ ],
+      "title" : "Developer Fellow"
+    },
+    "allison_liles" : {
+      "bio" : "Allison was born and raised in upstate New York and as a teenager fell in love with designing and building websites. She moved out to California after high school and proceeded to get her BFA in Graphic Design at Fresno state. While in college she learned about the field of UX design and knew that was the career for her. Shortly after graduating Allison moved to Silicon Valley to pursue her career in product design. She currently works at Barracuda Networks where she strives to make information technology security products easy and accessible.",
+      "company" : "Barracuda Networks",
+      "companyLogo" : "",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Allison Liles",
+      "photo" : "/images/people/anonymous.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/anonymous.jpg",
+      "shortBio" : "Allison was born and raised in upstate New York and as a teenager fell in love with designing and building websites. She moved out to California after high school and proceeded to get her BFA in Graphic Design at Fresno state.",
+      "socials" : [ ],
+      "title" : "UI/UX Designer"
+    },
+
+
+    "joshua_houser" : {
+      "bio" : "Founding member of Fresno Ideaworks, served roles in pushing brooms, opening doors, giant CNC programming, welding, community projects and outreach. One of the main geeks involved in Super Sumo Saturdays, helping folks put together and program their first Sumo Bot. Guilty for the creation of \"Smiley\", the somewhat erratic, pushy sumo bot. Also, a long time mentor for area FIRST Robotics teams, regional Judge Advisor for the Central Valley FIRST Robotics Competition and FLL Judge for the past 4 years. Also 20 years at Schneider Electric.",
+      "company" : "Fresno Ideaworks, Schneider Electric",
+      "companyLogo" : "/images/logos/ideaworks-logo-invert.png",
+      "companyLogoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/logos/ideaworks-logo-invert.png",
+      "country" : "US",
+      "featured" : false,
+      "name" : "Joshua Houser",
+      "photo" : "/images/people/joshua_houser.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/joshua_houser.jpg",
+      "shortBio" : "CAD Geek, Coffee addict and love playing in the dirt and on the rocks",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "//twitter.com/pelcojosh",
+        "name" : "Twitter"
+      } ],
+      "title" : "Robot dude"
+    },
+    "andrew_runner" : {
+      "bio" : "Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
+      "company" : "Fresno Ideaworks, Hackerspace",
+      "companyLogo" : "/images/logos/ideaworks-logo-invert.png",
+      "companyLogoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/logos/ideaworks-logo-invert.png",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Andrew Runner",
+      "order" : 4,
+      "photo" : "/images/people/andrew_runner.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/andrew_runner.jpg",
+      "shortBio" : "Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/drewdaro",
+        "name" : "Facebook"
+      } ],
+      "title" : "Blacksmith Instructor"
+    }
+  },
+  "sessions" : {
+    "101": {
+      "id": 101,
+      "title": "Registration & morning coffee + breakfast",
+      "description": "Get your badge, coffee, enjoy socializing with your peers",
+      "image": "/images/backgrounds/morning.jpg",
+      "location": "Hall",
+      "speakers": [
+      ]
+    },
+    "102": {
+      "id": 102,
+      "title": "Opening: greetings from the organizers, sponsors and partners",
+      "description": "Official start of the conference.<br>8:50 - 8:55 - Irma and Rebecca- 59doc<br>8:55 - 9:00 - Martin - Google<br>9:00 - 9:05 - Dr. Carole Goldsmith - President Fresno City College<br>9:05 - 9-10 - Rio - Fresno City College and GDG Fresno",
+      "image": "/images/backgrounds/coffee-break.jpg",
+      "location": "Auditorium (optional overflow to Hall)",
+      "colspan": true,
+      "speakers": [
+      ]
+    },
+    "103": {
+      "id": 103,
+      "title": "Lunch",
+      "description": "Foooooooood!",
+      "image": "/images/backgrounds/lunch.jpg",
+      "location": "Hall",
+      "speakers": [
+      ]
+    },
+    "104": {
+      "id": 104,
+      "title": "Conference closing and contest winners announcements",
+      "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+      "image": "/images/backgrounds/closing.jpg",
+      "location": "Auditorium (optional overflow to Hall)",
+      "colspan": true,
+      "speakers": [
+      ]
+    }
+  },
+  "team" : [ {
+    "members" : [ {
+      "name": "Nancy Mohamed",
+      "photo": "/images/people/nancy_mohamed.jpg",
+      "photoUrl": "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/nancy_mohamed.jpg",
+      "socials": [
+        {
+          "icon": "facebook",
+          "link": "//www.facebook.com/designerwiththeheadscarf",
+          "name": "Facebook"
+        },
+        {
+          "icon": "gplus",
+          "link": "//plus.google.com/b/114769570436363155784/106036726594291409241",
+          "name": "Google+"
+        }
+      ],
+      "title": "Chief organizer; WTM and GDG Fresno co-organizer, designer"
+    }, {
+      "name": "Mark Simonian",
+      "photo": "/images/people/mark_simonian.jpg",
+      "photoUrl": "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/mark_simonian.jpg",
+      "socials": [
+        {
+          "icon": "gplus",
+          "link": "//plus.google.com/u/0/116552287288266856649",
+          "name": "Google+"
+        }
+      ],
+      "title": "Treasurey and finances; GDG Fresno co-organizer, treasurer"
+    }, {
+      "name": "Csaba Toth",
+      "photo": "/images/people/csaba_toth.jpg",
+      "photoUrl": "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/csaba_toth.jpg",
+      "socials": [
+        {
+          "icon": "github",
+          "link": "//github.com/MrCsabaToth",
+          "name": "Github"
+        },
+        {
+          "icon": "linkedin",
+          "link": "//www.linkedin.com/in/csabatothdev",
+          "name": "Linkedin"
+        },
+        {
+          "icon": "twitter",
+          "link": "//twitter.com/tocsa2",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Website and speakers; GDG Fresno co-organizer, User Group junkie"
+    }, {
+      "name" : "Rio Waller",
+      "photo" : "/images/people/rio_waller.jpg",
+      "photoUrl" : "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/rio_waller.jpg",
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "//plus.google.com/+RioWaller",
+        "name" : "Google+"
+      }, {
+        "icon" : "twitter",
+        "link" : "//twitter.com/riowaller",
+        "name" : "Twitter"
+      } ],
+      "title" : "GDG regional lead"
+    } ],
+    "title" : "Core Team"
+  }, {
+    "members" : [ {
+      "name": "Ahsen Baig",
+      "photo": "/images/people/ahsen_baig.jpg",
+      "photoUrl": "https://storage.googleapis.com/vdf2017-3a9f6.appspot.com/images/people/ahsen_baig.jpg",
+      "socials": [
+        {
+          "icon": "gplus",
+          "link": "//google.com/+AhsenBaig",
+          "name": "Google+"
+        }
+      ],
+      "title": "GDG Visalia co-organizer"
+    } ],
+    "title" : "GDG Visalia"
+  } ],
+  "tickets" : {
+    "elements" : [ {
+      "currency" : "USD",
+      "ends" : "Oct 21",
+      "info" : "Requires valid student/lecturer ID",
+      "name" : "EDU",
+      "price" : 0,
+      "soldOut" : false,
+      "starts" : "Sep 1"
+    }, {
+      "currency" : "USD",
+      "ends" : "Oct 21",
+      "info" : "Or first 200 tickets",
+      "name" : "Early Bird",
+      "price" : 0,
+      "soldOut" : false,
+      "starts" : "Sep 1"
+    }, {
+      "currency" : "USD",
+      "ends" : "Oct 21",
+      "info" : "Or first 350 tickets",
+      "name" : "Lazy Bird",
+      "price" : 0,
+      "soldOut" : false,
+      "starts" : "Sep 1"
+    } ],
+    "url" : "https://eventbrite.com/12345"
+  },
+  "triggers" : {
+    "images" : false
+  },
+  "videos" : [ {
+    "speakers" : "Rio at all",
+    "thumbnail" : "/images/videos/valleydevfest2016.png",
+    "title" : "Valley DevFest 2016 promo",
+    "youtubeId" : "8cnykM7UAy8"
+  }, {
+    "speakers" : "Ideaworks, Rio Waller",
+    "thumbnail" : "/images/videos/ideaworks2016.png",
+    "title" : "Ideaworks at Valley DevFest 2016",
+    "youtubeId" : "J_iSiUjWZMw"
+  }, {
+    "speakers" : "WTM",
+    "thumbnail" : "/images/videos/wtm2017.png",
+    "title" : "Women Techmakers Fresno 2017 International Women's Day Celebration",
+    "youtubeId" : "5kGK5TluapA"
+  } ]
+}
