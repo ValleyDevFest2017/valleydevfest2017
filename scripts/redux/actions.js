@@ -25,12 +25,18 @@ const uiActions = {
   }
 };
 
-const routeActions = {
+const routingActions = {
   setRoute: (routeFromAction) => {
     const route = routeFromAction || 'home';
     store.dispatch({
       type: SET_ROUTE,
       route
+    });
+  },
+  setSubRoute: subRoute => {
+    store.dispatch({
+      type: SET_SUB_ROUTE,
+      subRoute
     });
   }
 };
@@ -51,6 +57,37 @@ const dialogsActions = {
     store.dispatch({
       type: CLOSE_DIALOG,
       dialogName
+    });
+    this.dispatchEvent(new CustomEvent('reset-query-params', {
+      bubbles: true,
+      composed: true
+    }));
+  }
+};
+
+let toastHideTimeOut;
+const toastActions = {
+  showToast: toast => {
+    const duration = toast.duration || 5000;
+    store.dispatch({
+      type: SHOW_TOAST,
+      toast: {
+        ...toast,
+        duration,
+        visible: true
+      }
+    });
+
+    clearTimeout(toastHideTimeOut);
+    toastHideTimeOut = setTimeout(() => {
+      toastActions.hideToast();
+    }, duration);
+  },
+
+  hideToast: () => {
+    clearTimeout(toastHideTimeOut);
+    store.dispatch({
+      type: HIDE_TOAST
     });
   }
 };
@@ -101,13 +138,155 @@ const blogActions = {
 
 const speakersActions = {
   fetchList: () => {
-    return firebase.database()
-      .ref('/speakers')
-      .on('value', snapshot => {
-        store.dispatch({
-          type: FETCH_SPEAKERS_LIST,
-          list: snapshot.val()
+    const state = store.getState();
+    const sessionsPromise = Object.keys(state.sessions.list).length
+      ? Promise.resolve(state.session.list)
+      : sessionsActions.fetchList();
+
+    const speakersPromise = new Promise(resolve => {
+      firebase.database()
+        .ref('/speakers')
+        .on('value', snapshot => {
+          resolve(snapshot.val());
+        })
+    });
+
+    return new Promise(resolve => {
+      Promise.all([sessionsPromise, speakersPromise])
+        .then(([sessions, speakers]) => {
+          let updatedSpeakers = {};
+
+          for (let key of Object.keys(sessions)) {
+            if (sessions[key].speakers) {
+              sessions[key].speakers.map(id => {
+                if (speakers[id]) {
+                  const session = {
+                    ...sessions[key],
+                    id: key
+                  };
+                  updatedSpeakers[id] = {
+                    ...speakers[id],
+                    sessions: speakers[id].sessions ? [...speakers[id].sessions, session] : [session]
+                  };
+                }
+              });
+            }
+          }
+
+          const list = {
+            ...speakers,
+            ...updatedSpeakers
+          };
+
+          store.dispatch({
+            type: FETCH_SPEAKERS_LIST,
+            list
+          });
+
+          resolve(list);
         });
+    });
+  }
+};
+
+const sessionsActions = {
+  fetchList: () => {
+    const result = new Promise(resolve => {
+      firebase.database()
+        .ref('/sessions')
+        .on('value', snapshot => {
+          resolve(snapshot.val());
+        })
+    });
+
+    result
+      .then(list => {
+        store.dispatch({
+          type: FETCH_SESSIONS_LIST,
+          list
+        });
+      });
+
+    return result;
+  },
+
+  fetchUserFeaturedSessions: userId => {
+    const result = new Promise(resolve => {
+      firebase.database()
+        .ref(`/featuredSessions/${userId}`)
+        .on('value', snapshot => {
+          resolve(snapshot.val());
+        })
+    });
+
+    result
+      .then(featuredSessions => {
+        store.dispatch({
+          type: FETCH_USER_FEATURED_SESSIONS,
+          featuredSessions
+        });
+      });
+
+    return result;
+  },
+
+  setUserFeaturedSessions: (userId, featuredSessions) => {
+    const result = firebase.database()
+      .ref(`/featuredSessions/${userId}`)
+      .set(featuredSessions);
+
+    result
+      .then(() => {
+        store.dispatch({
+          type: SET_USER_FEATURED_SESSIONS,
+          featuredSessions
+        });
+      });
+
+    return result;
+  }
+};
+
+const scheduleActions = {
+  fetchSchedule: () => {
+    const state = store.getState();
+    const speakersPromise = Object.keys(state.speakers).length
+      ? Promise.resolve(state.speakers)
+      : speakersActions.fetchList();
+    const schedulePromise = new Promise(resolve => {
+      firebase.database()
+        .ref('/schedule')
+        .on('value', snapshot => {
+          resolve(snapshot.val());
+        })
+    });
+
+    return Promise.all([speakersPromise, schedulePromise])
+      .then(([speakers, schedule]) => {
+        const scheduleWorker = new Worker('/scripts/schedule-webworker.js');
+
+        scheduleWorker.postMessage({
+          speakers,
+          sessions: store.getState().sessions.list,
+          schedule
+        });
+
+        scheduleWorker.addEventListener('message', ({ data }) => {
+          store.dispatch({
+            type: FETCH_SCHEDULE,
+            data: data.schedule
+          });
+          store.dispatch({
+            type: UPDATE_SESSIONS,
+            list: data.sessions
+          });
+          store.dispatch({
+            type: UPDATE_SPEAKERS,
+            list: data.speakers
+          });
+          scheduleWorker.terminate();
+        }, false);
+
       });
   }
 };
@@ -146,8 +325,8 @@ const userActions = {
       .signInWithPopup(firebaseProvider)
       .then((signInObject) => {
         if (navigator.credentials) {
-          var cred = new FederatedCredential({
-            id: signInObject.user.email ||  signInObject.user.providerData[0].email,
+          const cred = new FederatedCredential({
+            id: signInObject.user.email || signInObject.user.providerData[0].email,
             name: signInObject.user.displayName,
             iconURL: signInObject.user.photoURL,
             provider: providerName
@@ -156,19 +335,19 @@ const userActions = {
           navigator.credentials.store(cred);
         }
 
-         helperActions.storeUser(signInObject.user);
+        helperActions.storeUser(signInObject.user);
       });
   },
 
   autoSignIn: (providerUrls) => {
     const currentUser = firebase.auth().currentUser;
-    if (currentUser) {      
+    if (currentUser) {
       helperActions.storeUser(currentUser);
     }
     else {
 
       if (navigator.credentials) {
-        
+
         return navigator.credentials.get({
           password: true,
           federated: {
@@ -208,7 +387,7 @@ const userActions = {
 };
 
 const subscribeActions = {
-   subscribe: (data) => {
+  subscribe: (data) => {
     const id = data.email.replace(/[^\w\s]/gi, '');
 
     firebase.database().ref(`subscribers/${id}`).set({
@@ -216,36 +395,53 @@ const subscribeActions = {
       firstName: data.firstName || '',
       lastName: data.lastName || ''
     })
-    .then(() => {
-       store.dispatch({
+      .then(() => {
+        store.dispatch({
           type: SUBSCRIBE,
           subscribed: true
         });
-    })
-    .catch(() => {
-       store.dispatch({
+      })
+      .catch(() => {
+        store.dispatch({
+          type: SET_DIALOG_DATA,
+          dialog: {
+            ['subscribe']: {
+              isOpened: true,
+              data: Object.assign(data, { errorOcurred: true })
+            }
+          }
+        });
+
+        store.dispatch({
           type: SUBSCRIBE,
           subscribed: false
         });
-    });
+      });
   },
   resetSubscribed: () => {
-     store.dispatch({
-        type: SUBSCRIBE,
-        subscribed: false
-     });
+    store.dispatch({
+      type: SUBSCRIBE,
+      subscribed: false
+    });
   }
 };
 
-
 const helperActions = {
- 
   storeUser: (user) => {
     let userToStore = { signedIn: false };
 
     if (user) {
+      const { uid, displayName, photoURL, refreshToken } = user;
       const email = user.email || user.providerData[0].email;
-      userToStore = Object.assign({}, user, { signedIn: true, email: email });
+
+      userToStore = {
+        signedIn: true,
+        uid,
+        email,
+        displayName,
+        photoURL,
+        refreshToken
+      };
     }
 
     store.dispatch({
@@ -255,16 +451,16 @@ const helperActions = {
   },
 
   getFederatedProvider: (provider) => {
-    switch(provider) {
-      case 'https://accounts.google.com': 
+    switch (provider) {
+      case 'https://accounts.google.com':
         return new firebase.auth.GoogleAuthProvider();
       case 'https://www.facebook.com': {
         let provider = new firebase.auth.FacebookAuthProvider();
         provider.addScope('email');
         provider.addScope('public_profile');
         return provider;
-      }       
-      case 'https://twitter.com': 
+      }
+      case 'https://twitter.com':
         return new firebase.auth.TwitterAuthProvider();
     }
   }

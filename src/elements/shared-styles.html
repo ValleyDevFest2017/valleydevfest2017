@@ -13,7 +13,7 @@
         --text-primary-color: #FFFFFF;
         --accent-color: #FF5252;
         --primary-background-color: #FFFFFF;
-        --primary-text-color: #212121;
+        --primary-text-color: #424242;
         --secondary-text-color: #757575;
         --disabled-text-color: #BDBDBD;
         --divider-color: #EDEDED;
@@ -23,6 +23,7 @@
         --twitter-color: #4099FF;
         --facebook-color: #3B5998;
         --border-light-color: #E2E2E2;
+        --error-color:  #e64a19;
 
         /* Custom */
         --default-background-color: #FAFAFA;
@@ -41,6 +42,14 @@
         --gde: #3d5afe;
         --wtm: #1de9b6;
         --gdg: #00B0ff;
+
+        /* Tags */
+        --general: #9E9E9E;
+        --android: #78c257;
+        --web: #2196f3;
+        --cloud: #3f51b5;
+        --community: #e91e63;
+        --design: #E91E63;
       }
 
       * {
@@ -74,7 +83,6 @@
       a {
         color: var(--default-primary-color);
         text-decoration: none;
-        border-bottom: 1px solid transparent;
         transition: border-color var(--animation);
       }
 
@@ -172,6 +180,14 @@
         box-shadow: 0 0 2px 0 rgba(0,0,0,0.07), 0 2px 2px 0 rgba(0,0,0,0.15);
         transition: box-shadow var(--animation);
       }
+
+      .tag {
+        margin-right: 2px;
+        padding: 2px 4px;
+        font-size: 12px;
+        border: 1px solid currentColor;
+      }
+
       @media (min-width: 640px) {
         .container,
         .container-narrow {
