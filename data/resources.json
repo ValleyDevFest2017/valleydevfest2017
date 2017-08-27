@@ -5,8 +5,8 @@
   "dates": "October 22, 2017",
   "partnershipProposition": "https://bit.ly/vdf2017-partners",
   "share": "Share",
-  "followOur": "Follow our",
-  "followUs": "Follow us",
+  "followOur": "Follow our ",
+  "followUs": "Follow us:",
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
@@ -87,7 +87,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "400"
+        "number": "350"
       },
       "days": {
         "label": "Days",
@@ -95,7 +95,7 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "30"
+        "number": "20"
       },
       "tracks": {
         "label": "Tracks",
