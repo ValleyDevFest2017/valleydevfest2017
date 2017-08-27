@@ -90,7 +90,7 @@
         <div class="bottom-info" layout horizontal justified center>
           <span class="address">{$ location.address $}</span>
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination={$ location.pointer.latitude $},{$ location.pointer.longitude $}"
+            href="https://www.google.com/maps/dir/?api=1&destination={$ location.pointer.latitude $},{$ location.pointer.longitude $}&destination_place_id={$ location.placeId $}"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -120,7 +120,7 @@
             type: Object,
             value: () => (
               {
-                disableDefaultUI: true,
+                disableDefaultUI: false,
                 disableDoubleClickZoom: true,
                 scrollwheel: false,
                 draggable: false,
@@ -147,7 +147,7 @@
                 }, {
                   featureType: 'road',
                   stylers: [{
-                    visibility: 'off'
+                    visibility: 'on'
                   }]
                 }]
               }

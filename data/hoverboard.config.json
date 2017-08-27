@@ -63,7 +63,7 @@
       "description": "The biggest conference in the California Central Valley. All about Web, Cloud, Machine Learning and more.",
       "background": {
         "color": "#673ab7",
-        "image": "/images/backgrounds/home.jpg"
+        "image": "/images/backgrounds/home.png"
       },
       "fontColor": "#FFF"
     },
@@ -107,14 +107,15 @@
   "location": {
     "short": "Bitwise South Stadium",
     "address": "700 Van Ness Ave, Fresno, CA 93721",
+    "placeId": "ChIJAwU01CZelIARoDAHz3HaLbM",
     "pointer": {
       "latitude": 36.731822,
       "longitude": -119.785882,
-      "zoom": 16
+      "zoom": 17
     },
     "mapCenter": {
       "latitude": 36.732442,
-      "longitude": -119.780780
+      "longitude": -119.790984
     },
     "description": "Bitwise Industries provides modern co-working space and incubator for many startups. Classrooms, cinema and other parts of the building will be utilized."
   },
