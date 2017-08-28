@@ -42,14 +42,12 @@
       "timeslots" : [ {
         "endTime" : "09:00",
         "sessions" : [ {
-          "extend": 5,
           "items" : [ 101 ]
         } ],
         "startTime" : "08:00"
       }, {
         "endTime" : "09:45",
         "sessions" : [ {
-          "extend": 5,
           "items" : [ 102 ]
         } ],
         "startTime" : "9:00"
@@ -88,7 +86,6 @@
       }, {
         "endTime" : "12:45",
         "sessions" : [ {
-          "extend": 5,
           "items" : [ 103 ]
         } ],
         "startTime" : "12:00"
@@ -127,7 +124,6 @@
       }, {
         "endTime" : "16:00",
         "sessions" : [ {
-          "extend": 5,
           "items" : [ 104 ]
         } ],
         "startTime" : "15:00"
