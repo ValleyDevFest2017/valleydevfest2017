@@ -38,11 +38,6 @@
       "title": "Home"
     },
     {
-      "route": "blog",
-      "permalink": "/blog/",
-      "title": "Blog"
-    },
-    {
       "route": "schedule",
       "permalink": "/schedule/",
       "title": "Schedule"
@@ -67,39 +62,32 @@
       },
       "fontColor": "#FFF"
     },
-    "blog": {
-      "title": "Blog",
-      "background": {
-        "color": "#FFF"
-      },
-      "fontColor": "#424242"
-    },
     "speakers": {
       "title": "Speakers",
       "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
       "background": {
-        "color": "#FFF"
+        "color": "#DDD"
       },
       "fontColor": "#424242"
     },
     "schedule": {
       "title": "Schedule",
       "background": {
-        "color": "#fff"
+        "color": "#DDD"
       },
       "fontColor": "#424242"
     },
     "team": {
       "title": "Team",
       "background": {
-        "color": "#fff"
+        "color": "#DDD"
       },
       "fontColor": "#424242"
     },
     "faq": {
       "title": "FAQs",
       "background": {
-        "color": "#fff"
+        "color": "#DDD"
       },
       "fontColor": "#424242"
     }

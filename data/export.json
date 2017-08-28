@@ -93,7 +93,7 @@
         } ],
         "startTime" : "12:00"
       }, {
-        "endTime" : "13:00",
+        "endTime" : "13:45",
         "sessions" : [ {
           "items" : [ 112 ]
         }, {
@@ -107,7 +107,7 @@
         }, {
           "items" : [ 152 ]
         } ],
-        "startTime" : "13:45"
+        "startTime" : "13:00"
       }, {
         "endTime" : "14:45",
         "sessions" : [ {
