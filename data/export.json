@@ -153,25 +153,33 @@
       "icon" : "registration",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Fregistration.jpg?alt=media&token=fb132ccd-4bd2-4c5b-be30-1eb3a4ec1c16",
       "language" : "English",
-      "title" : "Registration & morning Coffee"
+      "title" : "Registration & morning Coffee",
+      "complexity" : "Beginner",
+      "tags" : [ "General" ]
     },
     "102" : {
       "description" : "Official start of the conference. Greetings from the organizers, sponsors and partners.",
       "icon" : "opening",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Fopening.jpg?alt=media&token=f9e6f0b3-a6cc-4ff0-8780-0093f7181231",
       "language" : "English",
-      "title" : "Valley DevFest 2017 Opening"
+      "title" : "Valley DevFest 2017 Opening",
+      "complexity" : "Beginner",
+      "tags" : [ "General" ]
     },
     "103" : {
       "description" : "Foooooooood!",
       "icon" : "lunch",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Flunch.jpg?alt=media&token=eb969ee7-f81e-4219-bd57-83ea828c9111",
-      "title" : "Lunch"
+      "title" : "Lunch",
+      "complexity" : "Beginner",
+      "tags" : [ "General" ]
     },
     "104" : {
       "description" : "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Fclosing.png?alt=media&token=8746ba20-4562-4dc3-96be-d68b8d3ccf10",
-      "title" : "Conference closing and winner announcements"
+      "title" : "Conference closing and winner announcements",
+      "complexity" : "Beginner",
+      "tags" : [ "General" ]
     },
 
     "110" : {
