@@ -75,13 +75,8 @@
     "callToAction": {
       "featuredSessions": {
         "description": "Valley DevFest brings together the world class experts in Android, Web and Cloud technologies to Fresno for a day of sessions, workshops and showcases.",
-        "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
-      },
-      "howItWas": {
-        "description": "Our team creates Valley DevFest to be the best place for sharing experience in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
-        "youtubeId": "TdpbgRgz6eE"
+        "label": "Explore sessions",
+        "link": "/sessions"
       }
     },
     "statisticsBlock": {
@@ -113,10 +108,10 @@
     "button": "Become a partner"
   },
   "featuredVideos": {
-    "title": "Valley DevFest 2016 featured videos",
+    "title": "Valley DevFest 2016 and Women Tech Maker conference 2017 featured videos",
     "callToAction": {
-      "label": "See all videos",
-      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+      "label": "See all sessions",
+      "link": "/sessions"
     }
   },
   "blog": {
