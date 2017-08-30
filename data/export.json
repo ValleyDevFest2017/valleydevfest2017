@@ -675,7 +675,7 @@
           "name": "Google+"
         }
       ],
-      "title": "Chief organizer"
+      "title": "VDF Conference director, GDG Fresno co-organizer"
     }, {
       "name": "Mark Simonian",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fmark_simonian.jpg?alt=media&token=50a35fa1-d75b-4c16-aa22-70657bc390d5",
@@ -686,7 +686,7 @@
           "name": "Google+"
         }
       ],
-      "title": "Treasurey and finances"
+      "title": "VDF Treasurer, GDG Fresno co-organizer"
     }, {
       "name": "Csaba Toth",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fcsaba_toth.jpg?alt=media&token=8b8e42bb-7b38-4e62-9927-4f328d059139",
@@ -707,7 +707,7 @@
           "name": "Twitter"
         }
       ],
-      "title": "Website and speakers"
+      "title": "VDF Web Guy, GDG Fresno co-organizer"
     }, {
       "name" : "Rio Waller",
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Frio_waller.jpg?alt=media&token=df5e2e22-3731-4539-bfe5-e0301e51e805",
@@ -720,9 +720,9 @@
         "link" : "//twitter.com/riowaller",
         "name" : "Twitter"
       } ],
-      "title" : "GDG regional lead"
+      "title" : "VDF Help, GDG Fresno co-org, WTM NA lead"
     } ],
-    "title" : "GDG Fresno Organizers"
+    "title" : "GDG FRESNO"
   }, {
     "members" : [ {
       "name": "Ahsen Baig",
@@ -734,37 +734,40 @@
           "name": "Google+"
         }
       ],
-      "title": "GDG Visalia, support"
+      "title": "GDG Visalia Lead Organizer"
     } ],
-    "title" : "GDG Visalia organizers"
+    "title" : "GDG VISALIA"
   }, {
     "members" : [ {
-      "name": "Patricia Popescu",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fpatricia_popescu.jpg?alt=media&token=06079885-9be9-4daa-837a-3edb7d6923fe",
+      "name": "Brian Beamer",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fbrian_beamer.jpg?alt=media&token=e2a48890-c4cf-4c99-ad86-8449907205ea",
       "socials": [
       ],
-      "title": "Committee leader, speakers"
-    }, {
-      "name": "Ellery Alkotob",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fanonymous.jpg?alt=media&token=bce8b275-ecb8-4597-8f77-5916ca322c61",
-      "socials": [
-      ],
-      "title": "Committee member"
-    }, {
-      "name": "Estefany Alanis",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Festefany_alanis.jpg?alt=media&token=52e9edf0-473d-4b06-876b-65c679d79a21",
-      "socials": [
-      ],
-      "title": "Committee member"
+      "title": "Logistics Leader"
     }, {
       "name": "Laura Maciel",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Flaura_maciel.jpg?alt=media&token=be8a289f-96c4-454c-9694-7f52a3805f36",
       "socials": [
       ],
-      "title": "Committee member"
+      "title": "PR & Marketing Co-leader"
     }, {
-      "name": "Martina Her",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fmartina_her.jpg?alt=media&token=c7e74c29-7afd-4595-b900-7347aea926de",
+      "name": "Patricia Popescu",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fpatricia_popescu.jpg?alt=media&token=06079885-9be9-4daa-837a-3edb7d6923fe",
+      "socials": [
+      ],
+      "title": "PR & Marketing Co-leader"
+    }, {
+      "name": "Dakota Smith",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fdakota_smith.jpg?alt=media&token=561022af-03f0-4cae-bfc3-49d44de8d587",
+      "socials": [
+      ],
+      "title": "Development Leader"
+    } ],
+    "title" : "COMMITTEE LEADERS"
+  }, {
+    "members" : [ {
+      "name": "Estefany Alanis",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Festefany_alanis.jpg?alt=media&token=52e9edf0-473d-4b06-876b-65c679d79a21",
       "socials": [
       ],
       "title": "Committee member"
@@ -775,55 +778,19 @@
       ],
       "title": "Committee member"
     }, {
-      "name": "Aaron Jackson",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Faaron_jackson.jpg?alt=media&token=a7524b78-b5fd-45f1-9817-88ea64938e17",
-      "socials": [
-      ],
-      "title": "Committee member"
-    } ],
-    "title" : "PR & Marketing"
-  }, {
-    "members" : [ {
-      "name": "Dakota Smith",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fdakota_smith.jpg?alt=media&token=561022af-03f0-4cae-bfc3-49d44de8d587",
-      "socials": [
-      ],
-      "title": "Committee leader"
-    }, {
-      "name": "Kacey Pitcher",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fanonymous.jpg?alt=media&token=bce8b275-ecb8-4597-8f77-5916ca322c61",
-      "socials": [
-      ],
-      "title": "Committee member"
-    }, {
-      "name": "Kim Mornati",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fanonymous.jpg?alt=media&token=bce8b275-ecb8-4597-8f77-5916ca322c61",
-      "socials": [
-      ],
-      "title": "Committee member"
-    } ],
-    "title" : "Development"
-  }, {
-    "members" : [ {
-      "name": "Brian Beamer",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fbrian_beamer.jpg?alt=media&token=e2a48890-c4cf-4c99-ad86-8449907205ea",
-      "socials": [
-      ],
-      "title": "Committee leader"
-    }, {
       "name": "Justin Byers",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fjustin_byers.jpg?alt=media&token=1b1a928b-405d-4990-bfe9-dec997596308",
       "socials": [
       ],
       "title": "Committee member"
     }, {
-      "name": "Erik Buck",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fanonymous.jpg?alt=media&token=bce8b275-ecb8-4597-8f77-5916ca322c61",
+      "name": "Aaron Jackson",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Faaron_jackson.jpg?alt=media&token=a7524b78-b5fd-45f1-9817-88ea64938e17",
       "socials": [
       ],
       "title": "Committee member"
     }, {
-      "name": "Nicole Buck",
+      "name": "Paul Ramirez Jr.",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fanonymous.jpg?alt=media&token=bce8b275-ecb8-4597-8f77-5916ca322c61",
       "socials": [
       ],
@@ -834,14 +801,8 @@
       "socials": [
       ],
       "title": "Committee member"
-    }, {
-      "name": "Paul Ramirez Jr.",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fanonymous.jpg?alt=media&token=bce8b275-ecb8-4597-8f77-5916ca322c61",
-      "socials": [
-      ],
-      "title": "Committee member"
     } ],
-    "title" : "Logistics"
+    "title" : "COMMITTEE MEMBERS"
   } ],
   "tickets" : {
     "elements" : [ {
