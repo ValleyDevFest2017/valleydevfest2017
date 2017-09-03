@@ -40,7 +40,7 @@
     {
       "route": "schedule",
       "permalink": "/schedule/",
-      "title": "Schedule"
+      "title": "Schedule (preliminary, will be rearranged)"
     },
     {
       "route": "speakers",
