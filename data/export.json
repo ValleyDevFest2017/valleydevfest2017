@@ -33,13 +33,13 @@
         "sessions" : [ {
           "items" : [ 102 ]
         } ],
-        "startTime" : "9:00"
+        "startTime" : "09:00"
       }, {
         "endTime" : "10:45",
         "sessions" : [ {
           "items" : [ 110 ]
         }, {
-          "items" : [ 114 ]
+          "items" : [ ]
         }, {
           "items" : [ 120 ]
         }, {
@@ -57,7 +57,7 @@
         }, {
           "items" : [ 115 ]
         }, {
-          "items" : [ 121 ]
+          "items" : [ ]
         }, {
           "items" : [ 131 ]
         }, {
@@ -91,7 +91,7 @@
       }, {
         "endTime" : "14:45",
         "sessions" : [ {
-          "items" : [ 113 ]
+          "items" : [ ]
         }, {
           "items" : [ 117 ]
         }, {
@@ -185,27 +185,11 @@
       "tags" : [ "AR" ],
       "title" : "Augmented Reality: what is it and how can I use it?"
     },
-    "113" : {
-      "complexity" : "Beginner",
-      "description" : "An overview of what is Celery (an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well) and how they are helpful. Then a walkthrough of how to set up celery task, connecting it to a messaging server (RabbitMQ) and running it.",
-      "language" : "English",
-      "speakers" : [ "jessica_cha" ],
-      "tags" : [ "Cloud", "Web" ],
-      "title" : "Introduction to Celery (Distributed Task Queue) Doctor Who Version"
-    },
-    "114" : {
-      "complexity" : "Beginner",
-      "description" : "Telling all your friends about a party or an invite can be time consuming -- Learn how to use Google Form's event trigger to create a calendar event (and invite all your friends) and sending out emails to them too! That way any time you or your friends want to do an event or outing, you just need to complete the one form and your friend group will all be notified as well as inviting via google calendar!",
-      "language" : "English",
-      "speakers" : [ "jessica_cha" ],
-      "tags" : [ "Cloud" ],
-      "title" : "Doing more with Google Apps - Party Inviter!"
-    },
     "115" : {
       "complexity" : "Beginner",
       "description" : "Components are getting smaller and the best IC's are only available in surface-mount packages.  Through-hole soldering is so old school, but the good news is that surface-mount makes things easier and quicker.  Come and learn tricks and techniques to be successful, and see how easy it is.  We'll talk about various soldering methods, and things to look for when choosing your equipment.  The talk is aimed at hobbyists, small businesses and even large corporations looking to bring prototyping in-house.",
       "language" : "English",
-      "speakers" : [ "peter_easton" ],
+      "speakers" : [ "melody_boates", "peter_easton" ],
       "tags" : [ "Hardware" ],
       "title" : "DIY Reflow Oven"
     },
@@ -233,14 +217,6 @@
       "speakers" : [ "sandeep_dinesh" ],
       "tags" : [ "Cloud", "Firebase" ],
       "title" : "Serverless PB&J: Firebase and Google Cloud Functions"
-    },
-    "121" : {
-      "complexity" : "Beginner",
-      "description" : "Talk about the technologies we have developed, how we are helping cities, what IOT means for you, Components of a Smart City, How to get involved, network, infrastructure, cloud tools, Big Data. There are lots of ideas for the session.",
-      "language" : "English",
-      "speakers" : [ "matt_tymn" ],
-      "tags" : [ "IoT" ],
-      "title" : "Smart Cities - IoT - Smart Parking"
     },
     "122" : {
       "complexity" : "Beginner",
@@ -403,29 +379,29 @@
       "socials" : [ ],
       "title" : "Assistant Professor"
     },
-    "jessica_cha" : {
-      "bio" : "Jessica Dene Earley-Cha is the Director of Part Time Education at Hackbright Academy, where she leads all the part time course aimed to educating underrepresented persons into tech. She is active in Google Developers Group, Women Techmakers, Girl Develop It, Latin@s in Tech and DevelopHerDevelopHim. You'll find her either listening to other's life stories or coding one of her many personal projects.",
-      "company" : "Hackbright Academy",
-      "companyLogoUrl" : "",
-      "country" : "US",
-      "featured" : true,
-      "name" : "Jessica Dene Earley-Cha",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fjessica_earley_cha.jpg?alt=media&token=e988ddb2-fb4a-4106-98bb-c03cef332d03",
-      "shortBio" : "Jessica Dene Earley-Cha is the Director of Part Time Education at Hackbright Academy, where she leads all the part time course aimed to educating underrepresented persons into tech.",
-      "socials" : [ ],
-      "title" : "Education & Full Stack Engineer"
-    },
     "peter_easton" : {
       "bio" : "Five years ago I tried to do surface-mount PCB assembly in my garage. I didn't find a good solution so I set about trying to make something that would work, and work well. Today I am the #1 supplier of DIY reflow oven kits worldwide. Part of that success is that open-source my software and have a public build guide. This helps me to get feedback from industry experts, which in turn improves the information I offer.",
       "company" : "Self-employed",
       "companyLogoUrl" : "",
       "country" : "US",
       "featured" : true,
-      "name" : "Peter Easton & Melody Boates",
+      "name" : "Peter Easton",
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fpeter_melody.jpg?alt=media&token=c946a916-3470-4404-b9fc-b69136a91e4a",
       "shortBio" : "Five years ago I tried to do surface-mount PCB assembly in my garage. I didn't find a good solution so I set about trying to make something that would work, and work well. Today I am the #1 supplier of DIY reflow oven kits worldwide.",
       "socials" : [ ],
       "title" : "Engineer"
+    },
+    "melody_boates" : {
+      "bio" : "Melody has a passion to see our community thrive and enjoys drawing out the passions in others. She has an extensive background in marketing, with a bachelor’s degree in Digital Art & Design, and currently loves dabbling in electronics and creating steel drums from repurposed tanks over at our Central Valley’s own community makerspace, Ideaworks.",
+      "company" : "Self-employed, Fresno Ideaworks",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fideaworks-logo-invert.png?alt=media&token=844c0892-d2b9-4e02-9a2e-d19b76814a90",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Melody Boates",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fmelody_boates.jpg?alt=media&token=c4972aac-3f81-4d65-a52f-552e6a10f346",
+      "shortBio" : "Melody has a passion to see our community thrive and enjoys drawing out the passions in others. She has an extensive background in marketing, with a bachelor’s degree in Digital Art & Design, and currently loves dabbling in electronics and creating steel drums from repurposed tanks over at our Central Valley’s own community makerspace, Ideaworks.",
+      "socials" : [ ],
+      "title" : "Maker"
     },
     "saori_jansen" : {
       "bio" : "Saori is a Data Analyst at Fresno Unified School District and co-founded CoderGirlz, an after-school program that offers girls and young women an opportunity to explore coding and meet female role models in technology. She also organizes the district’s annual Tournament of Technology and is deeply invested in addressing the under-representation of women and minorities in STEM fields. Saori earned a Masters in Mathematics from California State University, Fresno and enjoys teaching part-time at local community colleges.",
@@ -467,18 +443,6 @@
         "name" : "Google+"
       } ],
       "title" : "Developer Advocate"
-    },
-    "matt_tymn" : {
-      "bio" : "Entrepreneur, product developer, and leader with over 16 years of diverse UI/UX software and hardware design, development and management. In-depth experience in highly-regulated environments. Ag, Cities, Education, Food Processing, Pharma and Tech.",
-      "company" : "One Sense",
-      "companyLogoUrl" : "",
-      "country" : "US",
-      "featured" : true,
-      "name" : "Matt Tymn",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fmatt_tymn.jpg?alt=media&token=53fb0034-b90c-44d7-9cda-d7edc2ee9a2a",
-      "shortBio" : "Entrepreneur, product developer, and leader with over 16 years of diverse UI/UX software and hardware design, development and management. In-depth experience in highly-regulated environments. Ag, Cities, Education, Food Processing, Pharma and Tech.",
-      "socials" : [ ],
-      "title" : "CEO"
     },
     "chris_esplin" : {
       "bio" : "I've been developing for web since 2011. My largest project is Calligraphy.org, a calligraphy teaching business that I run with my wife. I've became a Firebase Expert in 2013 and have used it for Calligraphy.org and all of my freelance and side projects.",
