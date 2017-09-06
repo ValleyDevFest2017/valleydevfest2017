@@ -70,30 +70,34 @@
     "speakers": {
       "title": "Speakers",
       "background": {
-        "color": "#DDD"
+        "color": "#673ab7",
+        "image": "/images/backgrounds/home.png"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "schedule": {
       "title": "Schedule",
       "background": {
-        "color": "#DDD"
+        "color": "#673ab7",
+        "image": "/images/backgrounds/home.png"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "team": {
       "title": "Team",
       "background": {
-        "color": "#DDD"
+        "color": "#673ab7",
+        "image": "/images/backgrounds/home.png"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     },
     "faq": {
       "title": "FAQs",
       "background": {
-        "color": "#DDD"
+        "color": "#673ab7",
+        "image": "/images/backgrounds/home.png"
       },
-      "fontColor": "#424242"
+      "fontColor": "#FFF"
     }
   },
   "location": {
