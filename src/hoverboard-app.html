@@ -276,6 +276,8 @@
           <a href="{$ nav.permalink $}" path="{$ nav.route $}" on-tap="closeDrawer">{$ nav.title $}</a>
           {% endfor %}
 
+          <a href="{$ sponsorship.permalink $}" target="_blank" on-tap="closeDrawer">{$ sponsorship.title $}</a>
+
           <a href="" on-tap="signIn" hidden$="[[user.signedIn]]">{$ signIn $}</a>
         </iron-selector>
 
@@ -309,6 +311,11 @@
                 <a href="{$ nav.permalink $}" layout vertical center-center>{$ nav.title $}</a>
               </paper-tab>
               {% endfor %}
+
+              <paper-tab name="{$ sponsorship.sponsor $}" class="nav-item" link>
+                <a href="{$ sponsorship.permalink $}" target="_blank" layout vertical center-center>{$ sponsorship.title $}</a>
+              </paper-tab>
+              
               <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
             </paper-tabs>
 

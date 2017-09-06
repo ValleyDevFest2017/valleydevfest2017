@@ -53,6 +53,11 @@
       "title": "Team"
     }
   ],
+  "sponsorship": {
+    "dummyRoute": "sponsor",
+    "permalink": "/images/backgrounds/sponsorship-levels.pdf",
+    "title": "Become a Sponsor"
+  },
   "heroSettings": {
     "home": {
       "description": "The biggest tech conference in the California Central Valley. All about Web, Cloud, Machine Learning and more.",
