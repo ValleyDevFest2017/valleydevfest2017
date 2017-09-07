@@ -645,6 +645,16 @@
           "icon": "gplus",
           "link": "//google.com/+AhsenBaig",
           "name": "Google+"
+        },
+        {
+          "icon": "github",
+          "link": "//github.com/AhsenBaig",
+          "name": "Github"
+        },
+        {
+          "icon": "twitter",
+          "link": "//twitter.com/AhsenBaig",
+          "name": "Twitter"
         }
       ],
       "title": "GDG Visalia Lead Organizer"
