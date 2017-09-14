@@ -70,7 +70,7 @@ function build() {
           .pipe(gulpif(/\.js$/, uglify()))
           .pipe(gulpif(/\.(html|css)$/, cssSlam()))
           .pipe(gulpif(/\.html$/, html.minify()))
-          .pipe(gulpif(/\.(png|gif|jpg|svg)$/, images.minify()))
+          // .pipe(gulpif(/\.(png|gif|jpg|svg)$/, images.minify()))
           .pipe(sourcesHtmlSplitter.rejoin());
 
         const dependenciesHtmlSplitter = new HtmlSplitter();
@@ -177,7 +177,7 @@ gulp.task('serve', gulp.series(compileTemplate, () => {
     'data/**/*.json',
     'scripts/**/*.js',
     'src/**/*.html',
-    './index.html',
+    '*.{html,js}',
     'manifest.json'
   ], gulp.series(compileTemplate, reload));
 }));
