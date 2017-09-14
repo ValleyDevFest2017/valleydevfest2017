@@ -47,6 +47,7 @@
         }, {
           "items" : [ 140 ]
         }, {
+          "extend" : 2,
           "items" : [ 150 ]
         } ],
         "startTime" : "10:00"
@@ -62,8 +63,6 @@
           "items" : [ 132 ]
         }, {
           "items" : [ 141 ]
-        }, {
-          "items" : [ 151 ]
         } ],
         "startTime" : "11:00"
       }, {
@@ -85,7 +84,8 @@
         }, {
           "items" : [ 142 ]
         }, {
-          "items" : [ 152 ]
+          "extend" : 2,
+          "items" : [ 151 ]
         } ],
         "startTime" : "13:00"
       }, {
@@ -100,8 +100,6 @@
           "items" : [ 130 ]
         }, {
           "items" : [ 143 ]
-        }, {
-          "items" : [ 153 ]
         } ],
         "startTime" : "14:00"
       }, {
@@ -324,22 +322,6 @@
       "title" : "Makerspace"
     },
     "151": {
-      "complexity" : "Beginner",
-      "description" : "TBD",
-      "language" : "English",
-      "speakers" : [ "andrew_runner", "joshua_houser" ],
-      "tags" : [ "DIY" ],
-      "title" : "Makerspace"
-    },
-    "152": {
-      "complexity" : "Beginner",
-      "description" : "TBD",
-      "language" : "English",
-      "speakers" : [ "andrew_runner", "joshua_houser" ],
-      "tags" : [ "DIY" ],
-      "title" : "Makerspace"
-    },
-    "153": {
       "complexity" : "Beginner",
       "description" : "TBD",
       "language" : "English",
