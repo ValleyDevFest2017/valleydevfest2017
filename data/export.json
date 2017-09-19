@@ -317,7 +317,7 @@
       "complexity" : "Beginner",
       "description" : "TBD",
       "language" : "English",
-      "speakers" : [ "andrew_runner", "joshua_houser" ],
+      "speakers" : [ "andrew_runner" ],
       "tags" : [ "DIY" ],
       "title" : "Makerspace"
     },
@@ -325,7 +325,7 @@
       "complexity" : "Beginner",
       "description" : "TBD",
       "language" : "English",
-      "speakers" : [ "andrew_runner", "joshua_houser" ],
+      "speakers" : [ "andrew_runner" ],
       "tags" : [ "DIY" ],
       "title" : "Makerspace"
     }
