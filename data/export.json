@@ -752,17 +752,17 @@
   },
   "videos" : [ {
     "speakers" : "Rio at all",
-    "thumbnail" : "/images/videos/valleydevfest2016.png",
+    "thumbnail" : "gs://vdf2017-3a9f6.appspot.com/videos/valleydevfest2016.png",
     "title" : "Valley DevFest 2016 promo",
     "youtubeId" : "8cnykM7UAy8"
   }, {
     "speakers" : "Ideaworks, Rio Waller",
-    "thumbnail" : "/images/videos/ideaworks2016.png",
+    "thumbnail" : "gs://vdf2017-3a9f6.appspot.com/videos/ideaworks2016.png",
     "title" : "Ideaworks at Valley DevFest 2016",
     "youtubeId" : "J_iSiUjWZMw"
   }, {
     "speakers" : "WTM",
-    "thumbnail" : "/images/videos/wtm2017.png",
+    "thumbnail" : "gs://vdf2017-3a9f6.appspot.com/videos/wtm2017.png",
     "title" : "Women Techmakers Fresno 2017 International Women's Day Celebration",
     "youtubeId" : "5kGK5TluapA"
   } ]
