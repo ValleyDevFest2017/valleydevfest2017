@@ -39,7 +39,7 @@
         "sessions" : [ {
           "items" : [ 110 ]
         }, {
-          "items" : [ 404 ]
+          "items" : [ 114 ]
         }, {
           "items" : [ 120 ]
         }, {
@@ -58,7 +58,7 @@
         }, {
           "items" : [ 115 ]
         }, {
-          "items" : [ 404 ]
+          "items" : [ 121 ]
         }, {
           "items" : [ 132 ]
         }, {
@@ -91,7 +91,7 @@
       }, {
         "endTime" : "14:45",
         "sessions" : [ {
-          "items" : [ 404 ]
+          "items" : [ 113 ]
         }, {
           "items" : [ 117 ]
         }, {
@@ -189,6 +189,22 @@
       "tags" : [ "AR" ],
       "title" : "Augmented Reality: what is it and how can I use it?"
     },
+    "113" : {
+      "complexity" : "Beginner",
+      "description" : "This would be a tech talk about how I utilized the free resources online to help me learn how to design graphics, how technology allow me to create different streams of revenue, and share information about the various resources and platforms that people can use to create opportunities and brand themselves in tech.",
+      "language" : "English",
+      "speakers" : [ "monisha_edwards" ],
+      "tags" : [ "UX" ],
+      "title" : "How Design & Technology Gave Me A Chance"
+    },
+    "114" : {
+      "complexity" : "Beginner",
+      "description" : "I will talk about my journey as a digital marketer and how I've created revenue streams on Empowering Women Now. I will discuss how I used Instagram, Pinterest, Twitter, and Facebook to grow my brand and revenue.",
+      "language" : "English",
+      "speakers" : [ "selene_kinder" ],
+      "tags" : [ "Marketing" ],
+      "title" : "How To Create Revenue Streams Online"
+    },
     "115" : {
       "complexity" : "Beginner",
       "description" : "Components are getting smaller and the best IC's are only available in surface-mount packages.  Through-hole soldering is so old school, but the good news is that surface-mount makes things easier and quicker.  Come and learn tricks and techniques to be successful, and see how easy it is.  We'll talk about various soldering methods, and things to look for when choosing your equipment.  The talk is aimed at hobbyists, small businesses and even large corporations looking to bring prototyping in-house.",
@@ -221,6 +237,14 @@
       "speakers" : [ "sandeep_dinesh" ],
       "tags" : [ "Cloud", "Firebase" ],
       "title" : "Serverless PB&J: Firebase and Google Cloud Functions"
+    },
+    "121": {
+      "complexity" : "Beginner",
+      "description" : "Agrian's NextGen buildout required challenging everything we thought we knew and architecting for many things we didn't. Meeting scalability requirements would be among the most difficult tasks we'd approach. In the first 2 years, seasonal ag practices would produce millions of acres of agricultural records coming in the form of billions of readings of machinery data, millions of acres of multispectral satellite imagery, soil laboratory results, field scouting observations, etc. - all to be consumed and processed by a system in its infancy. This session will cover the lessons learned when building a new team and a new system to serve an industry that can't be asked for a break mid-season.",
+      "language" : "English",
+      "speakers" : [ "peter_brandt" ],
+      "tags" : [ "Cloud", "Firebase" ],
+      "title" : "0-100: Scaling a new team and new system with no brakes"
     },
     "122" : {
       "complexity" : "Beginner",
@@ -562,6 +586,43 @@
         "name" : "Facebook"
       } ],
       "title" : "Blacksmith Instructor"
+    },
+
+    "monisha_edwards" : {
+      "bio" : "Monisha Edwards is a Creative Strategist, specializing in Branding, User Interface, and User Experience. She received her Bachelors of Science in Marketing from Fresno State University. Monisha started her first company while in college at the tender age of 19 to help her pay for tuition. She is now the Founder of Truth Branding Agency. She is also the Founder of Literacy Fresno, a literacy and literature exchange initiative. Monisha is an active servant of the community, especially Downtown Fresno, and is currently enrolled in Leadership Fresno.",
+      "company" : "Truth Branding Agency",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : false,
+      "name" : "Monisha Edwards",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fmonisha_edwards.jpg?alt=media&token=a2f189a2-3b35-4a25-a484-94c87bf9b4ea",
+      "shortBio" : "Monisha Edwards is a Creative Strategist, specializing in Branding, User Interface, and User Experience. She received her Bachelors of Science in Marketing from Fresno State University.",
+      "socials" : [ ],
+      "title" : "Creative Business Owner"
+    },
+    "selene_kinder" : {
+      "bio" : "My name is Selene Kinder and I am the founder of Empowering Women Now. Empowering Women Now is devoted to the growth + development of women. I aim to inspire and teach women a different way of viewing themselves and the women around them. The only way women progress is by working together. Instead of competing with one another I believe in empowering each other with knowledge & support. Here, I share knowledge and inspiration on becoming your best self and creating your dream life. I've created a community of over 300,000 women that support one another. I recently launched a membership component to my site that gives women the tools to take their business to the next level.",
+      "company" : "Empowering Women Now",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : false,
+      "name" : "Selene Kinder",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fselene_kinder.jpg?alt=media&token=d8c245ab-2c4f-412f-9cb9-304a65b8281d",
+      "shortBio" : "My name is Selene Kinder and I am the founder of Empowering Women Now. Empowering Women Now is devoted to the growth + development of women. I aim to inspire and teach women a different way of viewing themselves and the women around them.",
+      "socials" : [ ],
+      "title" : "Founder"
+    },
+    "peter_brandt" : {
+      "bio" : "Peter joined Agrian in 2013 to build and lead the engineering teams necessary to launch Agrian's NextGen Ag platform project. Peter oversees all software engineering teams in 3 countries and continues to drive technology innovations at Agrian. Prior to joining Agrian, he spent five years at Pelco (Schneider Electric subsidiary) as a global engineering manager and product owner for large-scale IP video storage, transmission, analytics, and embedded Linux software and hardware products/teams in the high-liability video surveillance space.",
+      "company" : "Agrian",
+      "companyLogoUrl" : "",
+      "country" : "US",
+      "featured" : false,
+      "name" : "Peter Brandt",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fanonymous.jpg?alt=media&token=bce8b275-ecb8-4597-8f77-5916ca322c61",
+      "shortBio" : "Peter joined Agrian in 2013 to build and lead the engineering teams necessary to launch Agrian's NextGen Ag platform project. Peter oversees all software engineering teams in 3 countries and continues to drive technology innovations at Agrian.",
+      "socials" : [ ],
+      "title" : "Chief Technology Officer"
     }
   },
   "team" : [ {
