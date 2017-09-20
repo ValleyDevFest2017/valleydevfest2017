@@ -554,22 +554,6 @@
     },
 
 
-    "joshua_houser" : {
-      "bio" : "Founding member of Fresno Ideaworks, served roles in pushing brooms, opening doors, giant CNC programming, welding, community projects and outreach. One of the main geeks involved in Super Sumo Saturdays, helping folks put together and program their first Sumo Bot. Guilty for the creation of \"Smiley\", the somewhat erratic, pushy sumo bot. Also, a long time mentor for area FIRST Robotics teams, regional Judge Advisor for the Central Valley FIRST Robotics Competition and FLL Judge for the past 4 years. Also 20 years at Schneider Electric.",
-      "company" : "Fresno Ideaworks, Schneider Electric",
-      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fideaworks-logo-invert.png?alt=media&token=844c0892-d2b9-4e02-9a2e-d19b76814a90",
-      "country" : "US",
-      "featured" : false,
-      "name" : "Joshua Houser",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fjoshua_houser.jpg?alt=media&token=1ed52f7d-9f47-4d70-a90d-a6ce76e706f9",
-      "shortBio" : "CAD Geek, Coffee addict and love playing in the dirt and on the rocks",
-      "socials" : [ {
-        "icon" : "twitter",
-        "link" : "//twitter.com/pelcojosh",
-        "name" : "Twitter"
-      } ],
-      "title" : "Robot dude"
-    },
     "andrew_runner" : {
       "bio" : "Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
       "company" : "Fresno Ideaworks, Hackerspace",
