@@ -755,7 +755,7 @@
       "title": "Committee member"
     }, {
       "name": "Paul Ramirez Jr.",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fanonymous.jpg?alt=media&token=bce8b275-ecb8-4597-8f77-5916ca322c61",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fpaul_ramirez.jpg?alt=media&token=c45b5eee-9084-4d51-b566-3fe86b006afc",
       "socials": [
       ],
       "title": "Committee member"
@@ -765,7 +765,13 @@
       "socials": [
       ],
       "title": "Committee member"
-    } ],
+    }, {
+      "name": "Martina Her",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fmartina_her.jpg?alt=media&token=c7e74c29-7afd-4595-b900-7347aea926de",
+      "socials": [
+      ],
+      "title": "Committee member"
+    }],
     "title" : "COMMITTEE MEMBERS"
   } ],
   "tickets" : {
