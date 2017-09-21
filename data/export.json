@@ -555,19 +555,23 @@
 
 
     "andrew_runner" : {
-      "bio" : "Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
-      "company" : "Fresno Ideaworks, Hackerspace",
-      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fideaworks-logo-invert.png?alt=media&token=844c0892-d2b9-4e02-9a2e-d19b76814a90",
+      "bio" : "Chief Operations Officer at Root Access Hackerspace, Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
+      "company" : "Root Access Hackerspace, Fresno Ideaworks",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Froot-access.jpg?alt=media&token=2dc26a40-8eec-45d4-ad02-3cc29321a78e",
       "country" : "US",
       "featured" : false,
       "name" : "Andrew Runner",
       "order" : 4,
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fandrew_runner.jpg?alt=media&token=86a7e7e2-1743-4194-b6f2-b0139dfef501",
-      "shortBio" : "Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
+      "shortBio" : "Chief Operations Officer at Root Access Hackerspace, Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
       "socials" : [ {
         "icon" : "facebook",
-        "link" : "https://www.facebook.com/drewdaro",
+        "link" : "//www.facebook.com/RootAccessHackerspace",
         "name" : "Facebook"
+      }, {
+        "icon": "twitter",
+        "link": "//twitter.com/RootAccessCA",
+        "name": "Twitter"
       } ],
       "title" : "Blacksmith Instructor"
     },
