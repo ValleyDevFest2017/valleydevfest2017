@@ -627,6 +627,16 @@
           "icon": "gplus",
           "link": "//plus.google.com/b/114769570436363155784/106036726594291409241",
           "name": "Google+"
+        },
+        {
+          "icon": "twitter",
+          "link": "//twitter.com/tdesignerwth",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "//www.linkedin.com/in/nancymohamed",
+          "name": "Linkedin"
         }
       ],
       "title": "VDF Conference director, GDG Fresno co-organizer"
