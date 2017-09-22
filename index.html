@@ -80,7 +80,7 @@
     // Load and register pre-caching Service Worker
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register(`service-worker.js`, {
+        navigator.serviceWorker.register('service-worker.js', {
           scope: Polymer.rootPath
         });
       });
@@ -89,7 +89,7 @@
     function loadFirebaseModule() {
       return new Promise(resolve => {
         const script = document.createElement('script');
-        script.src = `bower_components/firebase/firebase.js`;
+        script.src = 'bower_components/firebase/firebase.js';
         script.async = true;
         script.onload = () => resolve();
         script.onerror = () => { throw new Error(); };
