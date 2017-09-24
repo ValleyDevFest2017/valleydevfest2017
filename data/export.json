@@ -43,9 +43,9 @@
         }, {
           "items" : [ 120 ]
         }, {
-          "items" : [ 131 ]
+          "items" : [ 142 ]
         }, {
-          "items" : [ 140 ]
+          "items" : [ 133 ]
         }, {
           "extend" : 2,
           "items" : [ 150 ]
@@ -58,11 +58,11 @@
         }, {
           "items" : [ 115 ]
         }, {
-          "items" : [ 121 ]
-        }, {
-          "items" : [ 132 ]
+          "items" : [ 122 ]
         }, {
           "items" : [ 141 ]
+        }, {
+          "items" : [ 132 ]
         } ],
         "startTime" : "11:00"
       }, {
@@ -78,11 +78,11 @@
         }, {
           "items" : [ 116 ]
         }, {
-          "items" : [ 122 ]
+          "items" : [ 121 ]
         }, {
-          "items" : [ 133 ]
+          "items" : [ 144 ]
         }, {
-          "items" : [ 142 ]
+          "items" : [ 131 ]
         }, {
           "extend" : 2,
           "items" : [ 151 ]
@@ -97,9 +97,9 @@
         }, {
           "items" : [ 123 ]
         }, {
-          "items" : [ 130 ]
-        }, {
           "items" : [ 143 ]
+        }, {
+          "items" : [ 130 ]
         } ],
         "startTime" : "14:00"
       }, {
@@ -110,17 +110,35 @@
         "startTime" : "15:00"
       } ],
       "tracks" : [ {
-        "title" : "Tech Talks"
+        "title" : "Tech Talks",
+        "location": "Theater",
+        "capacity": 160,
+        "color": "9cd9e8"
       }, {
-        "title" : "Tech Talks"
+        "title" : "Tech Talks",
+        "location": "Room 1",
+        "capacity": 35,
+        "color": "9cd9e8"
+        }, {
+        "title" : "Cloud",
+        "location": "Room 2",
+        "capacity": 36,
+        "color": "f15c5e"
       }, {
-        "title" : "Cloud"
+        "title" : "Design",
+        "location": "Room 3",
+        "capacity": 36,
+        "color": "c4dc81"
       }, {
-        "title" : "Mobile, Web, & Machine Learning"
+        "title" : "Mobile, Web, & Machine Learning",
+        "location": "Room 4",
+        "capacity": 50,
+        "color": "9491c5"
       }, {
-        "title" : "Design"
-      }, {
-        "title" : "Maker Space"
+        "title" : "Maker Space",
+        "location": "Room 5",
+        "capacity": 50,
+        "color": "f6b26b"
       } ]
     }
   },
@@ -153,6 +171,7 @@
     },
     "104" : {
       "description" : "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+      "icon": "party",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Fclosing.png?alt=media&token=8746ba20-4562-4dc3-96be-d68b8d3ccf10",
       "title" : "Conference closing and winner announcements",
       "complexity" : "Beginner",
