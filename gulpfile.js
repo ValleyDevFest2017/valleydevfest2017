@@ -69,9 +69,9 @@ function build() {
         const sourcesStream = polymerProject.sources()
           .pipe(sourcesHtmlSplitter.split())
           //.pipe(gulpif(/\.js$/, uglify()))
-          .pipe(gulpif(/\.js$/, babel({
-            presets: ['es2015']
-          })))
+          // .pipe(gulpif(/\.js$/, babel({
+          //   presets: ['es2015']
+          // })))
           .pipe(gulpif(/\.(html|css)$/, cssSlam()))
           .pipe(gulpif(/\.html$/, html.minify()))
           // .pipe(gulpif(/\.(png|gif|jpg|svg)$/, images.minify()))
@@ -82,9 +82,9 @@ function build() {
           .pipe(dependenciesHtmlSplitter.split())
           // Doesn't work for now
           //.pipe(gulpif(/\.js$/, uglify()))
-          .pipe(gulpif(/\.js$/, babel({
-            presets: ['es2015']
-          })))
+          // .pipe(gulpif(/\.js$/, babel({
+          //   presets: ['es2015']
+          // })))
           .pipe(gulpif(/\.(html|css)$/, cssSlam()))
           .pipe(gulpif(/\.html$/, html.minify()))
           .pipe(dependenciesHtmlSplitter.rejoin());
