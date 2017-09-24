@@ -113,32 +113,32 @@
         "title" : "Tech Talks",
         "location": "Theater",
         "capacity": 160,
-        "color": "9cd9e8"
+        "color": "#9cd9e8"
       }, {
         "title" : "Tech Talks",
         "location": "Room 1",
         "capacity": 35,
-        "color": "9cd9e8"
+        "color": "#9cd9e8"
         }, {
         "title" : "Cloud",
         "location": "Room 2",
         "capacity": 36,
-        "color": "f15c5e"
+        "color": "#f15c5e"
       }, {
         "title" : "Design",
         "location": "Room 3",
         "capacity": 36,
-        "color": "c4dc81"
+        "color": "#c4dc81"
       }, {
         "title" : "Mobile, Web, & Machine Learning",
         "location": "Room 4",
         "capacity": 50,
-        "color": "9491c5"
+        "color": "#9491c5"
       }, {
         "title" : "Maker Space",
         "location": "Room 5",
         "capacity": 50,
-        "color": "f6b26b"
+        "color": "#f6b26b"
       } ]
     }
   },
@@ -149,7 +149,6 @@
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Fregistration.jpg?alt=media&token=fb132ccd-4bd2-4c5b-be30-1eb3a4ec1c16",
       "language" : "English",
       "title" : "Registration & morning Coffee",
-      "complexity" : "Beginner",
       "tags" : [ "General" ]
     },
     "102" : {
@@ -158,7 +157,6 @@
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Fopening.jpg?alt=media&token=f9e6f0b3-a6cc-4ff0-8780-0093f7181231",
       "language" : "English",
       "title" : "Valley DevFest 2017 Opening with keynote speaker Speechless!",
-      "complexity" : "Beginner",
       "tags" : [ "General" ]
     },
     "103" : {
@@ -166,7 +164,6 @@
       "icon" : "lunch",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Flunch.jpg?alt=media&token=eb969ee7-f81e-4219-bd57-83ea828c9111",
       "title" : "Lunch",
-      "complexity" : "Beginner",
       "tags" : [ "General" ]
     },
     "104" : {
@@ -174,18 +171,16 @@
       "icon": "party",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Fclosing.png?alt=media&token=8746ba20-4562-4dc3-96be-d68b8d3ccf10",
       "title" : "Conference closing and winner announcements",
-      "complexity" : "Beginner",
       "tags" : [ "General" ]
     },
     "404" : {
       "description" : "TBD",
       "title" : "TBD",
-      "complexity" : "Beginner",
       "tags" : [ "General" ]
     },
 
     "110" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "The mobile development world is rapidly evolving and combining with a mesh of connected IoT devices. This talk will introduce you to Android's newest form factor: Android Things, and what you can do with it to quickly and easily prototype new connected devices in order to jump start your ideas for the next major technology market.",
       "language" : "English",
       "speakers" : [ "paul_trebilcox_ruiz" ],
@@ -193,7 +188,7 @@
       "title" : "Quickly Develop for IoT with Android Things"
     },
     "111" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Cybersecurity is a threat to everyone. Everything is breachable but how resistant are your systems to a breach? In this session learn techniques to secure your developed code, your intellectual property, and your systems. Also hear what management and corporate boards are concerned about in regards to cybersecurity.",
       "language" : "English",
       "speakers" : [ "cassie_crossley" ],
@@ -201,7 +196,7 @@
       "title" : "Developing with CyberSecurity in Mind"
     },
     "112" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Augmented reality, mixed reality, and virtual reality sounds exciting but whats the difference? More importantly, what can I do with augmented reality in my own life? Augmented reality (AR) allows for the blending of digital and physical worlds. Recently, there have been exciting advances in AR technology, including Google Lens and Tango. Let's take a look at what AR is and what Google has made possible through Tango and Google Lens.",
       "language" : "English",
       "speakers" : [ "laura_huisinga" ],
@@ -209,7 +204,7 @@
       "title" : "Augmented Reality: what is it and how can I use it?"
     },
     "113" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "This would be a tech talk about how I utilized the free resources online to help me learn how to design graphics, how technology allow me to create different streams of revenue, and share information about the various resources and platforms that people can use to create opportunities and brand themselves in tech.",
       "language" : "English",
       "speakers" : [ "monisha_edwards" ],
@@ -217,7 +212,7 @@
       "title" : "How Design & Technology Gave Me A Chance"
     },
     "114" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "I will talk about my journey as a digital marketer and how I've created revenue streams on Empowering Women Now. I will discuss how I used Instagram, Pinterest, Twitter, and Facebook to grow my brand and revenue.",
       "language" : "English",
       "speakers" : [ "selene_kinder" ],
@@ -225,7 +220,7 @@
       "title" : "How To Create Revenue Streams Online"
     },
     "115" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Components are getting smaller and the best IC's are only available in surface-mount packages.  Through-hole soldering is so old school, but the good news is that surface-mount makes things easier and quicker.  Come and learn tricks and techniques to be successful, and see how easy it is.  We'll talk about various soldering methods, and things to look for when choosing your equipment.  The talk is aimed at hobbyists, small businesses and even large corporations looking to bring prototyping in-house.",
       "language" : "English",
       "speakers" : [ "melody_boates", "peter_easton" ],
@@ -233,7 +228,7 @@
       "title" : "DIY Reflow Oven"
     },
     "116" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "What challenges do girls and young women face that leads to their under-representation in technology? What is being done now to increase female participation while school districts and the State of California move slowly to address the lack of Computer Science curriculum in public schools? What has been the response of students to after-school coding clubs at Fresno Unified? Is the model gaining momentum and is it scalable? What does the future hold for CoderGirlz? Saori will address these questions and more as she shares her experiences starting and growing coding clubs for girls.",
       "language" : "English",
       "speakers" : [ "saori_jansen" ],
@@ -241,7 +236,7 @@
       "title" : "Priming the Pipeline: Acting Now to Support Young Female Coders"
     },
     "117" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "For session one I would like to discuss the necessity of technology in schools and my experience being apart of the Sanger High Robotics team. I'd also like to stress how important it is for girls to get involved in tech and not fall for the “it's not a girl job“ trap. Tech is about teamwork and leadership. The more tech in the education system the more success future generations will have when problems like global warming are presented to them.",
       "language" : "English",
       "speakers" : [ "laura_ann_vandiver" ],
@@ -250,7 +245,7 @@
     },
 
     "120" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "From Functions-as-a-Service to Backend-as-a-Service, even Big Data-as-a-Service, Serverless is taking many different shapes. Learn what these mean and how Google Cloud Platform is building technology to make sure there's nothing standing between you and running your code. You'll see live demos of integration between Firebase, Cloud Functions, and more to build autoscaling apps in record time - all without managing servers or application runtimes.",
       "language" : "English",
       "speakers" : [ "sandeep_dinesh" ],
@@ -258,7 +253,7 @@
       "title" : "Serverless PB&J: Firebase and Google Cloud Functions"
     },
     "121": {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Agrian's NextGen buildout required challenging everything we thought we knew and architecting for many things we didn't. Meeting scalability requirements would be among the most difficult tasks we'd approach. In the first 2 years, seasonal ag practices would produce millions of acres of agricultural records coming in the form of billions of readings of machinery data, millions of acres of multispectral satellite imagery, soil laboratory results, field scouting observations, etc. - all to be consumed and processed by a system in its infancy. This session will cover the lessons learned when building a new team and a new system to serve an industry that can't be asked for a break mid-season.",
       "language" : "English",
       "speakers" : [ "peter_brandt" ],
@@ -266,7 +261,7 @@
       "title" : "0-100: Scaling a new team and new system with no brakes"
     },
     "122" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "So you're about to dip your toes into Firebase's waters... but where to start? Learn to architect your Firebase app. Read the right blog posts and watch the right YouTube vids to get started fast.",
       "language" : "English",
       "speakers" : [ "chris_esplin" ],
@@ -274,7 +269,7 @@
       "title" : "Firebase Architecture"
     },
     "123" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "A quick rundown of what services Google as rolled into Firebase and how these services improve development velocity for your teams.",
       "language" : "English",
       "speakers" : [ "chris_esplin" ],
@@ -283,7 +278,7 @@
     },
 
     "130" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Most Android apps on the market connect to some form of backend service, but most mobile developers do not set up their own server apps. In this talk you will learn about Google's Firebase service and how to add it to your Android apps, as well as what Firebase can provide in order to build useful and great applications.",
       "language" : "English",
       "speakers" : [ "paul_trebilcox_ruiz" ],
@@ -291,15 +286,15 @@
       "title" : "Android and Firebase"
     },
     "131" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Everyone talks about how machine learning will transform business. However, it’s surprisingly simple to draw completely wrong conclusions from statistical models, and “correlation does not imply causation” is just the tip of the iceberg. The trend of the democratization of data science further increases the risk for applying models incorrectly. This session will discuss: - How highly-correlated features overshadow the patterns your machine learning model is supposed to find - How incorrect cross-validation lead to over-optimistic estimations of your model accuracy - How feature engineering can lift simple models like linear regression to the accuracy of deep learning",
       "language" : "English",
       "speakers" : [ "ingo_mierswa" ],
-      "tags" : [ "Machine Learning", "Deep Learning" ],
+      "tags" : [ "Machine Learning" ],
       "title" : "How to Ruin Your Business with Machine Learning"
     },
     "132" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Build Web Apps that easily scale to millions of individuals with Google’s Go language (Golang). You will leave with resources and code samples to start making all of your software and apps really go.",
       "language" : "English",
       "speakers" : [ "todd_mcLeod" ],
@@ -307,7 +302,7 @@
       "title" : "Web Programming with Go"
     },
     "133" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "React JS is a popular framework developed internally by Facebook. It is clearly dominating the market and for any aspiring dev, it would be a great framework to have in your resume.",
       "language" : "English",
       "speakers" : [ "robert_aguilar" ],
@@ -316,23 +311,23 @@
     },
 
     "140" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Laying out a webpage with CSS can be tricky, but it doesn't have to be difficult.  Let's cover how we used to layout a webpage (floats), and how easy it is now with Flexbox and CSS Grid.",
       "language" : "English",
       "speakers" : [ "robert_aguilar" ],
-      "tags" : [ "UX", "Web", "CSS" ],
+      "tags" : [ "Web", "UX", "CSS" ],
       "title" : "Layouts with CSS: The Ancient, The Good, The New"
     },
     "141" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Using service workers and other modern progressive web apps capabilities we can update our web applications to be offline-fires. In this session we'll show how to easily convert your applications be usable without the internet connection.",
       "language" : "English",
       "speakers" : [ "miles_sebesta" ],
-      "tags" : [ "Data Science", "Machine Learning" ],
+      "tags" : [ "Data Science" ],
       "title" : "Growth Hacking: Become a Mad Design Scientist"
     },
     "142" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Augmented reality can be a powerful tool in the classroom. The user experience design of educational AR needs the combined expertise of educators and designers. With recent advances in technology the blending of digital and physical though AR as a medium has become increasingly accessible. What are some benefits of using AR in the classroom? How can AR be implemented in the classroom now and in the future? What resources does Google have for AR When designing AR for the classroom UX designers should understand the educational benefits AR can provide.",
       "language" : "English",
       "speakers" : [ "laura_huisinga" ],
@@ -340,7 +335,7 @@
       "title" : "Designing augmented reality for the classroom"
     },
     "143" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Product design is a challenging, yet rewarding field. Learn about what digital product design is, what this design process looks like, typical challenges designers face and what the future of product design could be.",
       "language" : "English",
       "speakers" : [ "allison_liles" ],
@@ -348,7 +343,7 @@
       "title" : "Beyond Pixel Pushing: An Introduction to Digital Product Design"
     },
     "144" : {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "Sure, bootstrap styles are all well and good. Actually, they're great. Right up until you need to override something. At that point, you usually start preparing to sacrifice your first-born child in order to get everything working how you want it to. There is nothing to fear and everything to gain by writing your own styles… from scratch! That's right, there is more than just Angular to a complete and whole application. This show will address the burning questions that keep you all awake every night: 1. “Okay, I've got the functionality, now what do I do?“ 2. “Why can't I just use bootstrap and ship it?“ 3. “Will Alyssa ever tell me how to CSS without bootstrap?!“",
       "language" : "English",
       "speakers" : [ "alyssa_nicoll" ],
@@ -357,7 +352,7 @@
     },
 
     "150": {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "TBD",
       "language" : "English",
       "speakers" : [ "andrew_runner" ],
@@ -365,7 +360,7 @@
       "title" : "Hackerspace"
     },
     "151": {
-      "complexity" : "Beginner",
+      "complexity" : "",
       "description" : "TBD",
       "language" : "English",
       "speakers" : [ "andrew_runner" ],
