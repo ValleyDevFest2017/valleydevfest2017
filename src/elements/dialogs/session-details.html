@@ -56,10 +56,11 @@
           ></paper-fab>
         </div>
         <h3 class="meta-info">Time: [[session.startTime]] - [[session.endTime]]</h3>
-        <h3 class="meta-info">Track: [[session.track.title]]</h3>
         <h3 class="meta-info" hidden$="[[!session.complexity]]">{$ sessionDetails.contentLevel $}:
           [[session.complexity]]</h3>
-
+        <h3 class="meta-info" hidden$="[[session.icon]]">Location: [[session.track.location]]</h3>
+        <h3 class="meta-info">Track: [[session.track.title]]</h3>
+        
         <marked-element class="description" markdown="[[session.description]]">
           <div slot="markdown-html"></div>
         </marked-element>
