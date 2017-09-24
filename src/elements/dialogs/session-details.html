@@ -55,8 +55,8 @@
             on-tap="_toggleFeaturedSession"
           ></paper-fab>
         </div>
-        <h3 class="meta-info">[[session.dateReadable]], [[session.startTime]] - [[session.endTime]]</h3>
-        <h3 class="meta-info">[[session.track.title]]</h3>
+        <h3 class="meta-info">Time: [[session.startTime]] - [[session.endTime]]</h3>
+        <h3 class="meta-info">Track: [[session.track.title]]</h3>
         <h3 class="meta-info" hidden$="[[!session.complexity]]">{$ sessionDetails.contentLevel $}:
           [[session.complexity]]</h3>
 
