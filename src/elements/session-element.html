@@ -134,7 +134,7 @@
         icon="hoverboard:[[session.icon]]"
       ></iron-icon>
 
-      <div class="session-header" layout horizontal justified>
+      <div class="session-header" layout horizontal justified style$="background-color: [[_getSessionColor(session.track.color, session.icon)]]">
         <div flex>
           <h3 class="session-title">[[session.title]]</h3>
         </div>
@@ -218,6 +218,12 @@
           return ShadyCSS.getComputedStyleValue(this, `--${this.generateClassName(value)}`);
         }
         return getComputedStyle(this, `--${this.generateClassName(value)}`);
+      }
+
+      _getSessionColor(color, icon) {
+        if (icon)
+          return '#ffffff';
+        return color;
       }
 
       _isFeatured(featuredSessions, sessionId) {

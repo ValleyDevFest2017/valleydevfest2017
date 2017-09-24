@@ -21,7 +21,7 @@
     <style is="custom-style" include="shared-styles dialog-styles flex flex-alignment positioning"></style>
 
     <app-header-layout has-scrolling-region>
-      <app-header slot="header" class="header" fixed="[[viewport.isTabletPlus]]">
+      <app-header slot="header" class="header" fixed="[[viewport.isTabletPlus]]" style$="background-color: [[_getSessionColor(session.track.color, session.icon)]]">
         <iron-icon
           class="close-icon"
           icon="hoverboard:[[_getCLoseBtnIcon(viewport.isLaptopPlus)]]"
@@ -166,6 +166,12 @@
           return ShadyCSS.getComputedStyleValue(this, `--${this.generateClassName(value)}`);
         }
         return getComputedStyle(this, `--${this.generateClassName(value)}`);
+      }
+
+      _getSessionColor(color, icon) {
+        if (icon)
+          return '#ffffff';
+        return color;
       }
 
       _getCLoseBtnIcon(isLaptopViewport) {
