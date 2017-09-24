@@ -113,32 +113,32 @@
         "title" : "Tech Talks",
         "location": "Theater",
         "capacity": 160,
-        "color": "#9cd9e8"
+        "color": "rgb(156, 217, 232, 0.8)"
       }, {
         "title" : "Tech Talks",
         "location": "Room 1",
         "capacity": 35,
-        "color": "#9cd9e8"
+        "color": "rgb(156, 217, 232, 0.8)"
         }, {
         "title" : "Cloud",
         "location": "Room 2",
         "capacity": 36,
-        "color": "#f15c5e"
+        "color": "rgb(241, 92, 94, 0.8)"
       }, {
         "title" : "Design",
         "location": "Room 3",
         "capacity": 36,
-        "color": "#c4dc81"
+        "color": "rgb(196, 220, 129, 0.8)"
       }, {
         "title" : "Mobile, Web, & Machine Learning",
         "location": "Room 4",
         "capacity": 50,
-        "color": "#9491c5"
+        "color": "rgb(148, 145, 197, 0.8)"
       }, {
         "title" : "Maker Space",
         "location": "Room 5",
         "capacity": 50,
-        "color": "#f6b26b"
+        "color": "rgb(246, 178, 107, 0.8)"
       } ]
     }
   },
@@ -353,7 +353,7 @@
 
     "150": {
       "complexity" : "",
-      "description" : "TBD",
+      "description" : "Prototype and develop your own personal asssitant from the ground to the top, hardware and software",
       "language" : "English",
       "speakers" : [ "andrew_runner" ],
       "tags" : [ "DIY" ],
@@ -361,7 +361,7 @@
     },
     "151": {
       "complexity" : "",
-      "description" : "TBD",
+      "description" : "Prototype and develop your own personal asssitant from the ground to the top, hardware and software",
       "language" : "English",
       "speakers" : [ "andrew_runner" ],
       "tags" : [ "DIY" ],
