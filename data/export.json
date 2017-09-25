@@ -305,7 +305,7 @@
       "complexity" : "",
       "description" : "React JS is a popular framework developed internally by Facebook. It is clearly dominating the market and for any aspiring dev, it would be a great framework to have in your resume.",
       "language" : "English",
-      "speakers" : [ "robert_aguilar" ],
+      "speakers" : [ "robert_aguilera" ],
       "tags" : [ "Web", "React" ],
       "title" : "An Intro to React"
     },
@@ -314,7 +314,7 @@
       "complexity" : "",
       "description" : "Laying out a webpage with CSS can be tricky, but it doesn't have to be difficult.  Let's cover how we used to layout a webpage (floats), and how easy it is now with Flexbox and CSS Grid.",
       "language" : "English",
-      "speakers" : [ "robert_aguilar" ],
+      "speakers" : [ "" ],
       "tags" : [ "Web", "UX", "CSS" ],
       "title" : "Layouts with CSS: The Ancient, The Good, The New"
     },
@@ -512,15 +512,15 @@
       "socials" : [ ],
       "title" : "Tenured Faculty"
     },
-    "robert_aguilar" : {
-      "bio" : "I am a former teacher, now software engineer. Born and raised in the central valley, I work for a market research company as a software engineer.",
-      "company" : "FocusVision",
+    "robert_aguilera" : {
+      "bio" : "Robert Aguilera was born and raised here in the Central Valley and learned early on that he had a knack for breaking his parent's computer.  After a brief stint as a teacher he pursued a career as a software engineer and never looked back.  He's got a knack for the front end of things and is currently exploring the React ecosystem.  When he's not confined to the walls of his cubicle you can find him teaching at Meetups, catching a local rock show, or endlessly tweaking his VIM setup.",
+      "company" : "FocusVision Inc",
       "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Ffocus-vision.png?alt=media&token=d5b7867a-2336-4bf5-8181-e6b453f8aa9e",
       "country" : "US",
       "featured" : false,
-      "name" : "Robert Aguilar",
+      "name" : "Robert Aguilera",
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Frobert_aguilar.jpg?alt=media&token=995d969e-d45f-49f7-8cb7-a39bbd4067aa",
-      "shortBio" : "I am a former teacher, now software engineer. Born and raised in the central valley, I work for a market research company as a software engineer.",
+      "shortBio" : "Robert Aguilera was born and raised here in the Central Valley and learned early on that he had a knack for breaking his parent's computer.  After a brief stint as a teacher he pursued a career as a software engineer and never looked back.  He's got a knack for the front end of things and is currently exploring the React ecosystem.  When he's not confined to the walls of his cubicle you can find him teaching at Meetups, catching a local rock show, or endlessly tweaking his VIM setup.",
       "socials" : [ ],
       "title" : "Software Engineer"
     },
