@@ -49,6 +49,9 @@
         }, {
           "extend" : 2,
           "items" : [ 150 ]
+        }, {
+          "extend" : 2,
+          "items" : [ ]
         } ],
         "startTime" : "10:00"
       }, {
@@ -86,6 +89,9 @@
         }, {
           "extend" : 2,
           "items" : [ 151 ]
+        }, {
+          "extend" : 2,
+          "items" : [ 105 ]
         } ],
         "startTime" : "13:00"
       }, {
@@ -139,6 +145,11 @@
         "location": "Room 5",
         "capacity": 50,
         "color": "rgba(246, 178, 107, 0.8)"
+      }, {
+        "title" : "Blood Drive",
+        "location": "Parking Lot",
+        "capacity": 350,
+        "color": "rgba(224, 102, 102, 0.8)"
       } ]
     }
   },
@@ -172,6 +183,11 @@
       "icon": "party",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Fclosing.png?alt=media&token=8746ba20-4562-4dc3-96be-d68b8d3ccf10",
       "title" : "Conference closing and winner announcements",
+      "tags" : [ "General" ]
+    },
+    "105": {
+      "description" : "Central California Blood Center Blood Drive",
+      "title" : "Blood Drive",
       "tags" : [ "General" ]
     },
     "404" : {
