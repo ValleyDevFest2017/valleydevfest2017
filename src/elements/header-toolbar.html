@@ -139,6 +139,10 @@
           <a href="{$ sponsorship.permalink $}" target="_blank" layout vertical center-center>{$ sponsorship.title $}</a>
         </paper-tab>
 
+        <paper-tab name="{$ ticketsBlock.title $}" class="nav-item" link>
+          <a href="{$ ticketsBlock.url $}" target="_blank" layout vertical center-center>{$ ticketsBlock.title $}</a>
+        </paper-tab>
+
         <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
       </paper-tabs>
 

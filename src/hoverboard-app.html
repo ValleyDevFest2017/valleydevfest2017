@@ -156,6 +156,8 @@
           <a href="{$ nav.permalink $}" path="{$ nav.route $}" on-tap="closeDrawer">{$ nav.title $}</a>
           {% endfor %}
 
+          <a href="{$ ticketsBlock.url $}" target="_blank" on-tap="closeDrawer">{$ ticketsBlock.title $}</a>
+          
           <a href="{$ sponsorship.permalink $}" target="_blank" on-tap="closeDrawer">{$ sponsorship.title $}</a>
 
           <a href="" on-tap="signIn" hidden$="[[user.signedIn]]">{$ signIn $}</a>
