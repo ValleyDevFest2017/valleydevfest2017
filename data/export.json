@@ -49,9 +49,6 @@
         }, {
           "extend" : 2,
           "items" : [ 150 ]
-        }, {
-          "extend" : 2,
-          "items" : [ ]
         } ],
         "startTime" : "10:00"
       }, {
@@ -186,9 +183,9 @@
       "tags" : [ "General" ]
     },
     "105": {
-      "description" : "Central California Blood Center Blood Drive",
-      "title" : "Blood Drive",
-      "tags" : [ "General" ]
+      "description" : "Donate your blood for the Blood Center",
+      "title" : "Central California Blood Center Blood Drive",
+      "tags" : [ "Other" ]
     },
     "404" : {
       "description" : "TBD",
