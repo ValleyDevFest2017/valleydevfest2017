@@ -152,12 +152,13 @@
       "tags" : [ "General" ]
     },
     "102" : {
-      "description" : "Official start of the conference. Greetings from the organizers, sponsors and partners.",
+      "description" : "Speechless' Learning Experience Designer will engage the audience through experiential learning to demonstrate how improv thinking empowers us to share our authentic selves, to develop fresh ways to use stories, and to impact each other through the connection that stories create.",
       "icon" : "opening",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Fopening.jpg?alt=media&token=f9e6f0b3-a6cc-4ff0-8780-0093f7181231",
       "language" : "English",
+      "speakers" : [ "claire_slattery" ],
       "title" : "Valley DevFest 2017 Opening with keynote speaker Speechless!",
-      "tags" : [ "General" ]
+      "tags" : [ "Learning" ]
     },
     "103" : {
       "description" : "Foooooooood!",
@@ -625,6 +626,19 @@
       "shortBio" : "Peter joined Agrian in 2013 to build and lead the engineering teams necessary to launch Agrian's NextGen Ag platform project. Peter oversees all software engineering teams in 3 countries and continues to drive technology innovations at Agrian.",
       "socials" : [ ],
       "title" : "Chief Technology Officer"
+    },
+
+    "claire_slattery" : {
+      "bio" : "As Learning Experience Designer with Speechless, Claire coaches individuals and leads group trainings across the globe to help people find their voice, tell their story, and transform their presentations. Her passion is providing training that empowers female and female-identifying innovators to confidently contribute, creatively collaborate, and captivate audiences. For more about Speechless visit http://www.speechlesslive.com.",
+      "company" : "Speechless",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fspeechless.png?alt=media&token=ec985164-a416-4490-b016-6868f82292be",
+      "country" : "US",
+      "featured" : true,
+      "name" : "Claire Slattery",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fclaire_slattery.jpg?alt=media&token=7aa85933-472c-48f5-908b-0f9e05858a93",
+      "shortBio" : "A graduate of Stanford University, Claire has acted, improvised, and taught at San Francisco and Los Angeles' top theatre companies, improv troupes, and training centers. She performs and tours at festivals across the country with celebrated improv group, The Right Now. In LA, Claire performs with veteran teams Wheelhouse and The Village Bicycle at the iO West Theater, creates and produces shows at the Upright Citizens Brigade Theater, and trains at The Groundlings. As Learning Experience Designer with Speechless, Claire coaches individuals and leads group trainings across the globe to help people find their voice, tell their story, and transform their presentations. Her passion is providing training that empowers female and female-identifying innovators to confidently contribute, creatively collaborate, and captivate audiences. For more about Speechless visit http://www.speechlesslive.com.",
+      "socials" : [ ],
+      "title" : "LX Designer"
     }
   },
   "team" : [ {
