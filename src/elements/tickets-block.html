@@ -88,6 +88,16 @@
 
       <div class="tickets" flex>
         <h1 class="container-title">{$ ticketsBlock.title $}</h1>
+
+        <a href$="[[tickets.url]]"
+            target="_blank"
+            rel="noopener noreferrer"
+            ga-on="click"
+            ga-event-category="ticket button"
+            ga-event-action="buy_click">
+          <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
+        </a>
+
         <ul>
           <template is="dom-repeat" items="[[tickets.elements]]" as="ticket">
             <li class="ticket-item">
@@ -113,15 +123,6 @@
         </ul>
 
         <div class="additional-info">*{$ ticketsBlock.ticketsDetails $}</div>
-
-        <a href$="[[tickets.url]]"
-            target="_blank"
-            rel="noopener noreferrer"
-            ga-on="click"
-            ga-event-category="ticket button"
-            ga-event-action="buy_click">
-          <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
-        </a>
       </div>
     </div>
 
