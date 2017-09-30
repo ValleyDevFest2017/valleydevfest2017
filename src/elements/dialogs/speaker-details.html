@@ -100,6 +100,7 @@
                   <div class="section-primary-text">[[session.title]]</div>
                   <div class="section-secondary-text" hidden$="[[!session.dateReadable]]">Time: [[session.startTime]] - [[session.endTime]]</div>
                   <div class="section-secondary-text" hidden$="[[session.icon]]">Location: [[session.track.location]]</div>
+                  <div class="section-secondary-text" hidden$="[[!session.location]]">Location: [[session.location]]</div>
                   <div class="section-secondary-text" hidden$="[[!session.track.title]]">Track: [[session.track.title]]</div>
                   <div class="tags" hidden$="[[!session.tags.length]]">
                     <template is="dom-repeat" items="[[session.tags]]" as="tag">

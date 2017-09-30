@@ -173,6 +173,7 @@
       "icon" : "lunch",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Flunch.jpg?alt=media&token=eb969ee7-f81e-4219-bd57-83ea828c9111",
       "title" : "Lunch",
+      "location": "Parking Lot",
       "tags" : [ "General" ]
     },
     "104" : {
