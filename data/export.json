@@ -384,6 +384,11 @@
   },
   "speakers" : {
     "paul_trebilcox_ruiz" : {
+      "badges": [{
+        "description": "Internet of Things",
+        "link" : "https://developers.google.com/experts/people/paul-trebilcox-ruiz",
+        "name" : "gde"
+      }],
       "bio" : "Software engineer in Boulder, Colorado, and Fresno State computer science graduate. Currently developing for Android and IoT devices, published author on Android TV, winner in the 2017 Google Experiments Challenge with a machine learning IoT device.",
       "company" : "Workday",
       "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fworkday.png?alt=media&token=7b797db0-9965-4f51-88a2-ce998227475f",
@@ -392,7 +397,15 @@
       "name" : "Paul Trebilcox-Ruiz",
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fpaul_trebilcox_ruiz.jpg?alt=media&token=63249313-0696-45ec-9c2b-3967304b9c28",
       "shortBio" : "Software engineer in Boulder, Colorado, and Fresno State computer science graduate. Currently developing for Android and IoT devices, published author on Android TV, winner in the 2017 Google Experiments Challenge with a machine learning IoT device.",
-      "socials" : [ ],
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "//plus.google.com/101817998348691817322",
+        "name" : "Google+"
+      }, {
+        "icon": "twitter",
+        "link": "//twitter.com/paultr88",
+        "name": "Twitter"
+      } ],
       "title" : "Software Engineer"
     },
     "cassie_crossley" : {
@@ -479,7 +492,7 @@
       "shortBio" : "Sandeep is a Developer Advocate at Google, currently focused on helping developers with Google Cloud...",
       "socials" : [ {
         "icon" : "gplus",
-        "link" : "plus.google.com/u/0/106298452631478443711/posts",
+        "link" : "//plus.google.com/u/0/106298452631478443711/posts",
         "name" : "Google+"
       } ],
       "title" : "Developer Advocate"
@@ -498,7 +511,11 @@
       "name" : "Chris Esplin",
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fchris_esplin.jpg?alt=media&token=d0066464-f2e2-4569-aa2e-66fa37d3a20d",
       "shortBio" : "I've been developing for web since 2011. My largest project is Calligraphy.org, a calligraphy teaching business that I run with my wife. I've became a Firebase Expert in 2013 and have used it for Calligraphy.org and all of my freelance and side projects.",
-      "socials" : [ ],
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "//plus.google.com/116279478330828791198",
+        "name" : "Google+"
+      } ],
       "title" : "Developer"
     },
 
@@ -577,7 +594,23 @@
       "name" : "Alyssa Nicoll",
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Falyssa_nicoll.jpg?alt=media&token=cb602b44-8f7c-42be-9d95-9d1844e759c3",
       "shortBio" : "Alyssa is an energetic, über passionate developer at WeaveUp. She loves to learn new things and then share them with others; check out her frontend courses on egghead.io. Alyssa Scuba Dives and has a toothless dog named 'Gummy'.",
-      "socials" : [ ],
+      "socials" : [ {
+        "icon" : "gplus",
+        "link" : "//plus.google.com/108649827673716249013",
+        "name" : "Google+"
+      }, {
+        "icon" : "linkedin",
+        "link" : "//www.linkedin.com/in/alyssa-nicoll-16988b71",
+        "name" : "Linkedin"
+      }, {
+        "icon": "twitter",
+        "link": "//twitter.com/alyssanicoll",
+        "name": "Twitter"
+      }, {
+        "icon": "blog",
+        "link": "//alyssa.io/",
+        "name": "Blog"
+      } ],
       "title" : "Web Dev"
     },
 
