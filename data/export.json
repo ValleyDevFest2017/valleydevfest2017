@@ -146,7 +146,7 @@
         "title" : "Blood Drive",
         "location": "Parking Lot",
         "capacity": 350,
-        "color": "rgba(224, 102, 102, 0.8)"
+        "color": "rgba(255, 238, 118, 0.8)"
       } ]
     }
   },
