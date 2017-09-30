@@ -120,6 +120,10 @@
           height: initial;
         }
       }
+
+      #ticket-drawer-menu {
+        color: red;
+      }
     </style>
 
     <iron-media-query id="mq-phone" full query="(max-width: {$ mediaQueries.xs.max $})"
@@ -157,8 +161,8 @@
           <a href="{$ nav.permalink $}" path="{$ nav.route $}" on-tap="closeDrawer">{$ nav.title $}</a>
           {% endfor %}
 
-          <a href="{$ ticketsBlock.url $}" target="_blank" on-tap="closeDrawer">{$ ticketsBlock.title $}</a>
-          
+          <a href="{$ ticketsBlock.url $}" target="_blank" on-tap="closeDrawer" id="ticket-drawer-menu">{$ ticketsBlock.title $}</a>
+
           <a href="{$ sponsorship.permalink $}" target="_blank" on-tap="closeDrawer">{$ sponsorship.title $}</a>
 
           <a href="" on-tap="signIn" hidden$="[[user.signedIn]]">{$ signIn $}</a>
