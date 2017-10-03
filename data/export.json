@@ -857,28 +857,28 @@
   "tickets" : {
     "elements" : [ {
       "currency" : "USD",
-      "ends" : "Oct 1",
-      "info" : "Or first 200 tickets",
-      "name" : "Early Bird",
-      "price" : 25,
+      "ends" : "Oct 21",
+      "info" : "Up to 350 tickets",
+      "name" : "Late Bird",
+      "price" : 35,
       "soldOut" : false,
-      "starts" : "Sep 5"
-    }, {
-      "currency" : "USD",
-      "ends" : "Oct 1",
-      "info" : "Or first 50 tickets",
-      "name" : "Early Bird & Mixer",
-      "price" : 40,
-      "soldOut" : false,
-      "starts" : "Sep 5"
+      "starts" : "Oct 1"
     }, {
       "currency" : "USD",
       "ends" : "Oct 21",
-      "info" : "up to 350 tickets total",
-      "name" : "Lazy Bird",
-      "price" : 30,
+      "info" : "Up to 50 tickets",
+      "name" : "Late Bird & Mixer",
+      "price" : 45,
       "soldOut" : false,
       "starts" : "Oct 1"
+    }, {
+      "currency" : "USD",
+      "ends" : "Oct 1",
+      "info" : "up to first 200 tickets",
+      "name" : "Early Bird",
+      "price" : 25,
+      "soldOut" : true,
+      "starts" : "Sep 5"
     } ],
     "url" : "http://bit.ly/ValleyDevFest2017Tickets"
   },
