@@ -169,10 +169,11 @@
       "tags" : [ "Learning" ]
     },
     "103" : {
-      "description" : "Foooooooood!",
+      "description" : "Foooooooood! (+ Blood Drive starts)",
       "icon" : "lunch",
+      "color": "rgba(255, 238, 118, 0.8)",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Flunch.jpg?alt=media&token=eb969ee7-f81e-4219-bd57-83ea828c9111",
-      "title" : "Lunch",
+      "title" : "Lunch (+ Blood Drive starts)",
       "location": "Parking Lot",
       "tags" : [ "General" ]
     },
