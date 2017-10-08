@@ -67,8 +67,7 @@
       <template is="dom-repeat" items="[[day.timeslots]]" as="timeslot" index-as="timeslotIndex">
 
         <div class="start-time" style$="grid-area: [[_getTimePosition(timeslotIndex)]]">
-          <span class="hours">[[_splitText(timeslot.startTime, ':', 0)]]</span>
-          <span class="minutes">[[_splitText(timeslot.startTime, ':', 1)]]</span>
+          <span class="hours">[[timeslot.startTime2]]</span>
         </div>
 
         <template is="dom-repeat" items="[[timeslot.sessions]]" as="session" index-as="sessionIndex">
@@ -117,6 +116,14 @@
 
       _splitText (text, divider, index) {
         return text.split(divider)[index];
+      }
+
+      _getMinutes (text) {
+        return text.split(':')[1].split(' ')[0];
+      }
+
+      _getAmPm (text) {
+        return text.split(':')[1].split(' ')[1];
       }
     }
 

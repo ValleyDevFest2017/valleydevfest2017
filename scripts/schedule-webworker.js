@@ -85,7 +85,9 @@ self.addEventListener('message', ({ data }) => {
             day: dayKey,
             track: subsession.track || day.tracks[sessionIndex],
             startTime,
+            startTime2: timeslot.startTime2,
             endTime,
+            endTime2: timeslot.endTime2,
             duration: getDuration(dayKey, startTime, endTime),
             dateReadable: day.dateReadable,
             speakers: subsession.speakers ? subsession.speakers.map(speakerId => Object.assign({

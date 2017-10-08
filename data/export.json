@@ -23,19 +23,26 @@
     "2017-10-22" : {
       "dateReadable" : "October 22",
       "timeslots" : [ {
+        "startTime" : "08:00",
+        "startTime2" : " 8:00 am",
         "endTime" : "09:00",
+        "endTime2" : " 9:00 am",
         "sessions" : [ {
           "items" : [ 101 ]
-        } ],
-        "startTime" : "08:00"
+        } ]
       }, {
+        "startTime" : "09:00",
+        "startTime2" : " 9:00 am",
         "endTime" : "09:45",
+        "endTime2" : " 9:45 am",
         "sessions" : [ {
           "items" : [ 102 ]
-        } ],
-        "startTime" : "09:00"
+        } ]
       }, {
+        "startTime" : "10:00",
+        "startTime2" : "10:00 am",
         "endTime" : "10:45",
+        "endTime2" : "10:45 am",
         "sessions" : [ {
           "items" : [ 110 ]
         }, {
@@ -49,10 +56,12 @@
         }, {
           "extend" : 2,
           "items" : [ 150 ]
-        } ],
-        "startTime" : "10:00"
+        } ]
       }, {
+        "startTime" : "11:00",
+        "startTime2" : "11:00 am",
         "endTime" : "11:45",
+        "endTime2" : "11:45 am",
         "sessions" : [ {
           "items" : [ 111 ]
         }, {
@@ -63,16 +72,20 @@
           "items" : [ 141 ]
         }, {
           "items" : [ 132 ]
-        } ],
-        "startTime" : "11:00"
+        } ]
       }, {
+        "startTime" : "12:00",
+        "startTime2" : "12:00 pm",
         "endTime" : "12:45",
+        "endTime2" : "12:45 pm",
         "sessions" : [ {
           "items" : [ 103 ]
-        } ],
-        "startTime" : "12:00"
+        } ]
       }, {
+        "startTime" : "13:00",
+        "startTime2" : " 1:00 pm",
         "endTime" : "13:45",
+        "endTime2" : " 1:45 pm",
         "sessions" : [ {
           "items" : [ 112 ]
         }, {
@@ -89,10 +102,12 @@
         }, {
           "extend" : 2,
           "items" : [ 105 ]
-        } ],
-        "startTime" : "13:00"
+        } ]
       }, {
+        "startTime" : "14:00",
+        "startTime2" : " 2:00 pm",
         "endTime" : "14:45",
+        "endTime2" : " 2:45 pm",
         "sessions" : [ {
           "items" : [ 113 ]
         }, {
@@ -103,14 +118,15 @@
           "items" : [ 143 ]
         }, {
           "items" : [ 130 ]
-        } ],
-        "startTime" : "14:00"
+        } ]
       }, {
+        "startTime" : "15:00",
+        "startTime2" : " 3:00 pm",
         "endTime" : "16:00",
+        "endTime2" : " 4:00 pm",
         "sessions" : [ {
           "items" : [ 104 ]
-        } ],
-        "startTime" : "15:00"
+        } ]
       } ],
       "tracks" : [ {
         "title" : "Tech Talks",
