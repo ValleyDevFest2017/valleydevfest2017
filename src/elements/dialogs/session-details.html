@@ -24,7 +24,7 @@
       <app-header slot="header" class="header" fixed="[[viewport.isTabletPlus]]" style$="background-color: [[_getSessionColor(session.track.color, session.icon, session.color)]]">
         <iron-icon
           class="close-icon"
-          icon="hoverboard:[[_getCLoseBtnIcon(viewport.isLaptopPlus)]]"
+          icon="hoverboard:[[_getCloseBtnIcon(viewport.isLaptopPlus)]]"
           on-tap="close"
         ></iron-icon>
         <app-toolbar>
@@ -41,6 +41,7 @@
                 icon="hoverboard:[[_getFeaturedSessionIcon(featuredSessions, session.id)]]"
                 hidden$="[[!viewport.isLaptopPlus]]"
                 on-tap="_toggleFeaturedSession"
+                title="Bookmark Session"
               ></paper-fab>
             </div>
           </div>
@@ -176,7 +177,7 @@
         return trackColor;
       }
 
-      _getCLoseBtnIcon(isLaptopViewport) {
+      _getCloseBtnIcon(isLaptopViewport) {
         return isLaptopViewport ? 'close' : 'arrow-left';
       }
 
