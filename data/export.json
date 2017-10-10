@@ -874,6 +874,15 @@
       "title": "Committee member"
     }],
     "title" : "COMMITTEE MEMBERS"
+  }, {
+    "members" : [ {
+      "name": "Dominic Grijalva",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fdominic_grijalva.jpg?alt=media&token=027d894a-3f69-4238-b997-d2ccb62104fb",
+      "socials": [
+      ],
+      "title": "Graphic Designer"
+    } ],
+    "title" : "Additional Talent"
   } ],
   "tickets" : {
     "elements" : [ {
