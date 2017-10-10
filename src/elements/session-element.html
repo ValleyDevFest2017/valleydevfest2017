@@ -146,12 +146,20 @@
           <div hidden$="[[session.icon]]">Location: [[session.track.location]]</div>
           <div hidden$="[[!session.location]]">Location: [[session.location]]</div>
         </div>
-        <iron-icon
-          class="bookmark-session"
-          icon="hoverboard:[[_getFeaturedSessionIcon(featuredSessions, session.id)]]"
-          on-tap="_toggleFeaturedSession"
-          title="Bookmark Session"
-          ></iron-icon>
+        <div>
+          <iron-icon
+            class="bookmark-session"
+            icon="hoverboard:[[_getFeaturedSessionIcon(featuredSessions, session.id)]]"
+            on-tap="_toggleFeaturedSession"
+            title="Bookmark Session"
+            ></iron-icon>
+          <iron-icon
+            class="bookmark-session"
+            icon="hoverboard:calendar"
+            on-tap="_addToCalendar"
+            title="Add To Calendar"
+            ></iron-icon>
+        </div>
       </div>
 
       <div class="session-footer">
@@ -262,6 +270,20 @@
         });
 
         sessionsActions.setUserFeaturedSessions(this.user.uid, sessions);
+      }
+
+      _addToCalendar(event) {
+        // https://stackoverflow.com/questions/5831877/how-do-i-create-a-link-to-add-an-entry-to-a-calendar
+        var startStr = '20171022T' + this.session.startTime.replace(':', '') + '00';
+        var endStr = '20171022T' + this.session.endTime.replace(':', '') + '00';
+        window.open(
+          'https://www.google.com/calendar/render?action=TEMPLATE&' +
+          'text=' + encodeURI(this.session.title) + '&' +
+          'dates=' + startStr + '/' + endStr + '&' +
+          'details=' + encodeURI(this.session.description) + '&' +
+          'location=' + encodeURI('700 Van Ness Avenue, Fresno, CA'),
+          '_blank'
+        );
       }
     }
 
