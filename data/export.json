@@ -37,16 +37,16 @@
       }, {
         "startTime" : "09:00",
         "startTime2" : " 9:00 am",
-        "endTime" : "09:45",
-        "endTime2" : " 9:45 am",
+        "endTime" : "10:00",
+        "endTime2" : "10:00 am",
         "sessions" : [ {
           "items" : [ 102 ]
         } ]
       }, {
-        "startTime" : "10:00",
-        "startTime2" : "10:00 am",
-        "endTime" : "10:45",
-        "endTime2" : "10:45 am",
+        "startTime" : "10:15",
+        "startTime2" : "10:15 am",
+        "endTime" : "11:00",
+        "endTime2" : "11:00 am",
         "sessions" : [ {
           "items" : [ 110 ]
         }, {
@@ -62,10 +62,10 @@
           "items" : [ 150 ]
         } ]
       }, {
-        "startTime" : "11:00",
-        "startTime2" : "11:00 am",
-        "endTime" : "11:45",
-        "endTime2" : "11:45 am",
+        "startTime" : "11:15",
+        "startTime2" : "11:15 am",
+        "endTime" : "12:00",
+        "endTime2" : "12:00 am",
         "sessions" : [ {
           "items" : [ 111 ]
         }, {
