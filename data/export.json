@@ -880,7 +880,7 @@
       "currency" : "USD",
       "ends" : "Oct 21",
       "info" : "Up to 350 tickets",
-      "name" : "Late Bird",
+      "name" : "Late Bird Registration",
       "price" : 35,
       "soldOut" : false,
       "starts" : "Oct 1"
@@ -888,7 +888,7 @@
       "currency" : "USD",
       "ends" : "Oct 21",
       "info" : "Up to 50 tickets",
-      "name" : "Late Bird & Mixer",
+      "name" : "Late Bird Registration & Mixer",
       "price" : 45,
       "soldOut" : false,
       "starts" : "Oct 1"
