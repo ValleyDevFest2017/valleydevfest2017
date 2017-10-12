@@ -189,11 +189,11 @@
       "tags" : [ "Learning" ]
     },
     "103" : {
-      "description" : "Foooooooood! (+ Blood Drive starts)",
+      "description" : "Foooooooood! (+ **Blood Drive** starts)",
       "icon" : "lunch",
       "color": "rgba(255, 238, 118, 0.8)",
       "image" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/backgrounds%2Flunch.jpg?alt=media&token=eb969ee7-f81e-4219-bd57-83ea828c9111",
-      "title" : "Lunch (+ Blood Drive starts)",
+      "title" : "Lunch (+ <strong>Blood Drive</strong> starts)",
       "location": "Parking Lot",
       "tags" : [ "General" ]
     },
@@ -206,7 +206,7 @@
     },
     "105": {
       "description" : "Donate your blood for the Blood Center",
-      "title" : "Central California Blood Center Blood Drive",
+      "title" : "Central California Blood Center <strong>Blood Drive</strong>",
       "tags" : [ "Other" ]
     },
     "404" : {
