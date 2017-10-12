@@ -136,7 +136,8 @@
 
       <div class="session-header" layout horizontal justified style$="background-color: [[_getSessionColor(session.track.color, session.icon, session.color)]]">
         <div flex>
-          <h3 class="session-title">[[session.title]]</h3>
+          <!-- https://github.com/Polymer/TemplateBinding/issues/57 -->
+          <h3 class="session-title" inner-h-t-m-l="[[session.title]]"></h3>
         </div>
       </div>
 
