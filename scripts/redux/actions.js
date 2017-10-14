@@ -315,6 +315,102 @@ const teamActions = {
   }
 };
 
+const participantsActions = {
+  fetchList: () => {
+    const result = new Promise(resolve => {
+      firebase.database()
+        .ref('/participants')
+        .on('value', snapshot => {
+          resolve(snapshot.val());
+        })
+    });
+
+    result
+      .then(list => {
+        store.dispatch({
+          type: FETCH_PARTICIPANTS_LIST,
+          list
+        });
+      });
+
+    return result;
+  },
+
+  fetchUserParticipant: userId => {
+    const result = new Promise(resolve => {
+      firebase.database()
+        .ref(`/participants/${userId}`)
+        .on('value', snapshot => {
+          resolve(snapshot.val());
+        })
+    });
+
+    result
+      .then(participant => {
+        store.dispatch({
+          type: FETCH_USER_PARTICIPANT,
+          participant
+        });
+      });
+
+    return result;
+  },
+
+  setUserFeaturedSessions: (userId, participant) => {
+    const result = firebase.database()
+      .ref(`/participants/${userId}`)
+      .set(participant);
+
+    result
+      .then(() => {
+        store.dispatch({
+          type: SET_USER_PARTICIPANT,
+          participant
+        });
+      });
+
+    return result;
+  }
+};
+
+const ratingsActions = {
+  fetchUserSessionRatings: userId => {
+    const result = new Promise(resolve => {
+      firebase.database()
+        .ref(`/ratings/${userId}`)
+        .on('value', snapshot => {
+          resolve(snapshot.val());
+        })
+    });
+
+    result
+      .then(ratings => {
+        store.dispatch({
+          type: FETCH_USER_SESSION_RATINGS,
+          ratings
+        });
+      });
+
+    return result;
+  },
+
+  setUserSessionRatings: (userId, ratings) => {
+    const result = firebase.database()
+      .ref(`/ratings/${userId}`)
+      .set(ratings);
+
+    result
+      .then(() => {
+        store.dispatch({
+          type: SET_USER_SESSION_RATINGS,
+          ratings
+        });
+      });
+
+    return result;
+  }
+};
+
 const userActions = {
   signIn: (providerName) => {
     const firebaseProvider = helperActions.getFederatedProvider(providerName);

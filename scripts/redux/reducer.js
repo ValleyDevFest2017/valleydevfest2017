@@ -145,6 +145,34 @@ const teamReducer = (state = initialState.team, action) => {
   }
 };
 
+const participantsReducer = (state = initialState.participants, action) => {
+  switch (action.type) {
+    case FETCH_PARTICIPANTS_LIST:
+      return Object.assign({}, state, {
+        list: action.list
+      });
+    case FETCH_USER_PARTICIPANT:
+    case SET_USER_PARTICIPANT:
+      return Object.assign({}, state, {
+        featured: action.participant || {}
+      });
+    default:
+      return state;
+  }
+};
+
+const ratingsReducer = (state = initialState.ratings, action) => {
+  switch (action.type) {
+    case FETCH_USER_SESSION_RATINGS:
+    case SET_USER_SESSION_RATINGS:
+      return Object.assign({}, state, {
+        ratings: action.ratings || {}
+      });
+    default:
+      return state;
+  }
+};
+
 const userReducer = (state = initialState.user, action) => {
   switch (action.type) {
     case SIGN_IN:

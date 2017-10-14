@@ -1,0 +1,28 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../elements/partners-block.html">
+<link rel="import" href="../elements/shared-styles.html">
+
+<dom-module id="sponsors-page">
+    <template>
+        <style is="custom-style" include="shared-styles flex flex-alignment"></style>
+
+        <style>
+             :host {
+                display: block;
+            }
+
+        </style>
+
+        <partners-block></partners-block>
+    </template>
+
+    <script>
+        class SponsorsPage extends ScrollFunctions(Polymer.Element) {
+            static get is() {
+                return 'sponsors-page'
+            }
+        }
+
+        window.customElements.define(SponsorsPage.is, SponsorsPage);
+    </script>
+</dom-module>

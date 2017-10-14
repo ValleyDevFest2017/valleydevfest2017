@@ -56,6 +56,8 @@
     schedule: {},
     gallery: [],
     team: [],
+    participants: [],
+    ratings: {},
     user: {
       signedIn: false
     },
@@ -81,6 +83,8 @@
       schedule: scheduleReducer(state.schedule, action),
       gallery: galleryReducer(state.gallery, action),
       team: teamReducer(state.team, action),
+      participants: participantsReducer(state.gallery, action),
+      ratings: ratingsReducer(state.gallery, action),
       user: userReducer(state.user, action),
       subscribed: subscribeReducer(state.subscribed, action),
       toast: toastReducer(state.toast, action),

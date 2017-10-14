@@ -51,10 +51,14 @@
       "route": "team",
       "permalink": "/team/",
       "title": "Team"
+    },
+    {
+      "route": "sponsors",
+      "permalink": "/sponsors/",
+      "title": "Sponsors"
     }
   ],
   "sponsorship": {
-    "dummyRoute": "sponsor",
     "permalink": "/images/backgrounds/sponsorship-levels.pdf",
     "title": "Sponsors"
   },
@@ -91,8 +95,16 @@
       },
       "fontColor": "#FFF"
     },
-    "faq": {
-      "title": "FAQs",
+    "sponsors": {
+      "title": "Sponsors",
+      "background": {
+        "color": "#673ab7",
+        "image": "/images/backgrounds/home.png"
+      },
+      "fontColor": "#FFF"
+    },
+    "participants": {
+      "title": "Participants",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.png"

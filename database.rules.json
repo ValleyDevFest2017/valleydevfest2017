@@ -41,6 +41,14 @@
           ".write": "auth.uid === $uid"
         }
       }
+    },
+    "participants": {
+      ".read": true,
+      ".write": false,
+      "$uid": {
+        ".read": true,
+        ".write": "auth.uid === $uid"
+      }
     }
   }
 }
