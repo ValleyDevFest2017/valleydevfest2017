@@ -1,0 +1,305 @@
+{
+  "paul_trebilcox_ruiz" : {
+    "badges": [{
+      "description": "Internet of Things",
+      "link" : "https://developers.google.com/experts/people/paul-trebilcox-ruiz",
+      "name" : "gde"
+    }],
+    "bio" : "Software engineer in Boulder, Colorado, and Fresno State computer science graduate. Currently developing for Android and IoT devices, published author on Android TV, winner in the 2017 Google Experiments Challenge with a machine learning IoT device.",
+    "company" : "Workday",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fworkday.png?alt=media&token=7b797db0-9965-4f51-88a2-ce998227475f",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Paul Trebilcox-Ruiz",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fpaul_trebilcox_ruiz.jpg?alt=media&token=63249313-0696-45ec-9c2b-3967304b9c28",
+    "shortBio" : "Software engineer in Boulder, Colorado, and Fresno State computer science graduate. Currently developing for Android and IoT devices, published author on Android TV, winner in the 2017 Google Experiments Challenge with a machine learning IoT device.",
+    "socials" : [ {
+      "icon" : "gplus",
+      "link" : "//plus.google.com/101817998348691817322",
+      "name" : "Google+"
+    }, {
+      "icon": "twitter",
+      "link": "//twitter.com/paultr88",
+      "name": "Twitter"
+    } ],
+    "title" : "Software Engineer"
+  },
+  "cassie_crossley" : {
+    "bio" : "Cassie Crossley is an experienced technology executive in the IT and R&D domains. She has many years of business and technical leadership experience in project management, security, software, hardware, and data management. She is the Security Governance Program Leader in Schneider-Electric with previous positions at Ceridian, Hewlett-Packard,  McAfee, Lotus, and IBM. Ms. Crossley has a Bachelors of Science degree in Technical and Professional Communication with a specialization in Computer Science.  She also has her Six Sigma Black Belt (business process optimization) certification, her Project Management Professional (PMP) certification, and her M.B.A. from California State University, Fresno.",
+    "company" : "Schneider Electric",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fschneider-electric.png?alt=media&token=1f8d995d-d5d9-43e9-a2dd-fe812d4e1b3f",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Cassie Crossley",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fcassie_crossley.jpg?alt=media&token=d150c30a-11d1-4945-9038-c74c65f9fd31",
+    "shortBio" : "Cassie Crossley is an experienced technology executive in the IT and R&D domains. She has many years of business and technical leadership experience in project management, security, software, hardware, and data management.",
+    "socials" : [ ],
+    "title" : "Security Governance Program Leader"
+  },
+  "laura_huisinga" : {
+    "bio" : "Dr. Laura Huisinga is an artist, designer, and educator. She currently teaches in the Multimedia and Interaction BFA design track at Fresno State. She has a passion for strong UX design and bringing augmented reality into the classroom for all students. Laura has her Ph.D. in Human Computer Interaction and MFA in graphic design from Iowa State University. She previously worked as a front-end-developer and as a designer in Des Moines, Iowa. Dr. Huisinga's research currently focuses on using augmented reality to aid struggling readers.",
+    "company" : "Fresno State University",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Ffresno-state.png?alt=media&token=469f87aa-88c0-4729-afc9-8572f5a28611",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Dr. Laura Huisinga",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Flaura_huisinga.jpg?alt=media&token=726f1fd6-d5b6-49a0-9320-4c77d2415ca2",
+    "shortBio" : "Dr. Laura Huisinga is an artist, designer, and educator. She currently teaches in the Multimedia and Interaction BFA design track at Fresno State. She has a passion for strong UX design and bringing augmented reality into the classroom for all students.",
+    "socials" : [ ],
+    "title" : "Assistant Professor"
+  },
+  "peter_easton" : {
+    "bio" : "Five years ago I tried to do surface-mount PCB assembly in my garage. I didn't find a good solution so I set about trying to make something that would work, and work well. Today I am the #1 supplier of DIY reflow oven kits worldwide. Part of that success is that open-source my software and have a public build guide. This helps me to get feedback from industry experts, which in turn improves the information I offer.",
+    "company" : "Self-employed",
+    "companyLogoUrl" : "",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Peter Easton",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fpeter_easton.jpg?alt=media&token=35e786ca-7a7c-4c64-81cd-35b4a987f3ef",
+    "shortBio" : "Five years ago I tried to do surface-mount PCB assembly in my garage. I didn't find a good solution so I set about trying to make something that would work, and work well. Today I am the #1 supplier of DIY reflow oven kits worldwide.",
+    "socials" : [ ],
+    "title" : "Engineer"
+  },
+  "melody_boates" : {
+    "bio" : "Melody has a passion to see our community thrive and enjoys drawing out the passions in others. She has an extensive background in marketing, with a bachelor’s degree in Digital Art & Design, and currently loves dabbling in electronics and creating steel drums from repurposed tanks over at our Central Valley’s own community makerspace, Ideaworks.",
+    "company" : "Self-employed",
+    "companyLogoUrl" : "",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Melody Boates",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fmelody_boates.jpg?alt=media&token=c4972aac-3f81-4d65-a52f-552e6a10f346",
+    "shortBio" : "Melody has a passion to see our community thrive and enjoys drawing out the passions in others. She has an extensive background in marketing, with a bachelor’s degree in Digital Art & Design, and currently loves dabbling in electronics and creating steel drums from repurposed tanks over at our Central Valley’s own community makerspace, Ideaworks.",
+    "socials" : [ ],
+    "title" : "Maker"
+  },
+  "saori_jansen" : {
+    "bio" : "Saori is a Data Analyst at Fresno Unified School District and co-founded CoderGirlz, an after-school program that offers girls and young women an opportunity to explore coding and meet female role models in technology. She also organizes the district’s annual Tournament of Technology and is deeply invested in addressing the under-representation of women and minorities in STEM fields. Saori earned a Masters in Mathematics from California State University, Fresno and enjoys teaching part-time at local community colleges.",
+    "company" : "Fresno Unified School District",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Ffusd.png?alt=media&token=4a05191d-3c05-4c2c-8591-09b6658a8f7a",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Saori Jansen",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fsaori_jansen.jpg?alt=media&token=0b06ae5f-1f8a-4618-907f-6bd3236ae43d",
+    "shortBio" : "Saori is a Data Analyst at Fresno Unified School District and co-founded CoderGirlz, an after-school program that offers girls and young women an opportunity to explore coding and meet female role models in technology.",
+    "socials" : [ ],
+    "title" : "Data Analyst"
+  },
+  "laura_ann_vandiver" : {
+    "bio" : "I'm a 16 year old female highly involved in my school's robotics team, teaching programming, electrical, mechanics, and public speaking to new members of the team every year. I've been involved with STEM for more than three years and always look for new opportunities to learn more about engineering and encourage other young women to get involved in the field as well.",
+    "company" : "Sanger High School",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fsanger-high-school.png?alt=media&token=aca3e5cc-d092-4d69-bf57-cff244628e26",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Laura Ann Vandiver",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Flaura_vandiver.jpg?alt=media&token=4fb61819-754e-46e0-a2f9-3e4d75748eae",
+    "shortBio" : "I'm a 16 year old female highly involved in my school's robotics team, teaching programming, electrical, mechanics, and public speaking to new members of the team every year.",
+    "socials" : [ ],
+    "title" : "Student"
+  },
+
+  "sandeep_dinesh" : {
+    "bio" : "Sandeep started coding and creating websites when he was 12 and hasn't stopped. He is passionate about building easy-to-use products people love. Before Google, he founded an IoT startup in agriculture and developed educational HTML5 games. At Google, Sandeep's goal is to make cloud easy and help developers create the next big thing. Sandeep loves video games, making music, and martial arts, and has Bachelors in Marketing and Computer Science.",
+    "company" : "Google",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fgoogle.svg?alt=media&token=976dcd0c-ddfc-4551-8c9c-50c8dc0f2632",
+    "country" : "US",
+    "featured" : true,
+    "name" : "Sandeep Dinesh",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fsandeep_dinesh.jpg?alt=media&token=a774b0c5-ef6b-4769-8158-dc827c67ea36",
+    "shortBio" : "Sandeep is a Developer Advocate at Google, currently focused on helping developers with Google Cloud...",
+    "socials" : [ {
+      "icon" : "gplus",
+      "link" : "//plus.google.com/u/0/106298452631478443711/posts",
+      "name" : "Google+"
+    } ],
+    "title" : "Developer Advocate"
+  },
+  "chris_esplin" : {
+    "badges": [{
+      "description": "Angular and Firebase Google Developer Expert",
+      "link" : "https://developers.google.com/experts/people/chris-esplin",
+      "name" : "gde"
+    }],
+    "bio" : "I've been developing for web since 2011. My largest project is Calligraphy.org, a calligraphy teaching business that I run with my wife. I've became a Firebase Expert in 2013 and have used it for Calligraphy.org and all of my freelance and side projects.",
+    "company" : "Self-employed",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fcalligraphy-org.png?alt=media&token=b1db4fd1-cc11-4e0f-9ceb-44c118d65de4",
+    "country" : "US",
+    "featured" : true,
+    "name" : "Chris Esplin",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fchris_esplin.jpg?alt=media&token=d0066464-f2e2-4569-aa2e-66fa37d3a20d",
+    "shortBio" : "I've been developing for web since 2011. My largest project is Calligraphy.org, a calligraphy teaching business that I run with my wife. I've became a Firebase Expert in 2013 and have used it for Calligraphy.org and all of my freelance and side projects.",
+    "socials" : [ {
+      "icon" : "gplus",
+      "link" : "//plus.google.com/116279478330828791198",
+      "name" : "Google+"
+    } ],
+    "title" : "Developer"
+  },
+
+  "ingo_mierswa" : {
+    "bio" : "Dr. Ingo Mierswa is the founder and President of RapidMiner and as such responsible for strategic innovation and execution around the open source machine learning platform. Ingo is an industry-veteran data scientist since starting to develop RapidMiner at the Artificial Intelligence Division of the TU Dortmund University in Germany. Ingo, the scientist, has authored numerous award-winning publications about predictive analytics and big data. Ingo, the entrepreneur, has led three rounds of fundraising, the acquisition of Radoop, and supporting the positioning of RapidMiner with leading analyst firms like Gartner and Forrester.",
+    "company" : "RapidMiner",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Frapid-miner.png?alt=media&token=6b9b885c-1e85-4a9e-b2fe-d617b556145b",
+    "country" : "US",
+    "featured" : true,
+    "name" : "Ingo Mierswa",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fingo_mierswa.jpg?alt=media&token=48521e95-71e6-489d-9667-94f1052a8c37",
+    "shortBio" : "Dr. Ingo Mierswa is the founder and President of RapidMiner and as such responsible for strategic innovation and execution around the open source machine learning platform. Ingo is an industry-veteran data scientist since starting to develop RapidMiner.",
+    "socials" : [ ],
+    "title" : "Founder & President"
+  },
+  "todd_mcLeod" : {
+    "bio" : "Champion of world class online instruction; teaching online since 1997; honored as one of California’s top community college instructors; studied online education at UC San Diego; helped start the Online Teacher Training Program and taught college faculty in central California how to teach online; one of the world’s leading trainers in the highest paying programming language in America; teacher to 528,918 students last year online; founder of Greater Commons; motivating, inspiring, and teaching teachers how to teach online at their greatest potential - this is Todd McLeod, working every day for the greater common good.",
+    "company" : "SCCCD",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fscccd.png?alt=media&token=131937d5-16a8-4264-89be-dd0fad4badab",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Todd McLeod",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Ftodd_mcleod.jpg?alt=media&token=206dd174-83d9-4c06-a645-d60f67a4aac2",
+    "shortBio" : "Champion of world class online instruction; teaching online since 1997; honored as one of California’s top community college instructors; studied online education at UC San Diego; helped start the Online Teacher Training Program and taught college faculty in central California how to teach online;",
+    "socials" : [ ],
+    "title" : "Tenured Faculty"
+  },
+  "robert_aguilera" : {
+    "bio" : "Robert Aguilera was born and raised here in the Central Valley and learned early on that he had a knack for breaking his parent's computer.  After a brief stint as a teacher he pursued a career as a software engineer and never looked back.  He's got a knack for the front end of things and is currently exploring the React ecosystem.  When he's not confined to the walls of his cubicle you can find him teaching at Meetups, catching a local rock show, or endlessly tweaking his VIM setup.",
+    "company" : "FocusVision Inc",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Ffocus-vision.png?alt=media&token=d5b7867a-2336-4bf5-8181-e6b453f8aa9e",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Robert Aguilera",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Frobert_aguilar.jpg?alt=media&token=995d969e-d45f-49f7-8cb7-a39bbd4067aa",
+    "shortBio" : "Robert Aguilera was born and raised here in the Central Valley and learned early on that he had a knack for breaking his parent's computer.  After a brief stint as a teacher he pursued a career as a software engineer and never looked back.  He's got a knack for the front end of things and is currently exploring the React ecosystem.  When he's not confined to the walls of his cubicle you can find him teaching at Meetups, catching a local rock show, or endlessly tweaking his VIM setup.",
+    "socials" : [ ],
+    "title" : "Software Engineer"
+  },
+
+  "miles_sebesta" : {
+    "bio" : "A developer and growth hacker marketer with 8+ years of experience and a degree in digital finger painting. I have had the honor of teaching coding principles and marketing strategies to over 150 students ranging from ages 12 to 50+. I currently work my dream job as a classroom consultant; training students in SEO, Front-End design, UX/UI, & CRO. My passion is people and teaching all types of technologies. I believe that developers and marketers should have the heart of a teacher. It is our job to pass on our knowledge to others, clients, employees, & students.",
+    "company" : "Geekwise Academy & Shift3 Technologies",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fgeekwise.png?alt=media&token=7d82eac6-f961-4a6d-becc-4547928d2ea1",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Miles Sebesta",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fmiles_sebesta.jpg?alt=media&token=e085bdac-c90f-4071-9474-8cac9166946c",
+    "shortBio" : "A developer and growth hacker marketer with 8+ years of experience and a degree in digital finger painting. I have had the honor of teaching coding principles and marketing strategies to over 150 students ranging from ages 12 to 50+.",
+    "socials" : [ ],
+    "title" : "Developer Fellow"
+  },
+  "allison_liles" : {
+    "bio" : "Allison was born and raised in upstate New York and as a teenager fell in love with designing and building websites. She moved out to California after high school and proceeded to get her BFA in Graphic Design at Fresno state. While in college she learned about the field of UX design and knew that was the career for her. Shortly after graduating Allison moved to Silicon Valley to pursue her career in product design. She currently works at Barracuda Networks where she strives to make information technology security products easy and accessible.",
+    "company" : "Barracuda Networks",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fbarracuda-networks.png?alt=media&token=1de27c83-33ee-4b0d-a5d4-3829de05bb43",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Allison Liles",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fallison_liles.jpg?alt=media&token=fc99dbfb-249b-42ef-a19a-1c1bbc447fd8",
+    "shortBio" : "Allison was born and raised in upstate New York and as a teenager fell in love with designing and building websites. She moved out to California after high school and proceeded to get her BFA in Graphic Design at Fresno state.",
+    "socials" : [ ],
+    "title" : "UI/UX Designer"
+  },
+  "alyssa_nicoll" : {
+    "badges": [{
+      "description": "Angular, TypeScript Google Developer Expert",
+      "link" : "https://developers.google.com/experts/people/alyssa-nicoll",
+      "name" : "gde"
+    }],
+    "bio" : "Alyssa is an energetic, über passionate developer at WeaveUp. She loves to learn new things and then share them with others; check out her frontend courses on egghead.io. Alyssa Scuba Dives and has a toothless dog named 'Gummy'.",
+    "company" : "WeaveUp",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fweaveup.png?alt=media&token=ab5bb452-bc07-428b-862e-ac35c637ee99",
+    "country" : "US",
+    "featured" : true,
+    "name" : "Alyssa Nicoll",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Falyssa_nicoll.jpg?alt=media&token=cb602b44-8f7c-42be-9d95-9d1844e759c3",
+    "shortBio" : "Alyssa is an energetic, über passionate developer at WeaveUp. She loves to learn new things and then share them with others; check out her frontend courses on egghead.io. Alyssa Scuba Dives and has a toothless dog named 'Gummy'.",
+    "socials" : [ {
+      "icon" : "gplus",
+      "link" : "//plus.google.com/108649827673716249013",
+      "name" : "Google+"
+    }, {
+      "icon" : "linkedin",
+      "link" : "//www.linkedin.com/in/alyssa-nicoll-16988b71",
+      "name" : "Linkedin"
+    }, {
+      "icon": "twitter",
+      "link": "//twitter.com/alyssanicoll",
+      "name": "Twitter"
+    }, {
+      "icon": "blog",
+      "link": "//alyssa.io/",
+      "name": "Blog"
+    } ],
+    "title" : "Web Dev"
+  },
+
+
+  "andrew_runner" : {
+    "bio" : "Chief Operations Officer at Root Access Hackerspace, Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
+    "company" : "Root Access Hackerspace, Fresno Ideaworks",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Froot-access.jpg?alt=media&token=2dc26a40-8eec-45d4-ad02-3cc29321a78e",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Andrew Runner",
+    "order" : 4,
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fandrew_runner.jpg?alt=media&token=86a7e7e2-1743-4194-b6f2-b0139dfef501",
+    "shortBio" : "Chief Operations Officer at Root Access Hackerspace, Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
+    "socials" : [ {
+      "icon" : "facebook",
+      "link" : "//www.facebook.com/RootAccessHackerspace",
+      "name" : "Facebook"
+    }, {
+      "icon": "twitter",
+      "link": "//twitter.com/RootAccessCA",
+      "name": "Twitter"
+    } ],
+    "title" : "Blacksmith Instructor"
+  },
+
+  "monisha_edwards" : {
+    "bio" : "Monisha Edwards is a Creative Strategist, specializing in Branding, User Interface, and User Experience. She received her Bachelors of Science in Marketing from Fresno State University. Monisha started her first company while in college at the tender age of 19 to help her pay for tuition. She is now the Founder of Truth Branding Agency. She is also the Founder of Literacy Fresno, a literacy and literature exchange initiative. Monisha is an active servant of the community, especially Downtown Fresno, and is currently enrolled in Leadership Fresno.",
+    "company" : "Truth Branding Agency",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Ftruth_branding.png?alt=media&token=5bf79361-229e-4bf8-a70e-b5d486a2638f",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Monisha Edwards",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fmonisha_edwards.jpg?alt=media&token=a2f189a2-3b35-4a25-a484-94c87bf9b4ea",
+    "shortBio" : "Monisha Edwards is a Creative Strategist, specializing in Branding, User Interface, and User Experience. She received her Bachelors of Science in Marketing from Fresno State University.",
+    "socials" : [ ],
+    "title" : "Creative Business Owner"
+  },
+  "selene_kinder" : {
+    "bio" : "My name is Selene Kinder and I am the founder of Empowering Women Now. Empowering Women Now is devoted to the growth + development of women. I aim to inspire and teach women a different way of viewing themselves and the women around them. The only way women progress is by working together. Instead of competing with one another I believe in empowering each other with knowledge & support. Here, I share knowledge and inspiration on becoming your best self and creating your dream life. I've created a community of over 300,000 women that support one another. I recently launched a membership component to my site that gives women the tools to take their business to the next level.",
+    "company" : "Empowering Women Now",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fempowering-women-now.png?alt=media&token=9848f1d4-246a-4eaf-ac93-a0d2f373fa6d",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Selene Kinder",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fselene_kinder.jpg?alt=media&token=d8c245ab-2c4f-412f-9cb9-304a65b8281d",
+    "shortBio" : "My name is Selene Kinder and I am the founder of Empowering Women Now. Empowering Women Now is devoted to the growth + development of women. I aim to inspire and teach women a different way of viewing themselves and the women around them.",
+    "socials" : [ ],
+    "title" : "Founder"
+  },
+  "peter_brandt" : {
+    "bio" : "Peter joined Agrian in 2013 to build and lead the engineering teams necessary to launch Agrian's NextGen Ag platform project. Peter oversees all software engineering teams in 3 countries and continues to drive technology innovations at Agrian. Prior to joining Agrian, he spent five years at Pelco (Schneider Electric subsidiary) as a global engineering manager and product owner for large-scale IP video storage, transmission, analytics, and embedded Linux software and hardware products/teams in the high-liability video surveillance space.",
+    "company" : "Agrian",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fagrian.png?alt=media&token=efbc67c6-8ebd-4631-b579-75c9188a9c8e",
+    "country" : "US",
+    "featured" : false,
+    "name" : "Peter Brandt",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fanonymous.jpg?alt=media&token=bce8b275-ecb8-4597-8f77-5916ca322c61",
+    "shortBio" : "Peter joined Agrian in 2013 to build and lead the engineering teams necessary to launch Agrian's NextGen Ag platform project. Peter oversees all software engineering teams in 3 countries and continues to drive technology innovations at Agrian.",
+    "socials" : [ ],
+    "title" : "Chief Technology Officer"
+  },
+
+  "claire_slattery" : {
+    "bio" : "As Learning Experience Designer with Speechless, Claire coaches individuals and leads group trainings across the globe to help people find their voice, tell their story, and transform their presentations. Her passion is providing training that empowers female and female-identifying innovators to confidently contribute, creatively collaborate, and captivate audiences. For more about Speechless visit http://www.speechlesslive.com.",
+    "company" : "Speechless",
+    "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/logos%2Fspeechless.png?alt=media&token=ec985164-a416-4490-b016-6868f82292be",
+    "country" : "US",
+    "featured" : true,
+    "name" : "Claire Slattery",
+    "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Fclaire_slattery.jpg?alt=media&token=7aa85933-472c-48f5-908b-0f9e05858a93",
+    "shortBio" : "A graduate of Stanford University, Claire has acted, improvised, and taught at San Francisco and Los Angeles' top theatre companies, improv troupes, and training centers. She performs and tours at festivals across the country with celebrated improv group, The Right Now. In LA, Claire performs with veteran teams Wheelhouse and The Village Bicycle at the iO West Theater, creates and produces shows at the Upright Citizens Brigade Theater, and trains at The Groundlings. As Learning Experience Designer with Speechless, Claire coaches individuals and leads group trainings across the globe to help people find their voice, tell their story, and transform their presentations. Her passion is providing training that empowers female and female-identifying innovators to confidently contribute, creatively collaborate, and captivate audiences. For more about Speechless visit http://www.speechlesslive.com.",
+    "socials" : [ ],
+    "title" : "LX Designer"
+  }
+}

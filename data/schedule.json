@@ -1,0 +1,147 @@
+{
+  "2017-10-22" : {
+    "dateReadable" : "October 22",
+    "timeslots" : [ {
+      "startTime" : "08:00",
+      "startTime2" : " 8:00 am",
+      "endTime" : "09:00",
+      "endTime2" : " 9:00 am",
+      "sessions" : [ {
+        "items" : [ 101 ]
+      } ]
+    }, {
+      "startTime" : "09:00",
+      "startTime2" : " 9:00 am",
+      "endTime" : "10:00",
+      "endTime2" : "10:00 am",
+      "sessions" : [ {
+        "items" : [ 102 ]
+      } ]
+    }, {
+      "startTime" : "10:15",
+      "startTime2" : "10:15 am",
+      "endTime" : "11:00",
+      "endTime2" : "11:00 am",
+      "sessions" : [ {
+        "items" : [ 110 ]
+      }, {
+        "items" : [ 114 ]
+      }, {
+        "items" : [ 120 ]
+      }, {
+        "items" : [ 142 ]
+      }, {
+        "items" : [ 133 ]
+      }, {
+        "extend" : 2,
+        "items" : [ 150 ]
+      } ]
+    }, {
+      "startTime" : "11:15",
+      "startTime2" : "11:15 am",
+      "endTime" : "12:00",
+      "endTime2" : "12:00 am",
+      "sessions" : [ {
+        "items" : [ 111 ]
+      }, {
+        "items" : [ 115 ]
+      }, {
+        "items" : [ 122 ]
+      }, {
+        "items" : [ 141 ]
+      }, {
+        "items" : [ 132 ]
+      } ]
+    }, {
+      "startTime" : "12:00",
+      "startTime2" : "12:00 pm",
+      "endTime" : "12:45",
+      "endTime2" : "12:45 pm",
+      "sessions" : [ {
+        "items" : [ 103 ]
+      } ]
+    }, {
+      "startTime" : "13:00",
+      "startTime2" : " 1:00 pm",
+      "endTime" : "13:45",
+      "endTime2" : " 1:45 pm",
+      "sessions" : [ {
+        "items" : [ 112 ]
+      }, {
+        "items" : [ 116 ]
+      }, {
+        "items" : [ 121 ]
+      }, {
+        "items" : [ 144 ]
+      }, {
+        "items" : [ 131 ]
+      }, {
+        "extend" : 2,
+        "items" : [ 151 ]
+      }, {
+        "extend" : 2,
+        "items" : [ 105 ]
+      } ]
+    }, {
+      "startTime" : "14:00",
+      "startTime2" : " 2:00 pm",
+      "endTime" : "14:45",
+      "endTime2" : " 2:45 pm",
+      "sessions" : [ {
+        "items" : [ 113 ]
+      }, {
+        "items" : [ 117 ]
+      }, {
+        "items" : [ 123 ]
+      }, {
+        "items" : [ 143 ]
+      }, {
+        "items" : [ 130 ]
+      } ]
+    }, {
+      "startTime" : "15:00",
+      "startTime2" : " 3:00 pm",
+      "endTime" : "16:00",
+      "endTime2" : " 4:00 pm",
+      "sessions" : [ {
+        "items" : [ 104 ]
+      } ]
+    } ],
+    "tracks" : [ {
+      "title" : "Tech Talks",
+      "location": "Theater",
+      "capacity": 160,
+      "color": "rgba(156, 217, 232, 0.8)"
+    }, {
+      "title" : "Tech Talks",
+      "location": "Room 1",
+      "capacity": 35,
+      "color": "rgba(156, 217, 232, 0.8)"
+      }, {
+      "title" : "Cloud",
+      "location": "Room 2",
+      "capacity": 36,
+      "color": "rgba(241, 92, 94, 0.8)"
+    }, {
+      "title" : "Design",
+      "location": "Room 3",
+      "capacity": 36,
+      "color": "rgba(196, 220, 129, 0.8)"
+    }, {
+      "title" : "Mobile, Web, & Machine Learning",
+      "location": "Room 4",
+      "capacity": 50,
+      "color": "rgba(148, 145, 197, 0.8)"
+    }, {
+      "title" : "Maker Space",
+      "location": "Room 5",
+      "capacity": 50,
+      "color": "rgba(246, 178, 107, 0.8)"
+    }, {
+      "title" : "Blood Drive",
+      "location": "Parking Lot",
+      "capacity": 350,
+      "color": "rgba(255, 238, 118, 0.8)"
+    } ]
+  }
+}

@@ -1,0 +1,18 @@
+[ {
+  "logos" : [ {
+    "logoUrl" : "/images/logos/google.svg",
+    "name" : "Google",
+    "url" : "//www.google.com.ua/intl/en/about/"
+  } ],
+  "title" : "Gold Sponsors"
+}, {
+  "logos" : [ {
+    "logoUrl" : "/images/logos/chasyr.png",
+    "name" : "Chasyr",
+    "url" : "//www.chasyr.com/"
+  } ],
+  "title" : "Silver Sponsors"
+}, {
+  "logos" : [ ],
+  "title" : "Bronze Sponsors"
+} ]
