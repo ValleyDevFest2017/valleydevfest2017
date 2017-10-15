@@ -104,6 +104,17 @@
   "speakers": {
     "skills": "Skills"
   },
+  "scheduleBlock": {
+    "ratings": {
+      "title": "Ratings",
+      "categories": {
+        "content": "Content",
+        "presentation": "Presentation",
+        "venue": "Venue"
+      },
+      "submitComment": "Submit Comment"
+    }
+  },
   "speakersBlock": {
     "title": "Speakers",
     "callToAction": {

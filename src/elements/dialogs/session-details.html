@@ -6,9 +6,12 @@
 <link rel="import" href="../../../bower_components/paper-fab/paper-fab.html">
 
 <link rel="import" href="../../../bower_components/plastic-image/plastic-image.html">
+<link rel="import" href="../../../bower_components/iron-autogrow-textarea/iron-autogrow-textarea.html">
 <link rel="import" href="../../../bower_components/iron-icon/iron-icon.html">
 <link rel="import" href="../../../bower_components/iron-overlay-behavior/iron-overlay-behavior.html">
 <link rel="import" href="../../../bower_components/marked-element/marked-element.html">
+
+<link rel="import" href="../star-rating.html">
 
 <link rel="import" href="../../mixins/utils-functions.html">
 <link rel="import" href="../../mixins/redux-mixin.html">
@@ -19,6 +22,16 @@
 <dom-module id="session-details">
   <template>
     <style is="custom-style" include="shared-styles dialog-styles flex flex-alignment positioning"></style>
+
+    <style>
+      span.rating-title {
+        margin-top: 10px;
+        margin-right: 20px;
+      }
+      iron-autogrow-textarea {
+        width: 100%;
+      }
+    </style>
 
     <app-header-layout has-scrolling-region>
       <app-header slot="header" class="header" fixed="[[viewport.isTabletPlus]]" style$="background-color: [[_getSessionColor(session.track.color, session.icon, session.color)]]">
@@ -117,6 +130,26 @@
               </div>
             </a>
           </template>
+        </div>
+
+        <div class="additional-sections">
+          <h2>{$ scheduleBlock.ratings.title $}</h2>
+
+          <div layout horizontal>
+            <span class="rating-title">{$ scheduleBlock.ratings.categories.content $}: </span>
+            <star-rating session-id="[[session.id]]" rating-category="content"></star-rating>
+          </div>
+          <div layout horizontal>
+            <span class="rating-title">{$ scheduleBlock.ratings.categories.presentation $}: </span>
+            <star-rating session-id="[[session.id]]" rating-category="presentation"></star-rating>
+          </div>
+          <div layout horizontal>
+            <span class="rating-title">{$ scheduleBlock.ratings.categories.venue $}: </span>
+            <star-rating session-id="[[session.id]]" rating-category="venue"></star-rating>
+          </div>
+        
+          <iron-autogrow-textarea bind-value="{{comment}}" rows="3" maxRows="10" placeholder="[[localize('enter-comment')]]"></iron-autogrow-textarea>
+          <paper-button class="session-comment" on-tap="_submitComment" raised>{$ scheduleBlock.ratings.submitComment $}</paper-button>
         </div>
       </div>
     </app-header-layout>

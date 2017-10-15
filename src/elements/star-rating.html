@@ -1,0 +1,122 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+
+
+<dom-module id="star-rating">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
+    
+    <style>
+      .star-rating-wrapper {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        text-align: center;
+      }
+      .star-rating-wrapper > span {
+        display: inline-block;
+        position: relative;
+        width: 1em;
+        font-size: 1.5em;
+        cursor: pointer;
+        opacity: 0.4;
+      }
+
+      .star-rating-wrapper > span.active,
+      .star-rating-wrapper > span.active ~ span {
+        color: var(--paper-yellow-500);
+        --paper-icon-button-ink-color: var(--paper-yellow-500);
+      }
+      .star-rating-wrapper > span.active,
+      .star-rating-wrapper > span.active ~ span {
+        opacity: 1;
+      }
+
+      .star-rating-wrapper > span:hover,
+      .star-rating-wrapper > span:hover ~ span,
+      .star-rating-wrapper > span.active:hover,
+      .star-rating-wrapper > span.active:hover ~ span {
+        color: var(--paper-pink-500) !important;
+        --paper-icon-button-ink-color: var(--paper-indigo-500) !important;
+      }
+    </style>
+
+    <div class="star-rating-wrapper" session-id$="[[sessionId]]" layout horizontal>
+      <template id="star" is="dom-repeat" items="{{currentStars}}">
+        <span class$="{{_isActive(index, rate, sessionId)}}" on-tap="_setRate" data-index$="{{index}}">
+          <paper-icon-button icon="hoverboard:star"></paper-icon-button>
+        </span>
+      </template>
+    </div>
+  </template>
+
+  <script>
+    class StarRating extends UtilsFunctions(Polymer.GestureEventListeners(Polymer.Element)) {
+      static get is() {
+        return 'star-rating';
+      }
+      static get properties() {
+        return {
+          stars: {
+            type: Number,
+            value: 5
+          },
+          sessionId: {
+            type: Number,
+            reflectToAttribute: true,
+            notify: true
+          },
+          ratingCategory: {
+            type: String,
+            value: ''
+          },
+          icon: {
+            type: String,
+            value: 'star'
+          },
+          rate: {
+            type: Number,
+            value: 0
+          },
+          currentStars: {
+            type: Object,
+            value: []
+          }
+        }
+      }
+
+      ready() {
+        super.ready();
+        this.currentStars = [];
+        for (var i = this.stars - 1; i >= 0; i--) {
+          this.currentStars.push(i + 1);
+        };
+      }
+
+      _isActive(index, rate, sessionId) {
+        if ((index - this.stars) * -1 == rate && this.sessionId == sessionId) {
+          return "active";
+        }
+      }
+
+      _setRate(event) {
+        var deep = Polymer.dom(this.root);
+        if (!this.readonly) {
+          var index = event.model.index;
+          var indexOld = (this.rate * -1) + this.stars;
+          this.rate = (index - this.stars) * -1;
+          if (indexOld < this.stars) {
+            var old = deep.querySelector('[session-id="' + this.sessionId + '"] [rating-category="' + this.ratingCategory + '"] [data-index="' + indexOld + '"]');
+            if (old)
+              old.classList.remove("active");
+          }
+          var newer = deep.querySelector('[session-id="' + this.sessionId + '"] [rating-category="' + this.ratingCategory + '"] [data-index="' + index + '"]');
+          if (newer)
+            newer.classList.add("active");
+        }
+      }
+    }
+    window.customElements.define(StarRating.is, StarRating);
+  </script>
+
+</dom-module>
