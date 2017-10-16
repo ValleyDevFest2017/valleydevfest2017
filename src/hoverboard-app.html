@@ -163,7 +163,7 @@
 
           <a href="{$ ticketsBlock.url $}" target="_blank" on-tap="closeDrawer" id="ticket-drawer-menu">{$ ticketsBlock.title $}</a>
 
-          <a href="" on-tap="signIn" hidden$="[[user.signedIn]]">{$ signIn $}</a>
+          <a href="" on-tap="signIn" hidden$="[[!user.isAnonymous]]">{$ signIn $}</a>
         </iron-selector>
 
       </app-drawer>
@@ -335,7 +335,7 @@
         console.log('Hoverboard v2 is ready!');
         this.removeAttribute('unresolved');
         this._ensureLazyLoaded();
-//        userActions.autoSignIn(this.providerUrls);
+        userActions.autoSignIn(this.providerUrls);
       }
 
       closeDrawer() {

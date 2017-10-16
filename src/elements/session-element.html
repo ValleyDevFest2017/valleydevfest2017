@@ -211,9 +211,16 @@
 
       static get properties() {
         return {
-          user: Object,
+          user: {
+            type: Object,
+            statePath: 'user'
+          },
           session: Object,
           featuredSessions: Object,
+          ratings: {
+            type: Object,
+            statePath: 'ratings'
+          },
           sessionColor: {
             type: String,
             computed: '_getTagColor(session.mainTag)'
@@ -254,7 +261,7 @@
       _toggleFeaturedSession(event) {
         event.preventDefault();
         event.stopPropagation();
-        if (!this.user.signedIn) {
+        if (!this.user.signedIn || this.user.isAnonymous) {
           toastActions.showToast({
             message: '{$ schedule.saveSessionsSignedOut $}',
             action: {

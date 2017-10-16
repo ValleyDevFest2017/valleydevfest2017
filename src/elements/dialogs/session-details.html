@@ -137,18 +137,36 @@
 
           <div layout horizontal>
             <span class="rating-title">{$ scheduleBlock.ratings.categories.content $}: </span>
-            <star-rating session-id="[[session.id]]" rating-category="content"></star-rating>
+            <star-rating
+              session-id="[[session.id]]"
+              rating-category="content"
+              rate="[[content]]"
+              ratings="[[ratings]]"
+              user="[[user]]"
+            ></star-rating>
           </div>
           <div layout horizontal>
             <span class="rating-title">{$ scheduleBlock.ratings.categories.presentation $}: </span>
-            <star-rating session-id="[[session.id]]" rating-category="presentation"></star-rating>
+            <star-rating
+              session-id="[[session.id]]"
+              rating-category="presentation"
+              rate="[[presentation]]"
+              ratings="[[ratings]]"
+              user="[[user]]"
+            ></star-rating>
           </div>
           <div layout horizontal>
             <span class="rating-title">{$ scheduleBlock.ratings.categories.venue $}: </span>
-            <star-rating session-id="[[session.id]]" rating-category="venue"></star-rating>
+            <star-rating
+              session-id="[[session.id]]"
+              rating-category="venue"
+              rate="[[venue]]"
+              ratings="[[ratings]]"
+              user="[[user]]"
+            ></star-rating>
           </div>
         
-          <iron-autogrow-textarea bind-value="{{comment}}" rows="3" maxRows="10" placeholder="[[localize('enter-comment')]]"></iron-autogrow-textarea>
+          <iron-autogrow-textarea bind-value="{{comment}}" rows="3" maxRows="10" placeholder="{$ scheduleBlock.ratings.commentPlaceholder $}"></iron-autogrow-textarea>
           <paper-button class="session-comment" on-tap="_submitComment" raised>{$ scheduleBlock.ratings.submitComment $}</paper-button>
         </div>
       </div>
@@ -168,6 +186,10 @@
           session: {
             type: Object
           },
+          ratings: {
+            type: Object,
+            statePath: 'ratings'
+          },
           viewport: {
             type: Object,
             statePath: 'ui.viewport'
@@ -179,6 +201,22 @@
           featuredSessions: {
             type: Object,
             statePath: 'sessions.featured'
+          },
+          comment: {
+            type: String,
+            value: ''
+          },
+          content: {
+            type: Number,
+            value: 0
+          },
+          presentation: {
+            type: Number,
+            value: 0
+          },
+          venue: {
+            type: Number,
+            value: 0
           }
         }
       }
@@ -186,6 +224,7 @@
       constructor() {
         super();
         this.addEventListener('iron-overlay-canceled', this._close);
+        this.addEventListener('iron-overlay-opened', this._open);
       }
 
       static get observers() {
@@ -201,6 +240,36 @@
       _handleClose(opened, session) {
         if (!opened && session && Object.keys(session).length) {
           dialogsActions.closeDialog(DIALOGS.SESSION);
+        }
+      }
+
+      _open() {
+        if (this.session && this.ratings && this.session.id in this.ratings) {
+          if ('comment' in this.ratings[this.session.id]) {
+            this.comment = this.ratings[this.session.id]['comment'];
+          } else {
+            this.comment = '';
+          }
+          if ('content' in this.ratings[this.session.id]) {
+            this.content = this.ratings[this.session.id]['content'];
+          } else {
+            this.content = 0;
+          }
+          if ('presentation' in this.ratings[this.session.id]) {
+            this.presentation = this.ratings[this.session.id]['presentation'];
+          } else {
+            this.presentation = 0;
+          }
+          if ('venue' in this.ratings[this.session.id]) {
+            this.venue = this.ratings[this.session.id]['venue'];
+          } else {
+            this.venue = 0;
+          }
+        } else {
+          this.comment = '';
+          this.content = 0;
+          this.presentation = 0;
+          this.venue = 0;
         }
       }
 
@@ -233,7 +302,7 @@
       _toggleFeaturedSession(event) {
         event.preventDefault();
         event.stopPropagation();
-        if (!this.user.signedIn) {
+        if (!this.user.signedIn || this.user.isAnonymous) {
           toastActions.showToast({
             message: '{$ schedule.saveSessionsSignedOut $}',
             action: {
@@ -271,6 +340,16 @@
       _getFeaturedSessionIcon(featuredSessions, sessionId) {
         return featuredSessions && featuredSessions[sessionId] ? 'bookmark-check' : 'bookmark-plus';
       }
+
+      _submitComment(event) {
+        if (!this.comment) return;
+        if (!(this.session.id in this.ratings)) {
+          this.ratings[this.session.id] = {};
+        }
+        this.ratings[this.session.id]['comment'] = this.comment;
+        ratingsActions.setUserSessionRatings(this.user.uid, this.ratings);
+      }
+
     }
 
     window.customElements.define(SessionDetails.is, SessionDetails);

@@ -142,7 +142,7 @@
           <a href="{$ ticketsBlock.url $}" target="_blank" id="ticket-menu" layout vertical center-center>{$ ticketsBlock.title $}</a>
         </paper-tab>
 
-        <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
+        <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[!user.isAnonymous]]">{$ signIn $}</paper-tab>
       </paper-tabs>
 
       <paper-menu-button
@@ -183,7 +183,7 @@
 
       <paper-menu-button
         class="auth-menu"
-        hidden$="[[!user.signedIn]]"
+        hidden$="[[user.isAnonymous]]"
         vertical-align="top"
         horizontal-align="right"
         no-animations
@@ -208,7 +208,7 @@
       <paper-icon-button
         icon="hoverboard:account"
         on-tap="signIn"
-        hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isTabletPlus)]]"
+        hidden$="[[_isAccountIconHidden(user.signedIn, user.isAnonymous, viewport.isTabletPlus)]]"
       ></paper-icon-button>
     </app-toolbar>
 
@@ -299,8 +299,8 @@
         this.$.notificationsMenu.close();
       }
 
-      _isAccountIconHidden(userSignedIn, isTabletPlus) {
-        return userSignedIn || isTabletPlus;
+      _isAccountIconHidden(userSignedIn, isUserAnonymous, isTabletPlus) {
+        return userSignedIn && !isUserAnonymous || isTabletPlus;
       }
     }
 

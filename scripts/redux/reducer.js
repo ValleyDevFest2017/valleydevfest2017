@@ -165,9 +165,7 @@ const ratingsReducer = (state = initialState.ratings, action) => {
   switch (action.type) {
     case FETCH_USER_SESSION_RATINGS:
     case SET_USER_SESSION_RATINGS:
-      return Object.assign({}, state, {
-        ratings: action.ratings || {}
-      });
+      return action.ratings;
     default:
       return state;
   }

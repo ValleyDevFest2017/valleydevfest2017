@@ -50,7 +50,6 @@
           <schedule-day
             name$="[[day.date]]"
             day="[[day]]"
-            user="[[user]]"
             featured-sessions="[[sessions.featured]]"
           ></schedule-day>
         </template>
@@ -81,6 +80,10 @@
             type: Object,
             statePath: 'sessions'
           },
+          ratings: {
+            type: Object,
+            statePath: 'ratings'
+          },
           subRoute: {
             type: Object,
             statePath: 'routing.subRoute'
@@ -95,14 +98,22 @@
       static get observers() {
         return [
           '_setDay(active, routeData.day, schedule.days)',
-          '_openSessionDetails(active, sessions.list, queryParams.sessionId)',
-          '_fetchFeaturedSessions(active, user.uid)'
+          '_openSessionDetails(active, ratings, sessions.list, queryParams.sessionId)',
+          '_fetchFeaturedSessions(active, user.uid)',
+          '_fetchUserSessionRatings(active, user.uid)'
         ];
       }
 
       connectedCallback() {
         super.connectedCallback();
-        if (!this.schedule.days) scheduleActions.fetchSchedule();
+        if (!this.schedule.days)
+          scheduleActions.fetchSchedule();
+      }
+
+      _fetchUserSessionRatings(active, userUid) {
+        if (active && userUid && (!this.ratings || Object.keys(this.ratings).length <= 0)) {
+          var ret = ratingsActions.fetchUserSessionRatings(userUid);
+        }
       }
 
       _fetchFeaturedSessions(active, userUid) {
@@ -117,11 +128,11 @@
         }
       }
 
-      _openSessionDetails(active, sessions, id) {
+      _openSessionDetails(active, ratings, sessions, id) {
         if (active && sessions && Object.keys(sessions).length) {
           requestAnimationFrame(() => {
               if (id) {
-                dialogsActions.openDialog(DIALOGS.SESSION, sessions[id]);
+                dialogsActions.openDialog(DIALOGS.SESSION, sessions[id], ratings);
               } else if (this.isDialogOpened) {
                 dialogsActions.closeDialog(DIALOGS.SESSION);
               }

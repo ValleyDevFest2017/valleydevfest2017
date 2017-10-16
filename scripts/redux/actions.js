@@ -375,23 +375,14 @@ const participantsActions = {
 
 const ratingsActions = {
   fetchUserSessionRatings: userId => {
-    const result = new Promise(resolve => {
-      firebase.database()
-        .ref(`/ratings/${userId}`)
-        .on('value', snapshot => {
-          resolve(snapshot.val());
-        })
-    });
-
-    result
-      .then(ratings => {
-        store.dispatch({
-          type: FETCH_USER_SESSION_RATINGS,
-          ratings
-        });
+    return firebase.database()
+    .ref(`/ratings/${userId}`)
+    .on('value', snapshot => {
+      store.dispatch({
+        type: FETCH_USER_SESSION_RATINGS,
+        ratings: snapshot.val()
       });
-
-    return result;
+    });
   },
 
   setUserSessionRatings: (userId, ratings) => {
@@ -460,6 +451,17 @@ const userActions = {
                 .then((signInObject) => {
                   helperActions.storeUser(signInObject.user);
                 });
+            } else {
+              firebase.auth().onAuthStateChanged(function(user) {
+                if (user) {
+                  helperActions.storeUser(user)
+                }
+              });
+              firebase.auth().signInAnonymously().catch(function(error) {
+                // Handle Errors here.
+                // var errorCode = error.code;
+                // var errorMessage = error.message;
+              });
             }
           })();
         });
@@ -631,8 +633,8 @@ const helperActions = {
     let userToStore = { signedIn: false };
 
     if (user) {
-      const { uid, displayName, photoURL, refreshToken } = user;
-      const email = user.email || user.providerData[0].email;
+      const { uid, displayName, photoURL, refreshToken, isAnonymous } = user;
+      const email = user.isAnonymous ? null : (user.email || user.providerData[0].email);
 
       userToStore = {
         signedIn: true,
@@ -640,7 +642,8 @@ const helperActions = {
         email,
         displayName,
         photoURL,
-        refreshToken
+        refreshToken,
+        isAnonymous
       };
     }
 

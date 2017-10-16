@@ -236,7 +236,8 @@
 
       connectedCallback() {
         super.connectedCallback();
-        if (!Object.keys(this.speakers).length) speakersActions.fetchList();
+        if (!Object.keys(this.speakers).length)
+          speakersActions.fetchList();
       }
 
       _openSpeakerDetails(active, speakers, id) {

@@ -68,11 +68,16 @@
           },
           ratingCategory: {
             type: String,
-            value: ''
+            reflectToAttribute: true,
+            notify: true
           },
-          icon: {
-            type: String,
-            value: 'star'
+          ratings: {
+            type: Object,
+            statePath: 'ratings'
+          },
+          user: {
+            type: Object,
+            statePath: 'user'
           },
           rate: {
             type: Number,
@@ -101,19 +106,14 @@
 
       _setRate(event) {
         var deep = Polymer.dom(this.root);
-        if (!this.readonly) {
-          var index = event.model.index;
-          var indexOld = (this.rate * -1) + this.stars;
-          this.rate = (index - this.stars) * -1;
-          if (indexOld < this.stars) {
-            var old = deep.querySelector('[session-id="' + this.sessionId + '"] [rating-category="' + this.ratingCategory + '"] [data-index="' + indexOld + '"]');
-            if (old)
-              old.classList.remove("active");
-          }
-          var newer = deep.querySelector('[session-id="' + this.sessionId + '"] [rating-category="' + this.ratingCategory + '"] [data-index="' + index + '"]');
-          if (newer)
-            newer.classList.add("active");
+        var index = event.model.index;
+        this.rate = (index - this.stars) * -1;
+
+        if (!(this.sessionId in this.ratings)) {
+          this.ratings[this.sessionId] = {};
         }
+        this.ratings[this.sessionId][this.ratingCategory] = this.rate;
+        ratingsActions.setUserSessionRatings(this.user.uid, this.ratings);
       }
     }
     window.customElements.define(StarRating.is, StarRating);

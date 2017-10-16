@@ -112,7 +112,8 @@
         "presentation": "Presentation",
         "venue": "Venue"
       },
-      "submitComment": "Submit Comment"
+      "submitComment": "Submit Comment",
+      "commentPlaceholder": "Enter your comment please..."
     }
   },
   "speakersBlock": {
