@@ -81,6 +81,8 @@
                 class="subsession"
                 day-name="[[name]]"
                 session="[[subSession]]"
+                user="[[user]]"
+                ratings="[[ratings]]"
                 featured-sessions="[[featuredSessions]]"
               ></session-element>
             </template>
@@ -104,6 +106,14 @@
         return {
           day: Object,
           name: String,
+          user: {
+            type: Object,
+            statePath: 'user'
+          },
+          ratings: {
+            type: Object,
+            statePath: 'ratings'
+          },
           featuredSessions: Object
         }
       }
