@@ -233,7 +233,9 @@
 
     <session-details
       opened="[[dialogs.session.isOpened]]"
-      session="[[dialogs.session.data]]"
+      session="[[dialogs.session.data.session]]"
+      ratings="[[dialogs.session.data.ratings]]"
+      user="[[dialogs.session.data.user]]"
       with-backdrop="[[viewport.isTabletPlus]]"
       no-cancel-on-outside-click="[[viewport.isPhone]]"
     ></session-details>

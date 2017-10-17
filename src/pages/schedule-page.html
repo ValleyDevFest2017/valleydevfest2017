@@ -100,7 +100,7 @@
       static get observers() {
         return [
           '_setDay(active, routeData.day, schedule.days)',
-          '_openSessionDetails(active, ratings, sessions.list, queryParams.sessionId)',
+          '_openSessionDetails(active, ratings, user, sessions.list, queryParams.sessionId)',
           '_fetchFeaturedSessions(active, user.uid)',
           '_fetchUserSessionRatings(active, user.uid)'
         ];
@@ -130,11 +130,16 @@
         }
       }
 
-      _openSessionDetails(active, ratings, sessions, id) {
+      _openSessionDetails(active, ratings, user, sessions, id) {
         if (active && sessions && Object.keys(sessions).length) {
           requestAnimationFrame(() => {
               if (id) {
-                dialogsActions.openDialog(DIALOGS.SESSION, sessions[id], ratings);
+                var dialogData = {
+                  'ratings': ratings,
+                  'user': user,
+                  'session': sessions[id]
+                }
+                dialogsActions.openDialog(DIALOGS.SESSION, dialogData);
               } else if (this.isDialogOpened) {
                 dialogsActions.closeDialog(DIALOGS.SESSION);
               }
