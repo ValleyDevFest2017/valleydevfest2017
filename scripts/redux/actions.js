@@ -361,7 +361,9 @@ const participantsActions = {
       .ref(`/participants/${userId}`)
       .set(participant);
 
-    result
+      console.log(`setUserFeaturedSessions ${userId} ${JSON.stringify(participant)}`);
+      
+      result
       .then(() => {
         store.dispatch({
           type: SET_USER_PARTICIPANT,
@@ -390,7 +392,7 @@ const ratingsActions = {
       .ref(`/ratings/${userId}`)
       .set(ratings);
 
-    // console.log(`setUserSessionRatings ${userId} ${JSON.stringify(ratings)}`);
+    console.log(`setUserSessionRatings ${userId} ${JSON.stringify(ratings)}`);
 
     result
       .then(() => {
