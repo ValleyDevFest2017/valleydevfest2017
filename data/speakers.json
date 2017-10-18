@@ -15,11 +15,11 @@
     "shortBio" : "Software engineer in Boulder, Colorado, and Fresno State computer science graduate. Currently developing for Android and IoT devices, published author on Android TV, winner in the 2017 Google Experiments Challenge with a machine learning IoT device.",
     "socials" : [ {
       "icon" : "gplus",
-      "link" : "//plus.google.com/101817998348691817322",
+      "link" : "https://plus.google.com/101817998348691817322",
       "name" : "Google+"
     }, {
       "icon": "twitter",
-      "link": "//twitter.com/paultr88",
+      "link": "https://twitter.com/paultr88",
       "name": "Twitter"
     } ],
     "title" : "Software Engineer"
@@ -108,7 +108,7 @@
     "shortBio" : "Sandeep is a Developer Advocate at Google, currently focused on helping developers with Google Cloud...",
     "socials" : [ {
       "icon" : "gplus",
-      "link" : "//plus.google.com/u/0/106298452631478443711/posts",
+      "link" : "https://plus.google.com/u/0/106298452631478443711/posts",
       "name" : "Google+"
     } ],
     "title" : "Developer Advocate"
@@ -129,7 +129,7 @@
     "shortBio" : "I've been developing for web since 2011. My largest project is Calligraphy.org, a calligraphy teaching business that I run with my wife. I've became a Firebase Expert in 2013 and have used it for Calligraphy.org and all of my freelance and side projects.",
     "socials" : [ {
       "icon" : "gplus",
-      "link" : "//plus.google.com/116279478330828791198",
+      "link" : "https://plus.google.com/116279478330828791198",
       "name" : "Google+"
     } ],
     "title" : "Developer"
@@ -212,19 +212,19 @@
     "shortBio" : "Alyssa is an energetic, über passionate developer at WeaveUp. She loves to learn new things and then share them with others; check out her frontend courses on egghead.io. Alyssa Scuba Dives and has a toothless dog named 'Gummy'.",
     "socials" : [ {
       "icon" : "gplus",
-      "link" : "//plus.google.com/108649827673716249013",
+      "link" : "https://plus.google.com/108649827673716249013",
       "name" : "Google+"
     }, {
       "icon" : "linkedin",
-      "link" : "//www.linkedin.com/in/alyssa-nicoll-16988b71",
+      "link" : "https://www.linkedin.com/in/alyssa-nicoll-16988b71",
       "name" : "Linkedin"
     }, {
       "icon": "twitter",
-      "link": "//twitter.com/alyssanicoll",
+      "link": "https://twitter.com/alyssanicoll",
       "name": "Twitter"
     }, {
       "icon": "blog",
-      "link": "//alyssa.io/",
+      "link": "https://alyssa.io/",
       "name": "Blog"
     } ],
     "title" : "Web Dev"
@@ -243,11 +243,11 @@
     "shortBio" : "Chief Operations Officer at Root Access Hackerspace, Resident Smith for Fresno Ideaworks and also a member of the Outreach Team. Andrew brings enthusiasm mixed with experience to every department he volunteers in.",
     "socials" : [ {
       "icon" : "facebook",
-      "link" : "//www.facebook.com/RootAccessHackerspace",
+      "link" : "https://www.facebook.com/RootAccessHackerspace",
       "name" : "Facebook"
     }, {
       "icon": "twitter",
-      "link": "//twitter.com/RootAccessCA",
+      "link": "https://twitter.com/RootAccessCA",
       "name": "Twitter"
     } ],
     "title" : "Blacksmith Instructor"

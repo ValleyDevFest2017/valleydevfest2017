@@ -5,17 +5,17 @@
     "socials": [
       {
         "icon": "facebook",
-        "link": "//www.facebook.com/designerwiththeheadscarf",
+        "link": "https://www.facebook.com/designerwiththeheadscarf",
         "name": "Facebook"
       },
       {
         "icon": "twitter",
-        "link": "//twitter.com/tdesignerwth",
+        "link": "https://twitter.com/tdesignerwth",
         "name": "Twitter"
       },
       {
         "icon": "linkedin",
-        "link": "//www.linkedin.com/in/nancymohamed",
+        "link": "https://www.linkedin.com/in/nancymohamed",
         "name": "Linkedin"
       }
     ],
@@ -26,7 +26,7 @@
     "socials": [
       {
         "icon": "gplus",
-        "link": "//plus.google.com/u/0/116552287288266856649",
+        "link": "https://plus.google.com/u/0/116552287288266856649",
         "name": "Google+"
       }
     ],
@@ -37,17 +37,17 @@
     "socials": [
       {
         "icon": "github",
-        "link": "//github.com/MrCsabaToth",
+        "link": "https://github.com/MrCsabaToth",
         "name": "Github"
       },
       {
         "icon": "linkedin",
-        "link": "//www.linkedin.com/in/csabatothdev",
+        "link": "https://www.linkedin.com/in/csabatothdev",
         "name": "Linkedin"
       },
       {
         "icon": "twitter",
-        "link": "//twitter.com/tocsa2",
+        "link": "https://twitter.com/tocsa2",
         "name": "Twitter"
       }
     ],
@@ -57,11 +57,11 @@
     "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/people%2Frio_waller.jpg?alt=media&token=df5e2e22-3731-4539-bfe5-e0301e51e805",
     "socials" : [ {
       "icon" : "gplus",
-      "link" : "//plus.google.com/+RioWaller",
+      "link" : "https://plus.google.com/+RioWaller",
       "name" : "Google+"
     }, {
       "icon" : "twitter",
-      "link" : "//twitter.com/riowaller",
+      "link" : "https://twitter.com/riowaller",
       "name" : "Twitter"
     } ],
     "title" : "Wise Owl, GDG Fresno co-org, WTM NA lead"
@@ -74,17 +74,17 @@
     "socials": [
       {
         "icon": "gplus",
-        "link": "//google.com/+AhsenBaig",
+        "link": "https://google.com/+AhsenBaig",
         "name": "Google+"
       },
       {
         "icon": "github",
-        "link": "//github.com/AhsenBaig",
+        "link": "https://github.com/AhsenBaig",
         "name": "Github"
       },
       {
         "icon": "twitter",
-        "link": "//twitter.com/AhsenBaig",
+        "link": "https://twitter.com/AhsenBaig",
         "name": "Twitter"
       }
     ],
