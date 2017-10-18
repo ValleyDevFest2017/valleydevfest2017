@@ -244,6 +244,10 @@
       }
 
       _open() {
+        if (this.user.uid && (!this.ratings || Object.keys(this.ratings).length <= 0)) {
+          ratingsActions.fetchUserSessionRatings(this.user.uid);
+        }
+
         if (this.session && this.ratings && this.session.id in this.ratings) {
           if ('comment' in this.ratings[this.session.id]) {
             this.comment = this.ratings[this.session.id]['comment'];

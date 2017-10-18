@@ -380,7 +380,7 @@ const ratingsActions = {
     .on('value', snapshot => {
       store.dispatch({
         type: FETCH_USER_SESSION_RATINGS,
-        ratings: snapshot.val()
+        ratings: Object.assign({}, snapshot.val())
       });
     });
   },
