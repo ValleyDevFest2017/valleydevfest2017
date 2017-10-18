@@ -390,6 +390,8 @@ const ratingsActions = {
       .ref(`/ratings/${userId}`)
       .set(ratings);
 
+    console.log(`setUserSessionRatings ${userId} ${JSON.stringify(ratings)}`);
+
     result
       .then(() => {
         store.dispatch({
