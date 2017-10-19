@@ -352,6 +352,8 @@
         }
         this.ratings[this.session.id]['comment'] = this.comment;
 
+        ratingsActions.setUserSessionRatings(this.user.uid, this.ratings);
+
         toastActions.showToast({
           message: 'Comment submitted',
           action: {
@@ -359,10 +361,7 @@
             callback: () => {}
           }
         });
-
-        ratingsActions.setUserSessionRatings(this.user.uid, this.ratings);
       }
-
     }
 
     window.customElements.define(SessionDetails.is, SessionDetails);

@@ -114,6 +114,14 @@
         }
         this.ratings[this.sessionId][this.ratingCategory] = this.rate;
         ratingsActions.setUserSessionRatings(this.user.uid, this.ratings);
+
+        toastActions.showToast({
+          message: `Rating ${this.rate} for ${this.ratingCategory} submitted`,
+          action: {
+            title: 'Session rating',
+            callback: () => {}
+          }
+        });
       }
     }
     window.customElements.define(StarRating.is, StarRating);
