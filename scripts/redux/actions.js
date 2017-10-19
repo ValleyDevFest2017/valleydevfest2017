@@ -233,7 +233,9 @@ const sessionsActions = {
       .ref(`/featuredSessions/${userId}`)
       .set(featuredSessions);
 
-    result
+      console.log(`setUserFeaturedSessions ${userId} ${JSON.stringify(featuredSessions)}`);
+
+      result
       .then(() => {
         store.dispatch({
           type: SET_USER_FEATURED_SESSIONS,
@@ -337,32 +339,23 @@ const participantsActions = {
   },
 
   fetchUserParticipant: userId => {
-    const result = new Promise(resolve => {
-      firebase.database()
-        .ref(`/participants/${userId}`)
-        .on('value', snapshot => {
-          resolve(snapshot.val());
-        })
-    });
-
-    result
-      .then(participant => {
-        store.dispatch({
-          type: FETCH_USER_PARTICIPANT,
-          participant
-        });
+    return firebase.database()
+    .ref(`/participants/${userId}`)
+    .on('value', snapshot => {
+      store.dispatch({
+        type: FETCH_USER_PARTICIPANT,
+        ratings: Object.assign({}, snapshot.val())
       });
-
-    return result;
+    });
   },
 
-  setUserFeaturedSessions: (userId, participant) => {
+  setUserParticipant: (userId, participant) => {
     const result = firebase.database()
       .ref(`/participants/${userId}`)
       .set(participant);
 
-      console.log(`setUserFeaturedSessions ${userId} ${JSON.stringify(participant)}`);
-      
+      console.log(`setUserParticipant ${userId} ${JSON.stringify(participant)}`);
+
       result
       .then(() => {
         store.dispatch({

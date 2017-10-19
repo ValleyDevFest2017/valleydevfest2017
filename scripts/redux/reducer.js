@@ -153,9 +153,7 @@ const participantsReducer = (state = initialState.participants, action) => {
       });
     case FETCH_USER_PARTICIPANT:
     case SET_USER_PARTICIPANT:
-      return Object.assign({}, state, {
-        featured: action.participant || {}
-      });
+      return Object.assign({}, state, action.participant || {});
     default:
       return state;
   }
@@ -165,7 +163,7 @@ const ratingsReducer = (state = initialState.ratings, action) => {
   switch (action.type) {
     case FETCH_USER_SESSION_RATINGS:
     case SET_USER_SESSION_RATINGS:
-      return action.ratings;
+      return Object.assign({}, state, action.ratings || {});
     default:
       return state;
   }
