@@ -1,0 +1,55 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/skeleton-carousel/skeleton-carousel.html">
+<link rel="import" href="../elements/partners-block.html">
+<link rel="import" href="../elements/shared-styles.html">
+
+<dom-module id="avatar-page">
+    <template>
+        <style is="custom-style" include="shared-styles flex flex-alignment"></style>
+
+        <style>
+             :host {
+                display: block;
+            }
+
+            .avatar-container {
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+
+        <div class="avatar-container">
+            <skeleton-carousel nav>
+                <template is="dom-repeat" items="[[avatarParts.head]]" as="head">
+                    <div>
+                        <iron-image data-src="[[head]]" sizing="cover" preload fade></iron-image>
+                    </div>
+                </template>
+            </skeleton-carousel>
+            <skeleton-carousel nav>
+                <template is="dom-repeat" items="[[avatarParts.body]]" as="body">
+                    <div>
+                        <iron-image data-src="[[body]]" sizing="cover" preload fade></iron-image>
+                    </div>
+                </template>
+            </skeleton-carousel>
+            <skeleton-carousel nav>
+                <template is="dom-repeat" items="[[avatarParts.leg]]" as="leg">
+                    <div>
+                        <iron-image data-src="[[leg]]" sizing="cover" preload fade></iron-image>
+                    </div>
+                </template>
+            </skeleton-carousel>
+        </div>
+    </template>
+
+    <script>
+        class AvatarPage extends ScrollFunctions(Polymer.Element) {
+            static get is() {
+                return 'avatar-page'
+            }
+        }
+
+        window.customElements.define(AvatarPage.is, AvatarPage);
+    </script>
+</dom-module>
