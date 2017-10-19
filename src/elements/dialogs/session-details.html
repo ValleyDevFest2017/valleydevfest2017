@@ -351,6 +351,15 @@
           this.ratings[this.session.id] = {};
         }
         this.ratings[this.session.id]['comment'] = this.comment;
+
+        toastActions.showToast({
+          message: 'Comment submitted',
+          action: {
+            title: 'Session comment',
+            callback: () => {}
+          }
+        });
+
         ratingsActions.setUserSessionRatings(this.user.uid, this.ratings);
       }
 
