@@ -14,7 +14,8 @@ const DIALOGS = {
   SPEAKER: 'speaker',
   SESSION: 'session',
   SUBSCRIBE: 'subscribe',
-  SIGNIN: 'signin'
+  SIGNIN: 'signin',
+  AVATAR: 'avatar'
 };
 // toast
 const SHOW_TOAST = 'SHOW_TOAST';

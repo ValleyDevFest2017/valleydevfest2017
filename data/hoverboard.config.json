@@ -56,6 +56,11 @@
       "route": "sponsors",
       "permalink": "/sponsors/",
       "title": "Sponsors"
+    },
+    {
+      "route": "participants",
+      "permalink": "/participants/",
+      "title": "Participants"
     }
   ],
   "sponsorship": {

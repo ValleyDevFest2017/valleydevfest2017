@@ -43,6 +43,10 @@
         isOpened: false,
         data: {}
       },
+      [DIALOGS.AVATAR]: {
+        isOpened: false,
+        data: {}
+      }
     },
     tickets: [],
     partners: [],
@@ -56,7 +60,11 @@
     schedule: {},
     gallery: [],
     team: [],
-    participants: [],
+    participants: {
+      list: {},
+      participant: {}
+    },
+    avatar: [],
     ratings: {},
     user: {
       signedIn: false
@@ -83,7 +91,8 @@
       schedule: scheduleReducer(state.schedule, action),
       gallery: galleryReducer(state.gallery, action),
       team: teamReducer(state.team, action),
-      participants: participantsReducer(state.gallery, action),
+      participants: participantsReducer(state.participants, action),
+      avatar: avatarReducer(state.avatar, action),
       ratings: ratingsReducer(state.ratings, action),
       user: userReducer(state.user, action),
       subscribed: subscribeReducer(state.subscribed, action),

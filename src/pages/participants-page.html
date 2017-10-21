@@ -4,6 +4,7 @@
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
 
+<link rel="import" href="../mixins/utils-functions.html">
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="../elements/shared-styles.html">
 
@@ -12,7 +13,6 @@
     <style is="custom-style" include="shared-styles flex flex-alignment"></style>
 
     <style>
-
       :host  {
         display: block;
       }
@@ -57,7 +57,7 @@
 
   <script>
 
-    class ParticipantsPage extends ReduxMixin(Polymer.Element) {
+    class ParticipantsPage extends UtilsFunctions(ReduxMixin(Polymer.Element)) {
       static get is() { return 'participants-page' }
 
        static get properties() {
@@ -69,37 +69,52 @@
           user: {
             type: Object,
             statePath: 'user'
+          },
+          avatar: {
+            type: Object,
+            statePath: 'avatar'
           }
         };
       }
 
-      getHeadUrl(partIndex) {
-        let i = 1;
-        return "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/avatar%2Fhead1.png?alt=media&token=5cfcf8e5-9045-432d-87c3-fc3ea9fc0b18";
+      // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+      _shuffle(array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+        while (0 !== currentIndex) {
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex -= 1;
+
+          temporaryValue = array[currentIndex];
+          array[currentIndex] = array[randomIndex];
+          array[randomIndex] = temporaryValue;
+        }
+        return array;
       }
 
-      getBodyUrl(partIndex) {
-        return "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/avatar%2Fbody1.png?alt=media&token=77ed748c-6588-41d0-9e92-2738f81c44c9";
+      _getHeadUrl(partIndex) {
+        return this.avatar.heads[partIndex];
       }
 
-      getLegsUrl(partIndex) {
-        return "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/avatar%2Flegs1.png?alt=media&token=8d37f3e0-930c-4c12-bed8-9fe665c3d80a";
+      _getBodyUrl(partIndex) {
+        return this.avatar.bodies[partIndex];
+      }
+
+      _getLegsUrl(partIndex) {
+        return this.avatar.legs[partIndex];
       }
 
       _getRandomParticipantList(pList) {
         if (!pList)
           return [];
-        console.log(JSON.stringify(pList));
         let that = this;
-        let arr = Object.keys(pList).map(function(key) {
+        return this._shuffle(Object.keys(pList)).map(function(key) {
           return {
             name: pList[key].name,
-            headUrl: that.getHeadUrl(pList[key].head),
-            bodyUrl: that.getBodyUrl(pList[key].body),
-            legsUrl: that.getLegsUrl(pList[key].legs),
+            headUrl: that._getHeadUrl(pList[key].head - 1),
+            bodyUrl: that._getBodyUrl(pList[key].body - 1),
+            legsUrl: that._getLegsUrl(pList[key].legs - 1)
           }
         });
-        return [].concat(arr, arr, arr, arr);
       }
 
       _notFullyLoggedIn(user) {
@@ -119,12 +134,22 @@
           });
           return;
         }
-        window.location = '/avatar';
+        requestAnimationFrame(() => {
+            var data = {
+              'user': this.user,
+              'avatar': this.avatar,
+              'participant': this.participants.participant
+            }
+            dialogsActions.openDialog(DIALOGS.AVATAR, data);
+            // dialogsActions.closeDialog(DIALOGS.AVATAR);
+          }
+        )
       }
 
       connectedCallback() {
         super.connectedCallback();
         participantsActions.fetchList();
+        avatarActions.fetchAvatarParts();
       }
     }
 

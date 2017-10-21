@@ -34,7 +34,6 @@
 <link rel="import" href="elements/footer-block.html">
 <link rel="import" href="effects/sticky-bottom-toolbar.html">
 
-
 <dom-module id="hoverboard-app">
 
   <template>
@@ -207,11 +206,15 @@
             data-route="avatar"
             data-path="pages/avatar-page.html"
             user="[[user]]"
+            avatar="[[avatar]]"
+            participants="[[participants]]"
           ></avatar-page>
           <participants-page
             data-route="participants"
             data-path="pages/participants-page.html"
             user="[[user]]"
+            avatar="[[avatar]]"
+            participants="[[participants]]"
           ></participants-page>
         </iron-lazy-pages>
 
@@ -245,6 +248,15 @@
       with-backdrop="[[viewport.isTabletPlus]]"
       no-cancel-on-outside-click="[[viewport.isPhone]]"
     ></session-details>
+
+    <avatar-dialog
+      opened="[[dialogs.avatar.isOpened]]"
+      participant="[[dialogs.avatar.data.participant]]"
+      avatar="[[dialogs.avatar.data.avatar]]"
+      user="[[dialogs.avatar.data.user]]"
+      with-backdrop="[[viewport.isTabletPlus]]"
+      no-cancel-on-outside-click="[[viewport.isPhone]]"
+    ></avatar-dialog>
 
     <subscribe-dialog
       opened="[[dialogs.subscribe.isOpened]]"
@@ -308,6 +320,14 @@
             type: Object,
             statePath: 'user'
           },
+          avatar: {
+            type: Object,
+            statePath: 'avatar'
+          },
+          participants: {
+            type: Object,
+            statePath: 'participants'
+          },
           providerUrls: {
             type: Object,
             value: '{$ signInProviders.allowedProvidersUrl $}'
@@ -331,6 +351,7 @@
       connectedCallback() {
         super.connectedCallback();
         window.addEventListener('reset-query-params', this._removeQueryParams);
+        avatarActions.fetchAvatarParts();
       }
 
       disconnectedCallback() {

@@ -3,6 +3,7 @@
 <link rel="import" href="../../bower_components/iron-image/iron-image.html">
 <link rel="import" href="../../bower_components/skeleton-carousel/skeleton-carousel.html">
 
+<link rel="import" href="../mixins/utils-functions.html">
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="../elements/shared-styles.html">
 
@@ -86,7 +87,7 @@
           </div>
         </div>
         <div class="carousel-wrapper">
-          <paper-input 
+          <paper-input
             label="{$ avatarBlock.nameYourAvatar $}" 
             value="{{avatarName}}">
           </paper-input>
@@ -104,9 +105,9 @@
 
       static get properties() {
         return {
-          participant: {
+          participants: {
             type: Object,
-            statePath: 'participant'
+            statePath: 'participants'
           },
           user: {
             type: Object,
@@ -115,19 +116,37 @@
           avatarName: {
             type: String,
             default: ''
+          },
+          avatar: {
+            type: Object,
+            statePath: 'avatar'
           }
+        }
+      }
+
+      static get observers() {
+        return [
+          '_fetchUserParticipant(active, user.uid)',
+        ];
+      }
+
+      _fetchUserParticipant(active, userUid) {
+        if (active && userUid && !this.participants.participant) {
+          participantsActions._fetchUserParticipant(userUid);
         }
       }
 
       ready() {
         super.ready();
-        console.log('ready ' + this.participant + ' ' + this.user);
-        if (!this.participant)
-          return;
-        this.avatarName = this.participant.name;
-        this.$.heads_carousel.selected = this.participant.head;
-        this.$.bodies_carousel.selected = this.participant.body;
-        this.$.legs_carousel.selected = this.participant.legs;
+        if (this.user && (!this.participants || !this.participants.participant || !Object.keys(this.participants.participant).length))
+          participantsActions.fetchUserParticipant(this.user.id);
+        let part = this.participants.participant;
+        if (Object.keys(part).length > 0) {
+          this.avatarName = part.name;
+          this.$.heads_carousel.selected = part.head;
+          this.$.bodies_carousel.selected = part.body;
+          this.$.legs_carousel.selected = part.legs;
+        }
       }
 
       _notFullyLoggedIn(user) {
@@ -178,13 +197,8 @@
           'body': this.$.bodies_carousel.selected,
           'legs': this.$.legs_carousel.selected
         }
+        this.participants.participant = avatar;
         participantsActions.setUserParticipant(this.user.uid, avatar);
-      }
-
-      connectedCallback() {
-        console.log('connected ' + this.user);
-        super.connectedCallback();
-        participantsActions.fetchUserParticipant(this.user.id);
       }
     }
 
