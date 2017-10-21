@@ -436,6 +436,8 @@ const userActions = {
   },
 
   autoSignIn: (providerUrls) => {
+    if (!firebase)
+      return;
     const currentUser = firebase.auth().currentUser;
     if (currentUser) {
       helperActions.storeUser(currentUser);
