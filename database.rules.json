@@ -49,6 +49,10 @@
         ".read": true,
         ".write": "auth.uid === $uid"
       }
+    },
+    "avatar": {
+      ".read": true,
+      ".write": false
     }
   }
 }

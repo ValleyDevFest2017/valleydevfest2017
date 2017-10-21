@@ -159,6 +159,15 @@ const participantsReducer = (state = initialState.participants, action) => {
   }
 };
 
+const avatarReducer = (state = initialState.avatar, action) => {
+  switch (action.type) {
+    case FETCH_AVATAR_PARTS:
+      return action.avatar;
+    default:
+      return state;
+  }
+};
+
 const ratingsReducer = (state = initialState.ratings, action) => {
   switch (action.type) {
     case FETCH_USER_SESSION_RATINGS:

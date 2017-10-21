@@ -344,7 +344,7 @@ const participantsActions = {
     .on('value', snapshot => {
       store.dispatch({
         type: FETCH_USER_PARTICIPANT,
-        ratings: Object.assign({}, snapshot.val())
+        participant: Object.assign({}, snapshot.val())
       });
     });
   },
@@ -365,6 +365,19 @@ const participantsActions = {
       });
 
     return result;
+  }
+};
+
+const avatarActions = {
+  fetchAvatarParts: () => {
+    return firebase.database()
+      .ref('/avatar')
+      .on('value', snapshot => {
+        store.dispatch({
+          type: FETCH_AVATAR_PARTS,
+          avatar: snapshot.val()
+        });
+      });
   }
 };
 

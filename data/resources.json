@@ -151,5 +151,12 @@
   },
   "team": {
     "description": "Meet the techies who've volunteered their time and talent to make this event possible:"
-  }  
+  },
+  "avatarBlock": {
+    "nameYourAvatar": "Name of your avatar",
+    "submitAvatar": "Save Avatar",
+    "submitAvatarSignedIn": "Please sign in to save the avatar",
+    "editAvatarSignedIn": "Please sign in to create/edit the avatar",
+    "yourAvatar": "Your Avatar"
+  }
 }
