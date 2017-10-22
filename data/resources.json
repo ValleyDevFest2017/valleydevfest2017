@@ -157,6 +157,8 @@
     "submitAvatar": "Save Avatar",
     "submitAvatarSignedIn": "Please sign in to save the avatar",
     "editAvatarSignedIn": "Please sign in to create/edit the avatar",
-    "yourAvatar": "Design Your Avatar"
+    "yourAvatar": "Design Your Avatar on-line",
+    "androidApp": "Design with Android App",
+    "appStoreUrl": "https://play.google.com/store/apps/details?id=com.valleydevfest.androidify"
   }
 }

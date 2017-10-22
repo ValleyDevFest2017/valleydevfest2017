@@ -33,6 +33,7 @@
 
     <div class="container">
       <paper-button on-tap="_yourAvatar" raised>{$ avatarBlock.yourAvatar $}</paper-button>
+      <paper-button on-tap="_androidApp" raised>{$ avatarBlock.androidApp $}</paper-button>
       <div layout horizontal wrap>
         <template is="dom-repeat" items="[[_getRandomParticipantList(participants.list)]]" as="participant">
           <div class="avatar-block">
@@ -149,6 +150,10 @@
             // dialogsActions.closeDialog(DIALOGS.AVATAR);
           }
         )
+      }
+
+      _androidApp() {
+        window.open("{$ avatarBlock.appStoreUrl $}");
       }
 
       connectedCallback() {
