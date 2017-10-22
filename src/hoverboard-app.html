@@ -324,6 +324,10 @@
           providerUrls: {
             type: Object,
             value: '{$ signInProviders.allowedProvidersUrl $}'
+          },
+          loadComplete: {
+            type: Boolean,
+            value: false
           }
         };
       }
@@ -357,7 +361,7 @@
         console.log('Hoverboard v2 is ready!');
         this.removeAttribute('unresolved');
         this._ensureLazyLoaded();
-        userActions.autoSignIn(this.providerUrls);
+        //userActions.autoSignIn(this.providerUrls);
       }
 
       closeDrawer() {
@@ -368,6 +372,7 @@
         if (!this.loadComplete) {
           Polymer.RenderStatus.afterNextRender(this, () => {
             Polymer.importHref(this.resolveUrl('lazy-resources.html'), () => {
+              userActions.autoSignIn(this.providerUrls);
               this.loadComplete = true;
               notificationsActions.initializeMessaging()
                 .then(notificationsActions.getToken);

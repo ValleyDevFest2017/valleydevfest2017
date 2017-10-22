@@ -445,7 +445,6 @@ const userActions = {
     else {
 
       if (navigator.credentials) {
-
         return navigator.credentials.get({
           password: true,
           federated: {
