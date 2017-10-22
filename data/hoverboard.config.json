@@ -60,7 +60,7 @@
     {
       "route": "participants",
       "permalink": "/participants/",
-      "title": "Participants"
+      "title": "Androidify"
     }
   ],
   "sponsorship": {
@@ -117,7 +117,7 @@
       "fontColor": "#FFF"
     },
     "participants": {
-      "title": "Participants",
+      "title": "Androidify",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.png"
