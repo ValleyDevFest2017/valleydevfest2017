@@ -436,7 +436,7 @@ const userActions = {
   },
 
   autoSignIn: (providerUrls) => {
-    if (!firebase)
+    if (typeof firebase === 'undefined')
       return;
     const currentUser = firebase.auth().currentUser;
     if (currentUser) {
