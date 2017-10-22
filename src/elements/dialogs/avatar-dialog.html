@@ -45,9 +45,20 @@
       .warning-label {
         color: red;
       }
+
+      .submit-avatar {
+        margin: 5px;
+      }
     </style>
 
     <app-header-layout has-scrolling-region>
+      <app-header slot="header" class="header" fixed="[[viewport.isTabletPlus]]" style$="background-color: [[_getSessionColor(session.track.color, session.icon, session.color)]]">
+        <iron-icon
+          class="close-icon"
+          icon="hoverboard:[[_getCloseBtnIcon(viewport.isLaptopPlus)]]"
+          on-tap="close"
+        ></iron-icon>
+      </app-header>
       <div class="dialog-container content" id="avatar-dialog-content">
         <div class="additional-sections">
           <div class="avatar-container">
@@ -120,6 +131,10 @@
 
       static get properties() {
         return {
+          viewport: {
+            type: Object,
+            statePath: 'ui.viewport'
+          },
           participants: {
             type: Object,
             statePath: 'participants'
