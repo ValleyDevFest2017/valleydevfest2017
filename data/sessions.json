@@ -49,7 +49,8 @@
     "language" : "English",
     "speakers" : [ "paul_trebilcox_ruiz" ],
     "tags" : [ "IoT", "Android", "Cloud" ],
-    "title" : "Quickly Develop for IoT with Android Things"
+    "title" : "Quickly Develop for IoT with Android Things",
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/sessions%2FAndroid%20Things%20-%20Paul%20Trebilcox-Ruiz.pdf?alt=media&token=b716ccf8-a008-4249-9bbf-db3212591ef4"
   },
   "111" : {
     "complexity" : "",
@@ -147,7 +148,8 @@
     "language" : "English",
     "speakers" : [ "paul_trebilcox_ruiz" ],
     "tags" : [ "Firebase", "Android" ],
-    "title" : "Android and Firebase"
+    "title" : "Android and Firebase",
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/sessions%2FFirebase%20for%20Android%20-%20Paul%20Trebilcox-Ruiz.pdf?alt=media&token=83c688ec-9409-4385-9d81-dd0a80fe16c2"
   },
   "131" : {
     "complexity" : "",
@@ -171,7 +173,8 @@
     "language" : "English",
     "speakers" : [ "robert_aguilera" ],
     "tags" : [ "Web", "React" ],
-    "title" : "An Intro to React"
+    "title" : "An Intro to React",
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/sessions%2FIntro%20To%20React.pdf?alt=media&token=21057f63-d377-4982-9907-b8066fd6866a"
   },
 
   "140" : {
@@ -188,7 +191,8 @@
     "language" : "English",
     "speakers" : [ "miles_sebesta" ],
     "tags" : [ "Data Science" ],
-    "title" : "Growth Hacking: Become a Mad Design Scientist"
+    "title" : "Growth Hacking: Become a Mad Design Scientist",
+    "presentation": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/sessions%2FGROWTH%20HACKING%20becoming%20a%20design%20scientist%20-%20Miles%20Sebesta.pdf?alt=media&token=01b36b35-5acc-4889-a1a5-395a67871807"
   },
   "142" : {
     "complexity" : "",
