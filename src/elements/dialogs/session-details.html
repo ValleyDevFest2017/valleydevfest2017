@@ -88,26 +88,30 @@
         </marked-element>
 
         <div class="actions" layout horizontal>
-          <a
-            class="action"
-            href$="[[session.presentation]]"
-            hidden$="[[!session.presentation]]"
-            target="_blank"
-            rel="noopener noreferrer"
-            layout horizontal center-aligned
-          >
-            <iron-icon icon="hoverboard:presentation"></iron-icon>
-            <span>{$ sessionDetails.viewPresentation $}</span>
-          </a>
-          <div
-            class="action"
-            hidden$="[[!session.videoId]]"
-            on-tap="_openVideo"
-            layout horizontal center-aligned
-          >
-            <iron-icon icon="hoverboard:video"></iron-icon>
-            {$ sessionDetails.viewVideo $}
-          </div>
+          <template is="dom-repeat" items="[[session.resources]]" as="resource">
+            <template is="dom-if" if="[[!_isVideo(resource.type)]]">
+              <a
+                class="action"
+                href$="[[resource.href]]"
+                target="_blank"
+                rel="noopener noreferrer"
+                layout horizontal center-aligned
+              >
+                <iron-icon icon="hoverboard:[[resource.type]]"></iron-icon>
+                <span>[[resource.title]]</span>
+              </a>
+            </template>
+            <template is="dom-if" if="[[_isVideo(resource.type)]]">
+              <div
+                class="action"
+                on-tap="_openVideo"
+                layout horizontal center-aligned
+              >
+                <iron-icon icon="hoverboard:[[resource.type]]"></iron-icon>
+                [[resource.title]]
+              </div>
+            </template>
+          </template>
         </div>
 
         <div class="additional-sections" hidden$="[[!session.speakers.length]]">
@@ -294,13 +298,18 @@
         return isLaptopViewport ? 'close' : 'arrow-left';
       }
 
-      _openVideo() {
+      _openVideo(e) {
+        debugger;
         uiActions.toggleVideoDialog({
-          title: this.session.title,
-          youtubeId: this.session.videoId,
+          title: e.model.resource.title,
+          youtubeId: e.model.resource.videoId,
           disableControls: true,
           opened: true
         });
+      }
+
+      _isVideo(resourceType) {
+        return resourceType === 'video';
       }
 
       _toggleFeaturedSession(event) {
