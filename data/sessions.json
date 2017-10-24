@@ -14,7 +14,16 @@
     "language" : "English",
     "speakers" : [ "claire_slattery" ],
     "title" : "(un)keynote by Speechless",
-    "tags" : [ "Learning" ]
+    "tags" : [ "Learning" ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "Bitwise's recording'",
+        "href": "https://www.youtube.com/watch?v=qOzuGcZfU1M",
+        "videoId": "qOzuGcZfU1M"
+      }
+    ],
+    "videoId": "qOzuGcZfU1M"
   },
   "103" : {
     "description" : "Foooooooood! (+ **Blood Drive** starts)",
