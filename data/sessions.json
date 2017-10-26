@@ -131,7 +131,16 @@
     "language" : "English",
     "speakers" : [ "sandeep_dinesh" ],
     "tags" : [ "Cloud", "Firebase" ],
-    "title" : "Serverless PB&J: Firebase and Google Cloud Functions"
+    "title" : "Serverless PB&J: Firebase and Google Cloud Functions",
+    "resources": [
+      {
+        "type": "video",
+        "title": "Session + slides",
+        "href": "https://www.youtube.com/watch?v=Ax4kSAftUF4",
+        "videoId": "Ax4kSAftUF4"
+      }
+    ],
+    "videoId": "Ax4kSAftUF4"
   },
   "121": {
     "complexity" : "",
