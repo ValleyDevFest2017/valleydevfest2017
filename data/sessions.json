@@ -135,7 +135,7 @@
     "resources": [
       {
         "type": "video",
-        "title": "Session + slides",
+        "title": "Session recording",
         "href": "https://www.youtube.com/watch?v=Ax4kSAftUF4",
         "videoId": "Ax4kSAftUF4"
       }
@@ -237,8 +237,15 @@
         "type": "presentation",
         "title": "Slide Deck (pdf)",
         "href": "https://firebasestorage.googleapis.com/v0/b/vdf2017-3a9f6.appspot.com/o/sessions%2FGROWTH%20HACKING%20becoming%20a%20design%20scientist%20-%20Miles%20Sebesta.pdf?alt=media&token=01b36b35-5acc-4889-a1a5-395a67871807"
+      },
+      {
+        "type": "video",
+        "title": "Session recording",
+        "href": "https://www.youtube.com/watch?v=cew83TlaaQg",
+        "videoId": "cew83TlaaQg"
       }
-    ]
+    ],
+    "videoId": "cew83TlaaQg"
   },
   "142" : {
     "complexity" : "",
