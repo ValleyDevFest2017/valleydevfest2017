@@ -35,7 +35,7 @@
       <paper-button on-tap="_yourAvatar" raised>{$ avatarBlock.yourAvatar $}</paper-button>
       <paper-button on-tap="_androidApp" raised>{$ avatarBlock.androidApp $}</paper-button>
       <div layout horizontal wrap>
-        <template is="dom-repeat" items="[[_getRandomParticipantList(participants.list)]]" as="participant">
+        <template is="dom-repeat" items="[[_getRandomFilteredParticipantList(participants.list)]]" as="participant">
           <div class="avatar-block">
             <div class="avatar" layout vertical>
               <plastic-image
@@ -85,7 +85,7 @@
 
       // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
       _shuffle(array) {
-        var currentIndex = array.length, temporaryValue, randomIndex;
+        let currentIndex = array.length, temporaryValue, randomIndex;
         while (0 !== currentIndex) {
           randomIndex = Math.floor(Math.random() * currentIndex);
           currentIndex -= 1;
@@ -110,8 +110,9 @@
       }
 
       _getRandomParticipantList(pList) {
-        if (!pList)
+        if (!pList || Object.keys(pList).length <= 0) {
           return [];
+        }
         let that = this;
         return this._shuffle(Object.keys(pList)).map(function(key) {
           return {
@@ -121,6 +122,17 @@
             legsUrl: that._getLegsUrl(pList[key].legs - 1)
           }
         });
+      }
+
+      _getRandomFilteredParticipantList(pList) {
+        let rndList = this._getRandomParticipantList(pList);
+        let reduced = rndList.reduce(function(filtered, avtr) {
+          if (avtr.name && avtr.name.length > 0 || avtr.head * avtr.body * avtr.legs > 1) {
+            filtered.push(avtr);
+          }
+          return filtered;
+        }, []);
+        return reduced;
       }
 
       _notFullyLoggedIn(user) {
@@ -141,7 +153,7 @@
           return;
         }
         requestAnimationFrame(() => {
-            var data = {
+            let data = {
               'user': this.user,
               'avatar': this.avatar,
               'participant': this.participants.participant
